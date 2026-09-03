@@ -33,8 +33,8 @@ Every build decision must pass all of these gates:
 | Engine Foundation | Mobile UI & Accessibility | Mobile-first, high-contrast, thumb-friendly layout | **VERIFIED PASS — current launch baseline** |
 | Tier 1: Core STEM | Mathematics | Paper 1 & 2 framework, KaTeX, EN/AF/XH, current 16-question launch pack | **FROZEN LAUNCH BASELINE — not full syllabus complete** |
 | Tier 1: Core STEM | Life Sciences | Grade 12 Paper 1 & 2 topic-family launch pack, EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
-| Tier 1: Core STEM | Physical Sciences | Physics/Chemistry topic-family pack, KaTeX, EN/AF/XH | **ACTIVE — 14-question coverage pack ready for build verification** |
-| Tier 1: High-Enrollment | Mathematical Literacy | Full curriculum-aligned bank | **Pending** |
+| Tier 1: Core STEM | Physical Sciences | Physics/Chemistry topic-family pack, KaTeX, EN/AF/XH | **FROZEN LAUNCH BASELINE — 14-question coverage pack** |
+| Tier 1: High-Enrollment | Mathematical Literacy | Full curriculum-aligned bank | **ACTIVE — next subject gate** |
 | Tier 1: Commerce | Accounting | Full curriculum-aligned bank | **Pending** |
 | Tier 1: Commerce | Business Studies | Full curriculum-aligned bank | **Pending** |
 | Tier 2: Humanities | Geography / History / Economics / Tourism | Curriculum and exam-bank ingestion | **Pending** |
@@ -43,70 +43,46 @@ Every build decision must pass all of these gates:
 
 ## MATHEMATICS FREEZE RECORD — 3 SEPTEMBER 2026
 
-The current Mathematics launch baseline is frozen after learner-side functional testing.
+Verified: 1/16 loading; EN/AF/XH switching; KaTeX; hints/memos/navigation/scoring; production build; service worker; offline reload.
 
-Verified in the production preview:
-- Mathematics loads as **1 / 16** after stale browser/site data is cleared.
-- English / Afrikaans / isiXhosa language switching works in the learner shell and question content.
-- KaTeX renders Mathematics notation correctly.
-- Question navigation, hints, memoranda and learner self-rating controls work.
-- Production build and PWA service worker generation passed.
-- Offline reload was user-verified with connectivity disabled.
-
-**Important limitation:** this freeze means the current 16-question Mathematics baseline is functionally launchable. It does **not** mean full Grade 12 Mathematics syllabus coverage, full provenance audit, or institutional certification is complete.
+**Limitation:** functionally launchable baseline only. Not full syllabus depth, provenance audit or institutional certification.
 
 ## LIFE SCIENCES FREEZE RECORD — 3 SEPTEMBER 2026
 
-The current 12-question Life Sciences launch baseline is frozen after learner-side functional and offline testing.
+Verified: 1/12 loading; EN/AF/XH switching; Paper 1 = 1/8; Paper 2 = 1/4; topic filters; hints/memos/navigation/scoring; production build; offline reload.
+
+**Limitation:** functionally launchable topic-family baseline only. Not full syllabus depth, human language certification, verified past-paper provenance or institutional certification.
+
+## PHYSICAL SCIENCES FREEZE RECORD — 3 SEPTEMBER 2026
+
+The current 14-question Physical Sciences launch baseline is frozen after learner-side, production and offline testing.
 
 Verified:
-- Life Sciences loads as **1 / 12**.
-- English / Afrikaans / isiXhosa switching works across subject name, question text, hints, memoranda, navigation, scoring labels and marks.
-- Paper 1 filter shows **1 / 8**.
-- Paper 2 filter shows **1 / 4**.
-- Topic filtering, hints, memoranda, navigation and learner self-rating controls work.
-- Production build completed successfully and generated the PWA service worker / precache.
+- Physical Sciences loads as **1 / 14**.
+- English / Afrikaans / isiXhosa switching works.
+- Paper 1 filter shows **1 / 9**.
+- Paper 2 filter shows **1 / 5**.
+- Memorandum rendering and Next navigation pass.
+- KaTeX/scientific notation renders correctly in the tested flow.
+- Production build passed.
 - Offline reload was user-verified with connectivity disabled.
 
-**Important limitation:** this freeze means the 12-question topic-family coverage pack is functionally launchable. It does **not** mean full Grade 12 Life Sciences syllabus depth, human language-quality certification, verified past-paper provenance, or institutional certification is complete.
+**Important limitation:** this freeze means the 14-question topic-family pack is functionally launchable. It does **not** mean full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification is complete.
 
-## CURRENT SUBJECT GATE — PHYSICAL SCIENCES
+## CURRENT SUBJECT GATE — MATHEMATICAL LITERACY
 
-**Only active subject:** Physical Sciences
+**Only active subject:** Mathematical Literacy
 
-The existing Physical Sciences pack was audited before modification. It contained only **5 questions**, used a different object-wrapper structure, was effectively English-only at item level, included unverified DBE/IEB authenticity and year claims, and contained a duplicate `scaffoldHint` key in one organic-chemistry record.
+Mathematics, Life Sciences and Physical Sciences are frozen. Any change to those subjects now requires a controlled correction branch, explicit test, verification and re-freeze.
 
-The controlled `physics-launch-01` branch now contains a **14-question multilingual launch pack** using the same item-level EN/AF/XH structure as the other active packs. Unsupported authenticity/year claims have been removed. Existing useful scientific concepts were retained where appropriate but rewritten as original curriculum-aligned drills.
-
-Paper 1 coverage:
-- Newton's Laws & Mechanics
-- Momentum & Impulse
-- Vertical Projectile Motion
-- Work, Energy & Power
-- Doppler Effect
-- Electrostatics
-- Electric Circuits
-- Electrodynamics
-- Photoelectric Effect
-
-Paper 2 coverage:
-- Organic Chemistry
-- Rate & Extent of Reaction
-- Chemical Equilibrium
-- Acids & Bases
-- Electrochemistry
-
-### Physical Sciences next gate
-1. GitHub build check.
-2. Pull request review/merge only if the build passes.
-3. Learner-side test: confirm **1 / 14**.
-4. Verify EN / AF / XH switching.
-5. Verify Paper 1 shows **1 / 9** and Paper 2 shows **1 / 5**.
-6. Verify topic filters, hints, memoranda and KaTeX rendering.
-7. Run production build and offline reload test.
-8. Freeze only after those tests pass.
-
-**Important limitation:** topic-family coverage is not full syllabus depth. Human language-quality certification, deeper question density, provenance QA and institutional certification remain separate future gates.
+Mathematical Literacy next action:
+1. Inspect existing `public/packs/mathlit.json` before creating anything new.
+2. Audit question count, schema, language coverage and Paper 1 / Paper 2 distribution.
+3. Map Grade 12 Mathematical Literacy topic-family coverage.
+4. Preserve usable existing material; replace only placeholder, monolingual or structurally incompatible records.
+5. Build one controlled EN/AF/XH launch pack.
+6. Run GitHub build check.
+7. Learner test → production/offline test → freeze before Accounting is opened.
 
 ## LAUNCH REPAIR / FREEZE STATUS
 
@@ -120,8 +96,11 @@ Paper 2 coverage:
 - **MDE-LS-02:** Life Sciences learner / production / offline acceptance — **PASS**.
 - **MDE-LS-03:** Life Sciences launch baseline freeze — **COMPLETE**.
 - **MDE-PS-01:** Physical Sciences existing-pack audit — **PASS**.
-- **MDE-PS-02:** 14-question EN/AF/XH Physical Sciences launch pack — **READY FOR BUILD VERIFICATION**.
+- **MDE-PS-02:** 14-question EN/AF/XH Physical Sciences launch pack — **PASS**.
+- **MDE-PS-03:** Physical Sciences learner / production / offline acceptance — **PASS**.
+- **MDE-PS-04:** Physical Sciences launch baseline freeze — **COMPLETE**.
+- **MDE-ML-01:** Mathematical Literacy existing-pack audit — **NEXT**.
 
 ## CURRENT RISK
 
-The Sunday launch deadline remains close. Scope discipline is mandatory. Only Physical Sciences is open now. Do not open Mathematical Literacy or another subject until Physical Sciences reaches its controlled freeze gate.
+The Sunday launch deadline remains close. Scope discipline is mandatory. Only Mathematical Literacy is open now. Do not open Accounting or another subject until Mathematical Literacy reaches its controlled freeze gate.
