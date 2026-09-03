@@ -239,7 +239,7 @@ export default function App() {
         >
           <option value="all">{t.allPapers}</option>
           <option value="1">{t.paper} 1</option>
-          <option value="2">{t.paper} 2</option>
+          {currentSubject !== 'tourism' && <option value="2">{t.paper} 2</option>}
         </select>
 
         <select
