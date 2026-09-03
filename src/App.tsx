@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { db, initDatabase, recordAttempt, resetSubjectProgress, requestPersistentStorage } from './db';
 import type { QuestionRecord, ProgressRecord, Language, LocalizedString } from './db';
 import katex from 'katex';
+import 'katex/dist/katex.min.css';
 
 const SUBJECTS = [
   { id: 'maths', name: 'Mathematics' },
@@ -11,6 +12,21 @@ const SUBJECTS = [
   { id: 'accounting', name: 'Accounting' },
   { id: 'business', name: 'Business Studies' }
 ];
+
+const UI = {
+  en: { subtitle: 'DBE NSC curriculum drill • Western Cape', allPapers: 'All Papers', paper: 'Paper', allTopics: 'All Topics', weak: 'Drill Weak Spots', weakShowing: 'Showing Weak Spots', reset: 'Reset Progress', resetConfirm: 'Reset all progress for this subject?', loading: 'Loading syllabus data...', none: 'No questions match your filter.', marks: 'Marks', hintShow: '💡 Need a Hint?', hintHide: 'Hide Hint', memoShow: '📝 Show Memorandum & Marks', memoHide: 'Hide Memorandum', prev: 'Previous', next: 'Next', stuck: 'Got Stuck', partial: 'Partial', mastered: 'Mastered' },
+  af: { subtitle: 'DBE NSS-kurrikulum oefening • Wes-Kaap', allPapers: 'Alle Vraestelle', paper: 'Vraestel', allTopics: 'Alle Onderwerpe', weak: 'Oefen Swak Plekke', weakShowing: 'Wys Swak Plekke', reset: 'Herstel Vordering', resetConfirm: 'Herstel alle vordering vir hierdie vak?', loading: 'Laai kurrikulumdata...', none: 'Geen vrae pas by jou filter nie.', marks: 'Punte', hintShow: '💡 Benodig ’n Wenk?', hintHide: 'Versteek Wenk', memoShow: '📝 Wys Memorandum & Punte', memoHide: 'Versteek Memorandum', prev: 'Vorige', next: 'Volgende', stuck: 'Vasgehaak', partial: 'Gedeeltelik', mastered: 'Bemeester' },
+  xh: { subtitle: 'Uqheliso lwekharityhulam ye-DBE NSC • Ntshona Koloni', allPapers: 'Onke Amaphepha', paper: 'Iphepha', allTopics: 'Zonke Izihloko', weak: 'Qhelisa Iindawo Ezibuthathaka', weakShowing: 'Iindawo Ezibuthathaka', reset: 'Cima Inkqubela', resetConfirm: 'Ucime yonke inkqubela yesi sifundo?', loading: 'Kulayishwa idatha yekharityhulam...', none: 'Akukho mibuzo ehambelana nesihluzo.', marks: 'Amanqaku', hintShow: '💡 Ufuna Icebiso?', hintHide: 'Fihla Icebiso', memoShow: '📝 Bonisa Imemorandam & Amanqaku', memoHide: 'Fihla Imemorandam', prev: 'Emva', next: 'Phambili', stuck: 'Ndibambekile', partial: 'Inxalenye', mastered: 'Ndiyakwazi' }
+} as const;
+
+const SUBJECT_NAMES: Record<string, Record<Language, string>> = {
+  maths: { en: 'Mathematics', af: 'Wiskunde', xh: 'IMathematika' },
+  physics: { en: 'Physical Sciences', af: 'Fisiese Wetenskappe', xh: 'IiNzululwazi zeFiziksi' },
+  lifesciences: { en: 'Life Sciences', af: 'Lewenswetenskappe', xh: 'IiNzululwazi zoBomi' },
+  mathlit: { en: 'Mathematical Literacy', af: 'Wiskundige Geletterdheid', xh: 'ULwazi lweMathematika' },
+  accounting: { en: 'Accounting', af: 'Rekeningkunde', xh: 'Ucwangciso-mali' },
+  business: { en: 'Business Studies', af: 'Besigheidstudies', xh: 'Izifundo zoShishino' }
+};
 
 function renderMathInText(text: string): string {
   if (!text) return '';
@@ -59,6 +75,7 @@ export default function App() {
   const [showMemo, setShowMemo] = useState(false);
   const [filterWeakOnly, setFilterWeakOnly] = useState(false);
   const [loading, setLoading] = useState(true);
+  const t = UI[currentLanguage];
 
   useEffect(() => {
     requestPersistentStorage();
@@ -146,7 +163,7 @@ export default function App() {
   };
 
   const handleReset = async () => {
-    if (window.confirm('Reset all progress for this subject?')) {
+    if (window.confirm(t.resetConfirm)) {
       await resetSubjectProgress(currentSubject);
       const allProgress = await db.progress.toArray();
       const pMap: Record<string, ProgressRecord> = {};
@@ -165,7 +182,7 @@ export default function App() {
       <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px', flexWrap: 'wrap', gap: '8px' }}>
         <div>
           <h1 style={{ fontSize: '1.25rem', fontWeight: 800, margin: 0, color: '#38bdf8' }}>Matric Survival Drill</h1>
-          <p style={{ margin: '2px 0 0', fontSize: '0.75rem', color: '#94a3b8' }}>Official DBE NSC Curriculum (Western Cape)</p>
+          <p style={{ margin: '2px 0 0', fontSize: '0.75rem', color: '#94a3b8' }}>{t.subtitle}</p>
         </div>
 
         <div style={{ display: 'flex', gap: '4px', backgroundColor: '#0f172a', padding: '4px', borderRadius: '6px', border: '1px solid #334155' }}>
@@ -197,7 +214,7 @@ export default function App() {
           style={{ background: '#0f172a', color: '#f8fafc', border: '1px solid #334155', padding: '8px', borderRadius: '6px', fontSize: '0.85rem' }}
         >
           {SUBJECTS.map((sub) => (
-            <option key={sub.id} value={sub.id}>{sub.name}</option>
+            <option key={sub.id} value={sub.id}>{SUBJECT_NAMES[sub.id]?.[currentLanguage] ?? sub.name}</option>
           ))}
         </select>
 
@@ -210,9 +227,9 @@ export default function App() {
           }}
           style={{ background: '#0f172a', color: '#f8fafc', border: '1px solid #334155', padding: '8px', borderRadius: '6px', fontSize: '0.85rem' }}
         >
-          <option value="all">All Papers</option>
-          <option value="1">Paper 1</option>
-          <option value="2">Paper 2</option>
+          <option value="all">{t.allPapers}</option>
+          <option value="1">{t.paper} 1</option>
+          <option value="2">{t.paper} 2</option>
         </select>
 
         <select
@@ -223,14 +240,14 @@ export default function App() {
           }}
           style={{ background: '#0f172a', color: '#f8fafc', border: '1px solid #334155', padding: '8px', borderRadius: '6px', fontSize: '0.85rem' }}
         >
-          <option value="all">All Topics</option>
-          {availableTopics.map((t) => (
-            <option key={t} value={t}>{t}</option>
+          <option value="all">{t.allTopics}</option>
+          {availableTopics.map((topic) => (
+            <option key={topic} value={topic}>{topic}</option>
           ))}
         </select>
       </section>
 
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px', gap: '8px' }}>
         <button
           onClick={() => {
             setFilterWeakOnly(!filterWeakOnly);
@@ -240,56 +257,57 @@ export default function App() {
             background: filterWeakOnly ? '#e11d48' : '#1e293b',
             color: '#f8fafc',
             border: '1px solid #334155',
-            padding: '6px 12px',
+            padding: '8px 12px',
             borderRadius: '6px',
             fontSize: '0.8rem',
             cursor: 'pointer',
-            fontWeight: 600
+            fontWeight: 600,
+            minHeight: '40px'
           }}
         >
-          {filterWeakOnly ? 'Showing Weak Spots' : 'Drill Weak Spots'}
+          {filterWeakOnly ? t.weakShowing : t.weak}
         </button>
 
         <button
           onClick={handleReset}
-          style={{ background: 'transparent', color: '#ef4444', border: 'none', fontSize: '0.8rem', cursor: 'pointer', textDecoration: 'underline' }}
+          style={{ background: 'transparent', color: '#ef4444', border: 'none', fontSize: '0.8rem', cursor: 'pointer', textDecoration: 'underline', minHeight: '40px' }}
         >
-          Reset Progress
+          {t.reset}
         </button>
       </div>
 
       {loading ? (
-        <div style={{ textAlign: 'center', padding: '40px', color: '#94a3b8' }}>Loading syllabus data...</div>
+        <div style={{ textAlign: 'center', padding: '40px', color: '#94a3b8' }}>{t.loading}</div>
       ) : activeQuestionList.length === 0 ? (
         <div style={{ textAlign: 'center', padding: '40px', backgroundColor: '#0f172a', borderRadius: '8px', border: '1px dashed #334155' }}>
-          <p style={{ margin: 0, color: '#94a3b8' }}>No questions match your filter.</p>
+          <p style={{ margin: 0, color: '#94a3b8' }}>{t.none}</p>
         </div>
       ) : (
         <main style={{ backgroundColor: '#0f172a', border: '1px solid #1e293b', borderRadius: '8px', padding: '16px', marginBottom: '20px' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px', fontSize: '0.8rem', color: '#94a3b8' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px', fontSize: '0.8rem', color: '#94a3b8', gap: '8px', flexWrap: 'wrap' }}>
             <span>
-              <strong style={{ color: '#38bdf8' }}>{currentQ.topic}</strong> (P{currentQ.paper} - {currentQ.sourceYear})
+              <strong style={{ color: '#38bdf8' }}>{currentQ.topic}</strong> (P{currentQ.paper}{currentQ.sourceYear ? ` - ${currentQ.sourceYear}` : ''})
             </span>
-            <span style={{ backgroundColor: '#1e293b', padding: '2px 8px', borderRadius: '4px' }}>
-              {currentIndex + 1} of {activeQuestionList.length} | {currentQ.marks} Marks
+            <span style={{ backgroundColor: '#1e293b', padding: '4px 8px', borderRadius: '4px' }}>
+              {currentIndex + 1} / {activeQuestionList.length} | {currentQ.marks} {t.marks}
             </span>
           </div>
 
           <div
-            style={{ fontSize: '1rem', lineHeight: '1.6', marginBottom: '16px' }}
+            style={{ fontSize: '1rem', lineHeight: '1.6', marginBottom: '16px', overflowX: 'auto' }}
             dangerouslySetInnerHTML={{ __html: renderMathInText(resolveLocalizedText(currentQ.questionText, currentLanguage)) }}
           />
 
           <div style={{ marginBottom: '12px' }}>
             <button
               onClick={() => setShowHint(!showHint)}
-              style={{ background: '#1e293b', color: '#f59e0b', border: '1px solid #d97706', padding: '6px 12px', borderRadius: '6px', fontSize: '0.8rem', cursor: 'pointer', fontWeight: 600 }}
+              style={{ background: '#1e293b', color: '#f59e0b', border: '1px solid #d97706', padding: '8px 12px', borderRadius: '6px', fontSize: '0.8rem', cursor: 'pointer', fontWeight: 600, minHeight: '40px' }}
             >
-              {showHint ? 'Hide Hint' : '💡 Need a Hint? (Icebiso / Wenk)'}
+              {showHint ? t.hintHide : t.hintShow}
             </button>
             {showHint && (
               <div
-                style={{ marginTop: '8px', padding: '12px', backgroundColor: '#1c1917', borderLeft: '4px solid #f59e0b', borderRadius: '4px', fontSize: '0.9rem', color: '#fed7aa' }}
+                style={{ marginTop: '8px', padding: '12px', backgroundColor: '#1c1917', borderLeft: '4px solid #f59e0b', borderRadius: '4px', fontSize: '0.9rem', color: '#fed7aa', overflowX: 'auto' }}
                 dangerouslySetInnerHTML={{ __html: renderMathInText(resolveLocalizedText(currentQ.scaffoldHint, currentLanguage)) }}
               />
             )}
@@ -298,54 +316,54 @@ export default function App() {
           <div style={{ marginBottom: '16px' }}>
             <button
               onClick={() => setShowMemo(!showMemo)}
-              style={{ background: '#1e293b', color: '#10b981', border: '1px solid #059669', padding: '6px 12px', borderRadius: '6px', fontSize: '0.8rem', cursor: 'pointer', fontWeight: 600 }}
+              style={{ background: '#1e293b', color: '#10b981', border: '1px solid #059669', padding: '8px 12px', borderRadius: '6px', fontSize: '0.8rem', cursor: 'pointer', fontWeight: 600, minHeight: '40px' }}
             >
-              {showMemo ? 'Hide Memorandum' : '📝 Show Memorandum & Marks'}
+              {showMemo ? t.memoHide : t.memoShow}
             </button>
             {showMemo && (
               <div
-                style={{ marginTop: '8px', padding: '12px', backgroundColor: '#064e3b', borderLeft: '4px solid #10b981', borderRadius: '4px', fontSize: '0.9rem', color: '#ecfdf5' }}
+                style={{ marginTop: '8px', padding: '12px', backgroundColor: '#064e3b', borderLeft: '4px solid #10b981', borderRadius: '4px', fontSize: '0.9rem', color: '#ecfdf5', overflowX: 'auto' }}
                 dangerouslySetInnerHTML={{ __html: renderMathInText(resolveLocalizedText(currentQ.memoText, currentLanguage)) }}
               />
             )}
           </div>
 
-          <div style={{ borderTop: '1px solid #1e293b', paddingTop: '12px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '8px' }}>
-            <div style={{ display: 'flex', gap: '8px' }}>
+          <div style={{ borderTop: '1px solid #1e293b', paddingTop: '12px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
               <button
                 onClick={handlePrev}
                 disabled={currentIndex === 0}
-                style={{ background: '#334155', color: '#f8fafc', border: 'none', padding: '6px 12px', borderRadius: '6px', cursor: currentIndex === 0 ? 'not-allowed' : 'pointer' }}
+                style={{ background: '#334155', color: '#f8fafc', border: 'none', padding: '10px 12px', borderRadius: '6px', cursor: currentIndex === 0 ? 'not-allowed' : 'pointer', minHeight: '44px' }}
               >
-                Prev
+                {t.prev}
               </button>
               <button
                 onClick={handleNext}
                 disabled={currentIndex === activeQuestionList.length - 1}
-                style={{ background: '#334155', color: '#f8fafc', border: 'none', padding: '6px 12px', borderRadius: '6px', cursor: currentIndex === activeQuestionList.length - 1 ? 'not-allowed' : 'pointer' }}
+                style={{ background: '#334155', color: '#f8fafc', border: 'none', padding: '10px 12px', borderRadius: '6px', cursor: currentIndex === activeQuestionList.length - 1 ? 'not-allowed' : 'pointer', minHeight: '44px' }}
               >
-                Next
+                {t.next}
               </button>
             </div>
 
-            <div style={{ display: 'flex', gap: '6px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '6px' }}>
               <button
                 onClick={() => handleScore(0)}
-                style={{ background: '#ef4444', color: '#ffffff', border: 'none', padding: '6px 12px', borderRadius: '6px', fontWeight: 700, cursor: 'pointer' }}
+                style={{ background: '#ef4444', color: '#ffffff', border: 'none', padding: '10px 8px', borderRadius: '6px', fontWeight: 700, cursor: 'pointer', minHeight: '48px' }}
               >
-                Got Stuck (0)
+                {t.stuck} (0)
               </button>
               <button
                 onClick={() => handleScore(0.5)}
-                style={{ background: '#f59e0b', color: '#ffffff', border: 'none', padding: '6px 12px', borderRadius: '6px', fontWeight: 700, cursor: 'pointer' }}
+                style={{ background: '#f59e0b', color: '#ffffff', border: 'none', padding: '10px 8px', borderRadius: '6px', fontWeight: 700, cursor: 'pointer', minHeight: '48px' }}
               >
-                Partial (0.5)
+                {t.partial} (0.5)
               </button>
               <button
                 onClick={() => handleScore(1)}
-                style={{ background: '#10b981', color: '#ffffff', border: 'none', padding: '6px 12px', borderRadius: '6px', fontWeight: 700, cursor: 'pointer' }}
+                style={{ background: '#10b981', color: '#ffffff', border: 'none', padding: '10px 8px', borderRadius: '6px', fontWeight: 700, cursor: 'pointer', minHeight: '48px' }}
               >
-                Mastered (1.0)
+                {t.mastered} (1.0)
               </button>
             </div>
           </div>
