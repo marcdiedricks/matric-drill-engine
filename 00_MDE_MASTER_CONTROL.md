@@ -40,7 +40,7 @@ Every build decision must pass all of these gates:
 | Tier 2: Humanities | Geography | Climate & Weather, Geomorphology, Rural/Urban Settlements, Economic Geography, Mapwork/GIS | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
 | Tier 2: Humanities | Economics | Paper 1 Macroeconomics & Economic Pursuits; Paper 2 Microeconomics & Contemporary Economic Issues; EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
 | Tier 2: Humanities | History | Grade 12 Paper 1 & 2 topic-family launch pack, EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
-| Tier 2: Humanities | Tourism | Curriculum and exam-bank ingestion | **ACTIVE — next Western Cape launch-priority subject** |
+| Tier 2: Humanities | Tourism | Single-paper Grade 12 DBE topic-family launch pack, EN/AF/XH | **ACTIVE — 12-question launch pack ready for build verification** |
 | Tier 3: Technical | Civil / Mechanical / Electrical / EGD | Technical banks + schematic/diagram caching | **Pending — post-launch priority wave** |
 | Tier 4A: Core Language Exam Support | English / Afrikaans / isiXhosa | Shared comprehension, summary, visual literacy, language structures, editing and exam-technique layer | **FROZEN LAUNCH BASELINE — 12-question transversal exam-skills pack** |
 | Tier 4B: Arts & Specialist Subjects | Arts / Music / specialist content | Visual/audio/media/archive support | **Pending — post-launch specialist expansion** |
@@ -75,15 +75,7 @@ Verified: Economics loads as **1 / 12**; learner-side functionality user-verifie
 Verified: History loads as **1 / 12**; learner-side functionality user-verified; Paper 1 = **1 / 6**; Paper 2 = **1 / 6**; local production build passed; production preview **1 / 12** and remaining learner flow user-verified; offline preview reload user-verified.
 
 ### English / Afrikaans / isiXhosa Exam Skills
-Verified:
-- Language Exam Skills loads as **1 / 12**.
-- Learner-side functionality was user-verified as working.
-- Internal group Paper 1 shows **1 / 6**.
-- Internal group Paper 2 shows **1 / 6**.
-- Screenshots confirmed the two 6-question groups, topic labels, memorandum display and navigation controls.
-- Local production build passed.
-- Production preview showed **1 / 12**.
-- Offline preview reload and remaining learner flow were user-verified as working.
+Verified: Language Exam Skills loads as **1 / 12**; learner-side functionality user-verified; internal Paper 1 = **1 / 6**; internal Paper 2 = **1 / 6**; screenshots confirmed the two 6-question groups, topic labels, memorandum display and navigation; local production build passed; production preview **1 / 12**; offline preview reload and remaining learner flow user-verified.
 
 **Standing limitation for frozen launch baselines:** these are functionally launchable coverage/support packs, not claims of full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
 
@@ -93,19 +85,52 @@ Verified:
 
 Mathematics, Life Sciences, Physical Sciences, Mathematical Literacy, Accounting, Business Studies, Geography, Economics, History and the shared English/Afrikaans/isiXhosa Exam Skills layer are frozen. Any change to a frozen baseline requires a controlled correction branch, explicit test, verification and re-freeze.
 
-### Tourism next action
-1. Inspect the repository for any existing Tourism pack or related learner content before creating anything new.
-2. Preserve usable existing work and avoid duplication.
-3. Verify current DBE Grade 12 Tourism topic/exam structure before authoring the launch pack.
-4. Build only the smallest safe Western Cape launch-priority pack using the existing engine.
-5. Run GitHub build check.
-6. Learner test → production/offline test → freeze before any further subject expansion.
+Repository audit result:
+- No `public/packs/tourism.json` existed in `main`.
+- Repository search found no alternative Tourism learner pack.
+- Tourism was not registered in the learner selector.
+- The existing dynamic pack loader supports `/packs/tourism.json`, so no engine redesign is required.
+
+Official structure check:
+- DBE Grade 12 Tourism uses **one 3-hour paper of 200 marks**, divided into five compulsory sections.
+- Core examinable areas include short questions across all topics; Map Work and Tour Planning; Foreign Exchange; Tourism Attractions; Cultural and Heritage Tourism; Marketing; Tourism Sectors; Sustainable and Responsible Tourism; Domestic, Regional and International Tourism; Communication and Customer Care.
+- Because Tourism is a single-paper subject, the learner shell suppresses the shared `Paper 2` option while Tourism is selected.
+
+The controlled `tourism-launch-01` branch now contains:
+- Tourism selector names: English `Tourism`, Afrikaans `Toerisme`, isiXhosa `Ezokhenketho`.
+- A **12-question original EN/AF/XH launch pack**, all assigned to the single Tourism paper.
+- Western Cape contexts used where natural, including Cape Town and the Cape Winelands.
+
+Launch coverage:
+1. Map Work and Tour Planning — time zones and itinerary planning.
+2. Foreign Exchange — basic currency conversion.
+3. Tourism Attractions — wider destination impact.
+4. Cultural and Heritage Tourism — conservation and responsible visitor behaviour.
+5. Marketing — target-market decisions.
+6. Tourism Sectors — interdependence.
+7. Sustainable and Responsible Tourism — environmental, social and economic pillars.
+8. Domestic, Regional and International Tourism — domestic demand and disruptive events.
+9. Communication and Customer Care — complaint handling and service consistency.
+
+### Tourism next gate
+1. Run GitHub build check.
+2. Merge only if build passes.
+3. Learner-side test: confirm **1 / 12**.
+4. Verify EN / AF / XH switching and Tourism subject names.
+5. Verify the single-paper filter shows **Paper 1** and no Tourism Paper 2 option.
+6. Verify topic filters, hints, memoranda and navigation.
+7. Run local production build and preview.
+8. Verify offline reload.
+9. Freeze only after those tests pass.
+10. After Tourism freeze, reassess the next expansion wave before opening another subject.
+
+**Important limitation:** this is a 12-question launch coverage pack, not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
 
 ## LOCKED WESTERN CAPE PRIORITY SEQUENCE
 
 **Geography → Economics → History → English/Afrikaans/isiXhosa Exam Skills → Tourism**
 
-Tourism is now the final active subject in this locked launch-priority sequence. After Tourism reaches its controlled freeze gate, reassess before expansion into EGD and the technical subjects. Arts/music remain specialist post-launch expansion.
+Tourism is the final active subject in this locked launch-priority sequence. After Tourism reaches its controlled freeze gate, reassess before expansion into EGD and the technical subjects. Arts/music remain specialist post-launch expansion.
 
 ## LAUNCH REPAIR / FREEZE STATUS
 
@@ -118,11 +143,9 @@ Tourism is now the final active subject in this locked launch-priority sequence.
 - **MDE-GEO-01 → 04:** Geography audit, pack, acceptance and freeze — **COMPLETE**.
 - **MDE-ECO-01 → 04:** Economics audit, pack, acceptance and freeze — **COMPLETE**.
 - **MDE-HIS-01 → 04:** History audit, pack, acceptance and freeze — **COMPLETE**.
-- **MDE-LANG-01:** English/Afrikaans/isiXhosa exam-skills existing-work audit — **PASS — no existing pack; shared selector lane required**.
-- **MDE-LANG-02:** Shared selector lane + 12-question EN/AF/XH exam-skills pack — **PASS**.
-- **MDE-LANG-03:** Learner / production / offline acceptance — **PASS**.
-- **MDE-LANG-04:** Shared language exam-skills launch baseline freeze — **COMPLETE**.
-- **MDE-TOUR-01:** Tourism existing-work and engine-readiness audit — **NEXT**.
+- **MDE-LANG-01 → 04:** English/Afrikaans/isiXhosa exam-skills audit, pack, acceptance and freeze — **COMPLETE**.
+- **MDE-TOUR-01:** Tourism existing-work and engine-readiness audit — **PASS — no existing pack; selector registration required**.
+- **MDE-TOUR-02:** Tourism selector + 12-question EN/AF/XH single-paper launch pack — **READY FOR BUILD VERIFICATION**.
 
 ## CURRENT RISK
 
