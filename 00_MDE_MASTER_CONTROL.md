@@ -38,8 +38,8 @@ Every build decision must pass all of these gates:
 | Tier 1: Commerce | Accounting | Paper 1 Financial Reporting & Evaluation; Paper 2 Managerial Accounting, Internal Auditing & Control; EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
 | Tier 1: Commerce | Business Studies | Paper 1 Business Environments & Operations; Paper 2 Business Ventures & Roles; EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
 | Tier 2: Humanities | Geography | Climate & Weather, Geomorphology, Rural/Urban Settlements, Economic Geography, Mapwork/GIS | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
-| Tier 2: Humanities | Economics | Curriculum and exam-bank ingestion | **ACTIVE — next subject gate** |
-| Tier 2: Humanities | History | Curriculum and exam-bank ingestion | **Pending** |
+| Tier 2: Humanities | Economics | Paper 1 Macroeconomics & Economic Pursuits; Paper 2 Microeconomics & Contemporary Economic Issues; EN/AF/XH | **ACTIVE — 12-question launch pack ready for build verification** |
+| Tier 2: Humanities | History | Curriculum and exam-bank ingestion | **Pending — next priority after Economics freeze** |
 | Tier 2: Humanities | Tourism | Curriculum and exam-bank ingestion | **Pending — Western Cape launch-priority subject** |
 | Tier 3: Technical | Civil / Mechanical / Electrical / EGD | Technical banks + schematic/diagram caching | **Pending — post-launch priority wave** |
 | Tier 4A: Core Language Exam Support | English / Afrikaans / isiXhosa | Comprehension, summary, visual literacy, language structures, editing and exam technique | **Pending — launch-priority mini-layer** |
@@ -102,14 +102,46 @@ Verified:
 
 Mathematics, Life Sciences, Physical Sciences, Mathematical Literacy, Accounting, Business Studies and Geography are frozen. Any change to those subjects now requires a controlled correction branch, explicit test, verification and re-freeze.
 
-Economics next action:
-1. Inspect the repository for any existing Economics learner pack before creating anything new.
-2. Audit question count, schema, language coverage and Paper 1 / Paper 2 distribution if a pack exists.
-3. Map Grade 12 Economics topic-family coverage using Western Cape contexts where pedagogically appropriate.
-4. Preserve usable existing material and replace only placeholder, monolingual or structurally incompatible records.
-5. Build one controlled EN/AF/XH launch pack.
-6. Run GitHub build check.
-7. Learner test → production/offline test → freeze before opening History.
+Repository audit result:
+- No `public/packs/economics.json` existed in `main`.
+- Repository search found no alternative Economics learner pack.
+- Economics was not registered in the app subject selector.
+- The existing dynamic pack loader already supports `/packs/<subject>.json`, so no engine redesign is required.
+
+The controlled `economics-launch-01` branch now contains:
+- Economics registered in the learner selector as English `Economics`, Afrikaans `Ekonomie`, isiXhosa `EzoQoqosho`.
+- A **12-question original curriculum-aligned EN/AF/XH launch pack**.
+
+Paper 1 — 6 questions:
+- Macroeconomics: circular flow
+- Macroeconomics: business cycles
+- Macroeconomics: public sector
+- Macroeconomics: foreign exchange markets
+- Economic Pursuits: economic growth and development
+- Economic Pursuits: economic indicators
+
+Paper 2 — 6 questions:
+- Microeconomics: perfect markets
+- Microeconomics: imperfect markets / monopoly
+- Microeconomics: market failure / negative externalities
+- Contemporary Economic Issues: inflation
+- Contemporary Economic Issues: tourism
+- Contemporary Economic Issues: environmental sustainability
+
+Western Cape contexts are used where pedagogically appropriate, including Cape Town firms, Western Cape tourism, municipal water infrastructure, exporters, household cost pressures and renewable-energy investment.
+
+### Economics next gate
+1. Run GitHub build check.
+2. Merge only if build passes.
+3. Learner-side test: confirm **1 / 12**.
+4. Verify EN / AF / XH switching and Economics subject names.
+5. Verify Paper 1 shows **1 / 6** and Paper 2 shows **1 / 6**.
+6. Verify topic filters, hints, memoranda and navigation.
+7. Run local production build and preview.
+8. Verify offline reload.
+9. Freeze only after those tests pass, then open History.
+
+**Important limitation:** this is a launch coverage pack, not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
 
 ## LOCKED WESTERN CAPE PRIORITY SEQUENCE
 
@@ -148,7 +180,8 @@ After that launch-priority wave, reassess before expansion into EGD and the tech
 - **MDE-GEO-02:** Geography selector registration + 12-question EN/AF/XH launch pack — **PASS**.
 - **MDE-GEO-03:** Geography learner / production / offline acceptance — **PASS**.
 - **MDE-GEO-04:** Geography launch baseline freeze — **COMPLETE**.
-- **MDE-ECO-01:** Economics existing-pack audit — **NEXT**.
+- **MDE-ECO-01:** Economics existing-pack and engine-readiness audit — **PASS — no existing pack; selector registration required**.
+- **MDE-ECO-02:** Economics selector registration + 12-question EN/AF/XH launch pack — **READY FOR BUILD VERIFICATION**.
 
 ## CURRENT RISK
 
