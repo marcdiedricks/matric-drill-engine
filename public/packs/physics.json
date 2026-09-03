@@ -1,73 +1,338 @@
-
-{
-  "version": 2,
-  "subject": "physics",
-  "questions": [
-    {
-      "id": "ps_p1_newton_01",
-      "authority": "DBE NATIONAL SENIOR CERTIFICATE",
-      "subject": "physics",
-      "paper": 1,
-      "sourceYear": "Nov 2023",
-      "topic": "Newton's Laws & Mechanics",
-      "difficulty": "medium",
-      "marks": 5,
-      "questionText": "A crate of mass $20\\text{ kg}$ is pulled along a rough horizontal floor by a constant force of $80\\text{ N}$ acting at an angle of $30^\\circ$ above the horizontal.\n\nThe crate accelerates horizontally at $1.2\\text{ m}\\cdot\\text{s}^{-2}$.\n\nCalculate the magnitude of the kinetic frictional force acting on the crate.",
-      "scaffoldHint": "Resolve the applied force into its horizontal component: $F_x = F\\cos(30^\\circ)$. Then apply Newton's Second Law along the horizontal direction: $F_{\\text{net},x} = ma$, where $F_{\\text{net},x} = F_x - f_k$.",
-      "memoText": "**Horizontal Component:**\n$$F_x = 80\\cos(30^\\circ) = 69.282\\text{ N}$$\n\n**Apply Newton's Second Law:**\n$$F_{\\text{net}} = ma$$\n$$F_x - f_k = ma$$\n$$69.282 - f_k = (20)(1.2)$$\n$$69.282 - f_k = 24$$\n$$f_k = 69.282 - 24 = 45.28\\text{ N}$$\n\n*(1 mark formula, 1 mark cosine component, 1 mark substitution, 1 mark final answer with unit)*"
+[
+  {
+    "id": "ps_p1_newton_01",
+    "subject": "physics",
+    "paper": 1,
+    "topic": "Newton's Laws & Mechanics",
+    "subtopic": "Newton's Second Law and Friction",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "A $20\\text{ kg}$ crate is pulled along a rough horizontal floor by an $80\\text{ N}$ force at $30^\\circ$ above the horizontal. The crate accelerates at $1.2\\text{ m·s}^{-2}$. Calculate the kinetic frictional force.",
+      "af": "'n $20\\text{ kg}$-krat word oor 'n growwe horisontale vloer getrek deur 'n $80\\text{ N}$-krag teen $30^\\circ$ bo die horisontaal. Die krat versnel teen $1.2\\text{ m·s}^{-2}$. Bereken die kinetiese wrywingskrag.",
+      "xh": "Ikreyithi ye-$20\\text{ kg}$ itsalwa kumgangatho oxwesileyo orhabaxa ngamandla ayi-$80\\text{ N}$ kwi-engile ye-$30^\\circ$ ngaphezu komgca oxwesileyo. Ikreyithi inyusa isantya nge-$1.2\\text{ m·s}^{-2}$. Bala amandla okukhuhlana ashukumayo."
     },
-    {
-      "id": "ps_p1_doppler_01",
-      "authority": "AUTHENTIC IEB",
-      "subject": "physics",
-      "paper": 1,
-      "sourceYear": "Nov 2023",
-      "topic": "Doppler Effect",
-      "difficulty": "medium",
-      "marks": 5,
-      "questionText": "An ambulance moves away from a stationary observer at a constant speed of $25\\text{ m}\\cdot\\text{s}^{-1}$ while its siren emits sound waves at a frequency of $680\\text{ Hz}$.\n\nTake the speed of sound in air as $340\\text{ m}\\cdot\\text{s}^{-1}$.\n\nCalculate the frequency of the sound detected by the observer.",
-      "scaffoldHint": "Use the Doppler formula: $f_L = \\left(\\frac{v \\pm v_L}{v \\pm v_S}\\right)f_S$. The listener is stationary ($v_L = 0$) and the source is moving *away* from the listener, so the denominator must increase: $(v + v_S)$.",
-      "memoText": "**Doppler Formula:**\n$$f_L = \\left(\\frac{v}{v + v_S}\\right)f_S$$\n\n**Substitution:**\n$$f_L = \\left(\\frac{340}{340 + 25}\\right)(680)$$\n$$f_L = \\left(\\frac{340}{365}\\right)(680) \\approx 633.42\\text{ Hz}$$\n\n*(1 mark formula, 1 mark $v_L = 0$, 1 mark denominator sign, 1 mark substitution, 1 mark answer with unit)*"
+    "scaffoldHint": {
+      "en": "Resolve the pulling force horizontally: $F_x=F\\cos30^\\circ$. Then use $F_{net}=ma$ and $F_x-f_k=ma$.",
+      "af": "Ontbind die trekkrag horisontaal: $F_x=F\\cos30^\\circ$. Gebruik dan $F_{net}=ma$ en $F_x-f_k=ma$.",
+      "xh": "Yahlula amandla okutsala ngokuxwesileyo: $F_x=F\\cos30^\\circ$. Emva koko sebenzisa $F_{net}=ma$ kunye no-$F_x-f_k=ma$."
     },
-    {
-      "id": "ps_p1_work_01",
-      "authority": "DBE NATIONAL SENIOR CERTIFICATE",
-      "subject": "physics",
-      "paper": 1,
-      "sourceYear": "May/June 2024",
-      "topic": "Work, Energy & Power",
-      "difficulty": "hard",
-      "marks": 4,
-      "questionText": "State the **Work-Energy Theorem** in words.\n\nA roller-coaster cart of mass $300\\text{ kg}$ starts from rest at the top of a frictionless track of vertical height $15\\text{ m}$. Calculate its velocity at the bottom of the track using energy principles.",
-      "scaffoldHint": "The theorem states: The net work done on an object equals the change in its kinetic energy. Since only gravity does work, $W_{\\text{net}} = \\Delta E_k$, or apply conservation of mechanical energy: $E_{\\text{mech, top}} = E_{\\text{mech, bottom}}$.",
-      "memoText": "**Theorem Statement:**\nThe net work done on an object is equal to the change in its kinetic energy. *(2 marks)*\n\n**Calculation:**\n$$W_{\\text{net}} = \\Delta E_k$$\n$$mgh = \\frac{1}{2}mv^2 - 0$$\n$$(300)(9.8)(15) = \\frac{1}{2}(300)v^2$$\n$$44\\,100 = 150v^2$$\n$$v^2 = 294 \\implies v = 17.15\\text{ m}\\cdot\\text{s}^{-1}$$\n\n*(1 mark formula/conservation, 1 mark answer with unit)*"
-    },
-    {
-      "id": "ps_p2_organic_01",
-      "authority": "DBE NATIONAL SENIOR CERTIFICATE",
-      "subject": "physics",
-      "paper": 2,
-      "sourceYear": "Nov 2023",
-      "topic": "Organic Chemistry",
-      "difficulty": "medium",
-      "marks": 4,
-      "questionText": "Consider the organic compound with the molecular formula $\\text{C}_4\\text{H}_8\\text{O}_2$ that gives a sweet, fruity smell.\n\n1. Name the homologous series to which this compound belongs.\n2. Write down the IUPAC name of the isomer formed by reacting ethanoic acid with ethanol.",
-      "scaffoldHint": "Fruity smelling compounds are esters. Esters are named with the alkyl group from the alcohol first, followed by the carboxylate group from the carboxylic acid (-oate).",
-      "memoText": "1. **Homologous Series:** Esters *(1 mark)*\n\n2. **IUPAC Name:** Ethyl ethanoate *(3 marks: 1 for ethyl, 1 for ethano-, 1 for -ate)*",
-      "scaffoldHint": "Esters form from alcohol + carboxylic acid. Alcohol gives 'ethyl', acid gives 'ethanoate'."
-    },
-    {
-      "id": "ps_p2_equilibrium_01",
-      "authority": "AUTHENTIC IEB",
-      "subject": "physics",
-      "paper": 2,
-      "sourceYear": "2024 Exemplar",
-      "topic": "Chemical Equilibrium",
-      "difficulty": "hard",
-      "marks": 6,
-      "questionText": "Consider the following reversible reaction at equilibrium in a closed $2\\text{ dm}^3$ container:\n$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H < 0)$$\n\nAt equilibrium, the mixture contains $0.4\\text{ mol}$ of $\\text{N}_2$, $0.6\\text{ mol}$ of $\\text{H}_2$, and $0.8\\text{ mol}$ of $\\text{NH}_3$.\n\nCalculate the equilibrium constant ($K_c$) for this reaction at this temperature.",
-      "scaffoldHint": "First calculate the equilibrium concentrations: $c = \\frac{n}{V}$ where $V = 2\\text{ dm}^3$. Then substitute into the expression: $K_c = \\frac{[\\text{NH}_3]^2}{[\\text{N}_2][\\text{H}_2]^3}$.",
-      "memoText": "**Equilibrium Concentrations:**\n$$[\\text{N}_2] = \\frac{0.4}{2} = 0.2\\text{ mol}\\cdot\\text{dm}^{-3}$$\n$$[\\text{H}_2] = \\frac{0.6}{2} = 0.3\\text{ mol}\\cdot\\text{dm}^{-3}$$\n$$[\\text{NH}_3] = \\frac{0.8}{2} = 0.4\\text{ mol}\\cdot\\text{dm}^{-3}$$\n\n**Expression & Substitution:**\n$$K_c = \\frac{[\\text{NH}_3]^2}{[\\text{N}_2][\\text{H}_2]^3}$$\n$$K_c = \\frac{(0.4)^2}{(0.2)(0.3)^3}$$\n$$K_c = \\frac{0.16}{(0.2)(0.027)} = \\frac{0.16}{0.0054} \\approx 29.63$$\n\n*(1 mark dividing by volume, 1 mark $K_c$ expression, 2 marks substitution, 1 mark answer)*"
+    "memoText": {
+      "en": "$F_x=80\\cos30^\\circ=69.28\\text{ N}$<br/>$69.28-f_k=(20)(1.2)=24$<br/>$f_k=45.28\\text{ N}$.",
+      "af": "$F_x=80\\cos30^\\circ=69.28\\text{ N}$<br/>$69.28-f_k=(20)(1.2)=24$<br/>$f_k=45.28\\text{ N}$.",
+      "xh": "$F_x=80\\cos30^\\circ=69.28\\text{ N}$<br/>$69.28-f_k=(20)(1.2)=24$<br/>$f_k=45.28\\text{ N}$."
     }
-  ]
-}
+  },
+  {
+    "id": "ps_p1_momentum_01",
+    "subject": "physics",
+    "paper": 1,
+    "topic": "Momentum & Impulse",
+    "subtopic": "Impulse and Average Force",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "A $1\\,200\\text{ kg}$ car travelling east at $20\\text{ m·s}^{-1}$ slows uniformly to $5\\text{ m·s}^{-1}$ east in $3\\text{ s}$. Calculate the impulse on the car and the average net force.",
+      "af": "'n $1\\,200\\text{ kg}$-motor wat oos teen $20\\text{ m·s}^{-1}$ beweeg, vertraag eweredig tot $5\\text{ m·s}^{-1}$ oos in $3\\text{ s}$. Bereken die impuls op die motor en die gemiddelde netto krag.",
+      "xh": "Imoto ye-$1\\,200\\text{ kg}$ ehamba empuma nge-$20\\text{ m·s}^{-1}$ iyacotha ngokulinganayo iye kwi-$5\\text{ m·s}^{-1}$ empuma ngemizuzwana eyi-$3$. Bala i-impulse kunye namandla aphakathi e-net."
+    },
+    "scaffoldHint": {
+      "en": "Take east as positive. Use $J=\\Delta p=m(v_f-v_i)$ and $F_{net}=J/\\Delta t$.",
+      "af": "Neem oos as positief. Gebruik $J=\\Delta p=m(v_f-v_i)$ en $F_{net}=J/\\Delta t$.",
+      "xh": "Thatha impuma njenge-positive. Sebenzisa $J=\\Delta p=m(v_f-v_i)$ kunye no-$F_{net}=J/\\Delta t$."
+    },
+    "memoText": {
+      "en": "$J=1200(5-20)=-18\\,000\\text{ N·s}$. The negative sign means west.<br/>$F_{net}=(-18\\,000)/3=-6\\,000\\text{ N}$, so the average net force is $6\\,000\\text{ N}$ west.",
+      "af": "$J=1200(5-20)=-18\\,000\\text{ N·s}$. Die negatiewe teken beteken wes.<br/>$F_{net}=(-18\\,000)/3=-6\\,000\\text{ N}$, dus is die gemiddelde netto krag $6\\,000\\text{ N}$ wes.",
+      "xh": "$J=1200(5-20)=-18\\,000\\text{ N·s}$. Uphawu olungalunganga luthetha intshona.<br/>$F_{net}=(-18\\,000)/3=-6\\,000\\text{ N}$, ngoko amandla aphakathi e-net ayi-$6\\,000\\text{ N}$ entshona."
+    }
+  },
+  {
+    "id": "ps_p1_projectile_01",
+    "subject": "physics",
+    "paper": 1,
+    "topic": "Vertical Projectile Motion",
+    "subtopic": "Maximum Height",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "A ball is projected vertically upward from ground level at $19.6\\text{ m·s}^{-1}$. Ignore air resistance. Calculate the time to reach maximum height and the maximum height above the launch point.",
+      "af": "'n Bal word vertikaal opwaarts vanaf grondvlak teen $19.6\\text{ m·s}^{-1}$ geprojekteer. Ignoreer lugweerstand. Bereken die tyd om maksimum hoogte te bereik en die maksimum hoogte bo die lanseerpunt.",
+      "xh": "Ibhola iphoswa nkqo phezulu ukusuka emhlabeni ngesantya se-$19.6\\text{ m·s}^{-1}$. Ungahoyi ukuxhathisa komoya. Bala ixesha lokufikelela kubude obuphezulu kunye nobude obuphezulu ngaphezu kwendawo yokuphoswa."
+    },
+    "scaffoldHint": {
+      "en": "At maximum height $v_f=0$. Use $v_f=v_i+a\\Delta t$ with $a=-9.8\\text{ m·s}^{-2}$, then $v_f^2=v_i^2+2a\\Delta y$.",
+      "af": "By maksimum hoogte is $v_f=0$. Gebruik $v_f=v_i+a\\Delta t$ met $a=-9.8\\text{ m·s}^{-2}$, en dan $v_f^2=v_i^2+2a\\Delta y$.",
+      "xh": "Kubude obuphezulu $v_f=0$. Sebenzisa $v_f=v_i+a\\Delta t$ apho $a=-9.8\\text{ m·s}^{-2}$, emva koko $v_f^2=v_i^2+2a\\Delta y$."
+    },
+    "memoText": {
+      "en": "$0=19.6-9.8t \\Rightarrow t=2.0\\text{ s}$.<br/>$0=(19.6)^2+2(-9.8)\\Delta y \\Rightarrow \\Delta y=19.6\\text{ m}$.",
+      "af": "$0=19.6-9.8t \\Rightarrow t=2.0\\text{ s}$.<br/>$0=(19.6)^2+2(-9.8)\\Delta y \\Rightarrow \\Delta y=19.6\\text{ m}$.",
+      "xh": "$0=19.6-9.8t \\Rightarrow t=2.0\\text{ s}$.<br/>$0=(19.6)^2+2(-9.8)\\Delta y \\Rightarrow \\Delta y=19.6\\text{ m}$."
+    }
+  },
+  {
+    "id": "ps_p1_work_01",
+    "subject": "physics",
+    "paper": 1,
+    "topic": "Work, Energy & Power",
+    "subtopic": "Work-Energy Theorem",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "A $2\\text{ kg}$ trolley starts from rest. The net work done on it is $100\\text{ J}$. Use the work-energy theorem to calculate its final speed.",
+      "af": "'n $2\\text{ kg}$-trollie begin uit rus. Die netto arbeid wat daarop verrig word, is $100\\text{ J}$. Gebruik die arbeid-energietelling om die finale spoed te bereken.",
+      "xh": "Itroli ye-$2\\text{ kg}$ iqala iphumle. Umsebenzi we-net owenziwe kuyo yi-$100\\text{ J}$. Sebenzisa i-work-energy theorem ukubala isantya sayo sokugqibela."
+    },
+    "scaffoldHint": {
+      "en": "Use $W_{net}=\\Delta E_k=\\frac12mv_f^2-\\frac12mv_i^2$ and $v_i=0$.",
+      "af": "Gebruik $W_{net}=\\Delta E_k=\\frac12mv_f^2-\\frac12mv_i^2$ en $v_i=0$.",
+      "xh": "Sebenzisa $W_{net}=\\Delta E_k=\\frac12mv_f^2-\\frac12mv_i^2$ kwaye $v_i=0$."
+    },
+    "memoText": {
+      "en": "$100=\\frac12(2)v_f^2$, so $v_f^2=100$ and $v_f=10\\text{ m·s}^{-1}$.",
+      "af": "$100=\\frac12(2)v_f^2$, dus $v_f^2=100$ en $v_f=10\\text{ m·s}^{-1}$.",
+      "xh": "$100=\\frac12(2)v_f^2$, ngoko $v_f^2=100$ kwaye $v_f=10\\text{ m·s}^{-1}$."
+    }
+  },
+  {
+    "id": "ps_p1_doppler_01",
+    "subject": "physics",
+    "paper": 1,
+    "topic": "Doppler Effect",
+    "subtopic": "Moving Source",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "An ambulance moves away from a stationary observer at $25\\text{ m·s}^{-1}$ while its siren emits $680\\text{ Hz}$. Take the speed of sound as $340\\text{ m·s}^{-1}$. Calculate the observed frequency.",
+      "af": "'n Ambulans beweeg weg van 'n stilstaande waarnemer teen $25\\text{ m·s}^{-1}$ terwyl die sirene $680\\text{ Hz}$ uitstraal. Neem die klankspoed as $340\\text{ m·s}^{-1}$. Bereken die waargenome frekwensie.",
+      "xh": "I-ambulensi ihamba isuka kummameli omileyo nge-$25\\text{ m·s}^{-1}$ ngelixa isireni ikhupha $680\\text{ Hz}$. Thatha isantya sesandi njenge-$340\\text{ m·s}^{-1}$. Bala i-frequency eviwayo."
+    },
+    "scaffoldHint": {
+      "en": "For a stationary listener and a source moving away, use $f_L=\\frac{v}{v+v_S}f_S$.",
+      "af": "Vir 'n stilstaande luisteraar en 'n bron wat wegbeweeg, gebruik $f_L=\\frac{v}{v+v_S}f_S$.",
+      "xh": "Kummameli omileyo kunye nomthombo ohamba kude, sebenzisa $f_L=\\frac{v}{v+v_S}f_S$."
+    },
+    "memoText": {
+      "en": "$f_L=\\frac{340}{340+25}(680)=633.42\\text{ Hz}$.",
+      "af": "$f_L=\\frac{340}{340+25}(680)=633.42\\text{ Hz}$.",
+      "xh": "$f_L=\\frac{340}{340+25}(680)=633.42\\text{ Hz}$."
+    }
+  },
+  {
+    "id": "ps_p1_electrostatics_01",
+    "subject": "physics",
+    "paper": 1,
+    "topic": "Electrostatics",
+    "subtopic": "Coulomb's Law",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "Two point charges, $+2\\,\\mu\\text{C}$ and $-3\\,\\mu\\text{C}$, are $0.20\\text{ m}$ apart in vacuum. Calculate the magnitude of the electrostatic force between them and state whether it is attractive or repulsive.",
+      "af": "Twee puntladings, $+2\\,\\mu\\text{C}$ en $-3\\,\\mu\\text{C}$, is $0.20\\text{ m}$ uitmekaar in vakuum. Bereken die grootte van die elektrostatiese krag tussen hulle en sê of dit aantrekkend of afstotend is.",
+      "xh": "Iitshaji ezimbini, $+2\\,\\mu\\text{C}$ kunye no-$-3\\,\\mu\\text{C}$, zikude nge-$0.20\\text{ m}$ kwi-vacuum. Bala ubukhulu bamandla e-electrostatic phakathi kwazo kwaye uchaze ukuba ayatsalana okanye ayatyhalana."
+    },
+    "scaffoldHint": {
+      "en": "Use $F=k\\frac{|q_1q_2|}{r^2}$ with $k=9.0\\times10^9\\text{ N·m}^2\\text{·C}^{-2}$.",
+      "af": "Gebruik $F=k\\frac{|q_1q_2|}{r^2}$ met $k=9.0\\times10^9\\text{ N·m}^2\\text{·C}^{-2}$.",
+      "xh": "Sebenzisa $F=k\\frac{|q_1q_2|}{r^2}$ apho $k=9.0\\times10^9\\text{ N·m}^2\\text{·C}^{-2}$."
+    },
+    "memoText": {
+      "en": "$F=9.0\\times10^9\\frac{(2\\times10^{-6})(3\\times10^{-6})}{(0.20)^2}=1.35\\text{ N}$. Opposite charges attract, so the force is attractive.",
+      "af": "$F=9.0\\times10^9\\frac{(2\\times10^{-6})(3\\times10^{-6})}{(0.20)^2}=1.35\\text{ N}$. Teenoorgestelde ladings trek mekaar aan, dus is die krag aantrekkend.",
+      "xh": "$F=9.0\\times10^9\\frac{(2\\times10^{-6})(3\\times10^{-6})}{(0.20)^2}=1.35\\text{ N}$. Iitshaji ezichaseneyo ziyatsalana, ngoko amandla ayatsalana."
+    }
+  },
+  {
+    "id": "ps_p1_circuits_01",
+    "subject": "physics",
+    "paper": 1,
+    "topic": "Electric Circuits",
+    "subtopic": "Series-Parallel Resistance",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "A $6\\,\\Omega$ resistor and a $3\\,\\Omega$ resistor are connected in parallel. This combination is connected in series with a $4\\,\\Omega$ resistor across a $12\\text{ V}$ battery. Calculate the total resistance and the total current.",
+      "af": "'n $6\\,\\Omega$-weerstand en 'n $3\\,\\Omega$-weerstand is parallel verbind. Hierdie kombinasie is in serie met 'n $4\\,\\Omega$-weerstand oor 'n $12\\text{ V}$-battery verbind. Bereken die totale weerstand en totale stroom.",
+      "xh": "I-resistor ye-$6\\,\\Omega$ kunye neye-$3\\,\\Omega$ zidityaniswe nge-parallel. Le ndibaniselwano idityaniswe nge-series ne-$4\\,\\Omega$ resistor kwi-battery ye-$12\\text{ V}$. Bala i-resistance iyonke kunye ne-current iyonke."
+    },
+    "scaffoldHint": {
+      "en": "First find the parallel equivalent: $1/R_p=1/6+1/3$. Then add the series resistor and use $I=V/R$.",
+      "af": "Bereken eers die parallelle ekwivalente weerstand: $1/R_p=1/6+1/3$. Tel dan die serieweerstand by en gebruik $I=V/R$.",
+      "xh": "Qala ufumane i-resistance ye-parallel: $1/R_p=1/6+1/3$. Emva koko yongeza i-resistor ye-series uze usebenzise $I=V/R$."
+    },
+    "memoText": {
+      "en": "$1/R_p=1/6+1/3=1/2$, so $R_p=2\\,\\Omega$.<br/>$R_T=2+4=6\\,\\Omega$.<br/>$I_T=12/6=2\\text{ A}$.",
+      "af": "$1/R_p=1/6+1/3=1/2$, dus $R_p=2\\,\\Omega$.<br/>$R_T=2+4=6\\,\\Omega$.<br/>$I_T=12/6=2\\text{ A}$.",
+      "xh": "$1/R_p=1/6+1/3=1/2$, ngoko $R_p=2\\,\\Omega$.<br/>$R_T=2+4=6\\,\\Omega$.<br/>$I_T=12/6=2\\text{ A}$."
+    }
+  },
+  {
+    "id": "ps_p1_electrodynamics_01",
+    "subject": "physics",
+    "paper": 1,
+    "topic": "Electrodynamics",
+    "subtopic": "AC Generator and RMS",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "An AC generator supplies a household voltage with an RMS value of $220\\text{ V}$. Calculate the peak voltage.",
+      "af": "'n WS-generator lewer 'n huishoudelike spanning met 'n WGK-waarde van $220\\text{ V}$. Bereken die piekspanning.",
+      "xh": "I-AC generator inika i-voltage yasekhaya ene-RMS value eyi-$220\\text{ V}$. Bala i-peak voltage."
+    },
+    "scaffoldHint": {
+      "en": "Use $V_{rms}=V_{max}/\\sqrt2$.",
+      "af": "Gebruik $V_{rms}=V_{max}/\\sqrt2$.",
+      "xh": "Sebenzisa $V_{rms}=V_{max}/\\sqrt2$."
+    },
+    "memoText": {
+      "en": "$V_{max}=V_{rms}\\sqrt2=(220)(\\sqrt2)=311.13\\text{ V}\\approx311\\text{ V}$.",
+      "af": "$V_{max}=V_{rms}\\sqrt2=(220)(\\sqrt2)=311.13\\text{ V}\\approx311\\text{ V}$.",
+      "xh": "$V_{max}=V_{rms}\\sqrt2=(220)(\\sqrt2)=311.13\\text{ V}\\approx311\\text{ V}$."
+    }
+  },
+  {
+    "id": "ps_p1_photoelectric_01",
+    "subject": "physics",
+    "paper": 1,
+    "topic": "Photoelectric Effect",
+    "subtopic": "Maximum Kinetic Energy",
+    "difficulty": "hard",
+    "marks": 6,
+    "questionText": {
+      "en": "Light of frequency $8.0\\times10^{14}\\text{ Hz}$ shines on a metal with work function $2.0\\text{ eV}$. Calculate the maximum kinetic energy of the emitted electrons in joules. Use $h=6.63\\times10^{-34}\\text{ J·s}$ and $1\\text{ eV}=1.60\\times10^{-19}\\text{ J}$.",
+      "af": "Lig met frekwensie $8.0\\times10^{14}\\text{ Hz}$ skyn op 'n metaal met arbeidsfunksie $2.0\\text{ eV}$. Bereken die maksimum kinetiese energie van die vrygestelde elektrone in joule. Gebruik $h=6.63\\times10^{-34}\\text{ J·s}$ en $1\\text{ eV}=1.60\\times10^{-19}\\text{ J}$.",
+      "xh": "Ukukhanya kwe-frequency $8.0\\times10^{14}\\text{ Hz}$ kubetha isinyithi esine-work function ye-$2.0\\text{ eV}$. Bala i-maximum kinetic energy yee-electron ezikhutshiweyo nge-joule. Sebenzisa $h=6.63\\times10^{-34}\\text{ J·s}$ kunye no-$1\\text{ eV}=1.60\\times10^{-19}\\text{ J}$."
+    },
+    "scaffoldHint": {
+      "en": "Use $E=hf$ and $K_{max}=hf-W_0$. Convert the work function from eV to J first.",
+      "af": "Gebruik $E=hf$ en $K_{max}=hf-W_0$. Skakel eers die arbeidsfunksie van eV na J om.",
+      "xh": "Sebenzisa $E=hf$ kunye no-$K_{max}=hf-W_0$. Guqula i-work function ukusuka kwi-eV iye kwi-J kuqala."
+    },
+    "memoText": {
+      "en": "$W_0=2.0(1.60\\times10^{-19})=3.20\\times10^{-19}\\text{ J}$.<br/>$hf=(6.63\\times10^{-34})(8.0\\times10^{14})=5.304\\times10^{-19}\\text{ J}$.<br/>$K_{max}=2.104\\times10^{-19}\\text{ J}\\approx2.10\\times10^{-19}\\text{ J}$.",
+      "af": "$W_0=2.0(1.60\\times10^{-19})=3.20\\times10^{-19}\\text{ J}$.<br/>$hf=(6.63\\times10^{-34})(8.0\\times10^{14})=5.304\\times10^{-19}\\text{ J}$.<br/>$K_{max}=2.104\\times10^{-19}\\text{ J}\\approx2.10\\times10^{-19}\\text{ J}$.",
+      "xh": "$W_0=2.0(1.60\\times10^{-19})=3.20\\times10^{-19}\\text{ J}$.<br/>$hf=(6.63\\times10^{-34})(8.0\\times10^{14})=5.304\\times10^{-19}\\text{ J}$.<br/>$K_{max}=2.104\\times10^{-19}\\text{ J}\\approx2.10\\times10^{-19}\\text{ J}$."
+    }
+  },
+  {
+    "id": "ps_p2_organic_01",
+    "subject": "physics",
+    "paper": 2,
+    "topic": "Organic Chemistry",
+    "subtopic": "Esters and IUPAC Naming",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "Ethanoic acid reacts with ethanol. Name the type of organic product formed and give its IUPAC name.",
+      "af": "Etanoësuur reageer met etanol. Noem die tipe organiese produk wat vorm en gee die IUPAC-naam daarvan.",
+      "xh": "I-ethanoic acid isabela ne-ethanol. Chaza uhlobo lwemveliso ye-organic eyenziwayo uze unike igama layo le-IUPAC."
+    },
+    "scaffoldHint": {
+      "en": "A carboxylic acid reacting with an alcohol forms an ester and water. The alcohol supplies the alkyl part of the ester name.",
+      "af": "'n Karboksielsuur wat met 'n alkohol reageer vorm 'n ester en water. Die alkohol verskaf die alkieldeel van die ester se naam.",
+      "xh": "I-carboxylic acid xa isabela ne-alcohol yenza i-ester namanzi. I-alcohol inika indawo ye-alkyl kwigama le-ester."
+    },
+    "memoText": {
+      "en": "Product type: ester.<br/>IUPAC name: **ethyl ethanoate**.",
+      "af": "Produktipe: ester.<br/>IUPAC-naam: **etieletanoaat**.",
+      "xh": "Uhlobo lwemveliso: ester.<br/>Igama le-IUPAC: **ethyl ethanoate**."
+    }
+  },
+  {
+    "id": "ps_p2_rate_01",
+    "subject": "physics",
+    "paper": 2,
+    "topic": "Rate & Extent of Reaction",
+    "subtopic": "Average Reaction Rate",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "During a reaction, $60\\text{ cm}^3$ of hydrogen gas is produced in $30\\text{ s}$. Calculate the average rate of gas production in $\\text{cm}^3\\text{·s}^{-1}$ and state one way a catalyst increases reaction rate.",
+      "af": "Tydens 'n reaksie word $60\\text{ cm}^3$ waterstofgas in $30\\text{ s}$ gevorm. Bereken die gemiddelde tempo van gasvorming in $\\text{cm}^3\\text{·s}^{-1}$ en noem een manier waarop 'n katalisator die reaksietempo verhoog.",
+      "xh": "Ngexesha le-reaction kuveliswa $60\\text{ cm}^3$ ye-hydrogen gas kwi-$30\\text{ s}$. Bala i-average rate yokuveliswa kwegesi nge-$\\text{cm}^3\\text{·s}^{-1}$ uze uchaze indlela enye i-catalyst eyandisa ngayo i-reaction rate."
+    },
+    "scaffoldHint": {
+      "en": "Average rate = change in measurable quantity divided by time. A catalyst provides an alternative pathway with lower activation energy.",
+      "af": "Gemiddelde tempo = verandering in meetbare hoeveelheid gedeel deur tyd. 'n Katalisator bied 'n alternatiewe reaksiepad met laer aktiveringsenergie.",
+      "xh": "Average rate = utshintsho kubungakanani obulinganisiweyo lwahlulwe ngexesha. I-catalyst inika indlela eyahlukileyo ene-activation energy ephantsi."
+    },
+    "memoText": {
+      "en": "Average rate $=60/30=2.0\\text{ cm}^3\\text{·s}^{-1}$.<br/>A catalyst increases rate by providing an alternative reaction pathway with lower activation energy.",
+      "af": "Gemiddelde tempo $=60/30=2.0\\text{ cm}^3\\text{·s}^{-1}$.<br/>'n Katalisator verhoog die tempo deur 'n alternatiewe reaksiepad met laer aktiveringsenergie te bied.",
+      "xh": "Average rate $=60/30=2.0\\text{ cm}^3\\text{·s}^{-1}$.<br/>I-catalyst yandisa i-rate ngokunika indlela ye-reaction ene-activation energy ephantsi."
+    }
+  },
+  {
+    "id": "ps_p2_equilibrium_01",
+    "subject": "physics",
+    "paper": 2,
+    "topic": "Chemical Equilibrium",
+    "subtopic": "Equilibrium Constant",
+    "difficulty": "hard",
+    "marks": 6,
+    "questionText": {
+      "en": "For $\\text{N}_2(g)+3\\text{H}_2(g)\\rightleftharpoons2\\text{NH}_3(g)$ in a closed $2\\text{ dm}^3$ container, the equilibrium amounts are $0.4\\text{ mol}$ $\\text{N}_2$, $0.6\\text{ mol}$ $\\text{H}_2$ and $0.8\\text{ mol}$ $\\text{NH}_3$. Calculate $K_c$.",
+      "af": "Vir $\\text{N}_2(g)+3\\text{H}_2(g)\\rightleftharpoons2\\text{NH}_3(g)$ in 'n geslote $2\\text{ dm}^3$-houer is die ewewigshoeveelhede $0.4\\text{ mol}$ $\\text{N}_2$, $0.6\\text{ mol}$ $\\text{H}_2$ en $0.8\\text{ mol}$ $\\text{NH}_3$. Bereken $K_c$.",
+      "xh": "Kwi-$\\text{N}_2(g)+3\\text{H}_2(g)\\rightleftharpoons2\\text{NH}_3(g)$ kwisikhongozeli esivaliweyo se-$2\\text{ dm}^3$, iimali kwi-equilibrium zi-$0.4\\text{ mol}$ $\\text{N}_2$, $0.6\\text{ mol}$ $\\text{H}_2$ kunye ne-$0.8\\text{ mol}$ $\\text{NH}_3$. Bala $K_c$."
+    },
+    "scaffoldHint": {
+      "en": "First convert moles to concentrations using $c=n/V$. Then use $K_c=[NH_3]^2/([N_2][H_2]^3)$.",
+      "af": "Skakel eers mol na konsentrasies om met $c=n/V$. Gebruik dan $K_c=[NH_3]^2/([N_2][H_2]^3)$.",
+      "xh": "Qala uguqule ii-moles zibe yi-concentration usebenzisa $c=n/V$. Emva koko sebenzisa $K_c=[NH_3]^2/([N_2][H_2]^3)$."
+    },
+    "memoText": {
+      "en": "$[N_2]=0.20$, $[H_2]=0.30$, $[NH_3]=0.40\\text{ mol·dm}^{-3}$.<br/>$K_c=\\frac{(0.40)^2}{(0.20)(0.30)^3}=29.63$.",
+      "af": "$[N_2]=0.20$, $[H_2]=0.30$, $[NH_3]=0.40\\text{ mol·dm}^{-3}$.<br/>$K_c=\\frac{(0.40)^2}{(0.20)(0.30)^3}=29.63$.",
+      "xh": "$[N_2]=0.20$, $[H_2]=0.30$, $[NH_3]=0.40\\text{ mol·dm}^{-3}$.<br/>$K_c=\\frac{(0.40)^2}{(0.20)(0.30)^3}=29.63$."
+    }
+  },
+  {
+    "id": "ps_p2_acidbase_01",
+    "subject": "physics",
+    "paper": 2,
+    "topic": "Acids & Bases",
+    "subtopic": "pH and Neutralisation",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "A hydrochloric acid solution has concentration $0.010\\text{ mol·dm}^{-3}$. Calculate its pH, assuming complete ionisation. Then calculate the volume of $0.20\\text{ mol·dm}^{-3}$ NaOH needed to neutralise $25.0\\text{ cm}^3$ of $0.10\\text{ mol·dm}^{-3}$ HCl.",
+      "af": "'n Soutsuuroplossing het 'n konsentrasie van $0.010\\text{ mol·dm}^{-3}$. Bereken die pH, met volledige ionisasie aanvaar. Bereken dan die volume $0.20\\text{ mol·dm}^{-3}$ NaOH wat nodig is om $25.0\\text{ cm}^3$ van $0.10\\text{ mol·dm}^{-3}$ HCl te neutraliseer.",
+      "xh": "Isisombululo se-hydrochloric acid sine-concentration ye-$0.010\\text{ mol·dm}^{-3}$. Bala i-pH, ucinge ukuba i-ionisation iphelele. Emva koko bala i-volume ye-$0.20\\text{ mol·dm}^{-3}$ NaOH efunekayo uku-neutralise $25.0\\text{ cm}^3$ ye-$0.10\\text{ mol·dm}^{-3}$ HCl."
+    },
+    "scaffoldHint": {
+      "en": "For strong HCl, $[H_3O^+]=0.010$ and $pH=-\\log[H_3O^+]$. For neutralisation use $n=cV$ and the 1:1 HCl:NaOH ratio.",
+      "af": "Vir sterk HCl is $[H_3O^+]=0.010$ en $pH=-\\log[H_3O^+]$. Vir neutralisasie gebruik $n=cV$ en die 1:1 HCl:NaOH-verhouding.",
+      "xh": "Kwi-HCl eyomeleleyo, $[H_3O^+]=0.010$ kwaye $pH=-\\log[H_3O^+]$. Kwi-neutralisation sebenzisa $n=cV$ kunye ne-1:1 ratio ye-HCl:NaOH."
+    },
+    "memoText": {
+      "en": "$pH=-\\log(0.010)=2.00$.<br/>$n(HCl)=0.10(0.0250)=0.00250\\text{ mol}$.<br/>$n(NaOH)=0.00250\\text{ mol}$, so $V=0.00250/0.20=0.0125\\text{ dm}^3=12.5\\text{ cm}^3$.",
+      "af": "$pH=-\\log(0.010)=2.00$.<br/>$n(HCl)=0.10(0.0250)=0.00250\\text{ mol}$.<br/>$n(NaOH)=0.00250\\text{ mol}$, dus $V=0.00250/0.20=0.0125\\text{ dm}^3=12.5\\text{ cm}^3$.",
+      "xh": "$pH=-\\log(0.010)=2.00$.<br/>$n(HCl)=0.10(0.0250)=0.00250\\text{ mol}$.<br/>$n(NaOH)=0.00250\\text{ mol}$, ngoko $V=0.00250/0.20=0.0125\\text{ dm}^3=12.5\\text{ cm}^3$."
+    }
+  },
+  {
+    "id": "ps_p2_electrochem_01",
+    "subject": "physics",
+    "paper": 2,
+    "topic": "Electrochemistry",
+    "subtopic": "Galvanic Cell Potential",
+    "difficulty": "medium",
+    "marks": 6,
+    "questionText": {
+      "en": "A standard galvanic cell is made from Zn/Zn$^{2+}$ and Cu$^{2+}$/Cu half-cells. Given $E^\\circ(\\text{Cu}^{2+}/\\text{Cu})=+0.34\\text{ V}$ and $E^\\circ(\\text{Zn}^{2+}/\\text{Zn})=-0.76\\text{ V}$, identify the anode and cathode and calculate $E^\\circ_{cell}$.",
+      "af": "'n Standaard galvaniese sel bestaan uit Zn/Zn$^{2+}$- en Cu$^{2+}$/Cu-half­selle. Gegee $E^\\circ(\\text{Cu}^{2+}/\\text{Cu})=+0.34\\text{ V}$ en $E^\\circ(\\text{Zn}^{2+}/\\text{Zn})=-0.76\\text{ V}$, identifiseer die anode en katode en bereken $E^\\circ_{sel}$.",
+      "xh": "I-galvanic cell esemgangathweni yenziwe nge-Zn/Zn$^{2+}$ kunye ne-Cu$^{2+}$/Cu half-cells. Xa $E^\\circ(\\text{Cu}^{2+}/\\text{Cu})=+0.34\\text{ V}$ kunye no-$E^\\circ(\\text{Zn}^{2+}/\\text{Zn})=-0.76\\text{ V}$, chonga i-anode ne-cathode uze ubale $E^\\circ_{cell}$."
+    },
+    "scaffoldHint": {
+      "en": "The half-reaction with the more positive reduction potential occurs at the cathode. Use $E^\\circ_{cell}=E^\\circ_{cathode}-E^\\circ_{anode}$.",
+      "af": "Die halfreaksie met die meer positiewe reduksiepotensiaal vind by die katode plaas. Gebruik $E^\\circ_{sel}=E^\\circ_{katode}-E^\\circ_{anode}$.",
+      "xh": "I-half-reaction ene-reduction potential ephezulu kakhulu yenzeka kwi-cathode. Sebenzisa $E^\\circ_{cell}=E^\\circ_{cathode}-E^\\circ_{anode}$."
+    },
+    "memoText": {
+      "en": "Cathode: Cu$^{2+}$/Cu (reduction). Anode: Zn/Zn$^{2+}$ (oxidation).<br/>$E^\\circ_{cell}=0.34-(-0.76)=1.10\\text{ V}$.",
+      "af": "Katode: Cu$^{2+}$/Cu (reduksie). Anode: Zn/Zn$^{2+}$ (oksidasie).<br/>$E^\\circ_{sel}=0.34-(-0.76)=1.10\\text{ V}$.",
+      "xh": "Cathode: Cu$^{2+}$/Cu (reduction). Anode: Zn/Zn$^{2+}$ (oxidation).<br/>$E^\\circ_{cell}=0.34-(-0.76)=1.10\\text{ V}$."
+    }
+  }
+]
