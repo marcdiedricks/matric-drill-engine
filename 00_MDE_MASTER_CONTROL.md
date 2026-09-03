@@ -35,7 +35,7 @@ Every build decision must pass all of these gates:
 | Tier 1: Core STEM | Life Sciences | Grade 12 Paper 1 & 2 topic-family launch pack, EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
 | Tier 1: Core STEM | Physical Sciences | Physics/Chemistry topic-family pack, KaTeX, EN/AF/XH | **FROZEN LAUNCH BASELINE — 14-question coverage pack** |
 | Tier 1: High-Enrollment | Mathematical Literacy | Finance, Data, Probability, Measurement, Maps/Plans, EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
-| Tier 1: Commerce | Accounting | Full curriculum-aligned bank | **ACTIVE — next subject gate** |
+| Tier 1: Commerce | Accounting | Paper 1 Financial Reporting & Evaluation; Paper 2 Managerial Accounting, Internal Auditing & Control; EN/AF/XH | **ACTIVE — 12-question coverage pack ready for build verification** |
 | Tier 1: Commerce | Business Studies | Full curriculum-aligned bank | **Pending** |
 | Tier 2: Humanities | Geography / History / Economics / Tourism | Curriculum and exam-bank ingestion | **Pending** |
 | Tier 3: Technical | Civil / Mechanical / Electrical / EGD | Technical banks + schematic/diagram caching | **Pending** |
@@ -61,34 +61,48 @@ Verified: 1/14 loading; EN/AF/XH switching; Paper 1 = 1/9; Paper 2 = 1/5; memo a
 
 ## MATHEMATICAL LITERACY FREEZE RECORD — 3 SEPTEMBER 2026
 
-The current 12-question Mathematical Literacy launch baseline is frozen after learner-side, production and offline testing.
+Verified: 1/12 loading; EN/AF/XH switching; Paper 1 = 1/6; Paper 2 = 1/6; memo; navigation; topic filters; production build; offline reload.
 
-Verified:
-- Mathematical Literacy loads as **1 / 12**.
-- English / Afrikaans / isiXhosa switching works.
-- Paper 1 filter shows **1 / 6**.
-- Paper 2 filter shows **1 / 6**.
-- Memorandum rendering works.
-- Next navigation and topic filtering work.
-- Production build passed.
-- Offline reload was user-verified with connectivity disabled.
-
-**Important limitation:** this freeze means the 12-question topic-family pack is functionally launchable. It does **not** mean full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification is complete.
+**Limitation:** functionally launchable topic-family baseline only. Not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
 
 ## CURRENT SUBJECT GATE — ACCOUNTING
 
 **Only active subject:** Accounting
 
-Mathematics, Life Sciences, Physical Sciences and Mathematical Literacy are frozen. Any change to those subjects now requires a controlled correction branch, explicit test, verification and re-freeze.
+Repository audit result:
+- No `public/packs/accounting.json` existed in `main`.
+- Repository search found no alternative Accounting learner pack.
+- Therefore there was no existing Accounting learner content to preserve or duplicate.
 
-Accounting next action:
-1. Inspect the repository for any existing Accounting learner pack before creating anything new.
-2. Audit question count, schema, language coverage and Paper 1 / Paper 2 distribution if a pack exists.
-3. Map Grade 12 Accounting topic-family coverage.
-4. Preserve usable existing material and replace only placeholder, monolingual or structurally incompatible records.
-5. Build one controlled EN/AF/XH launch pack.
-6. Run GitHub build check.
-7. Learner test → production/offline test → freeze before Business Studies is opened.
+The controlled `accounting-launch-01` branch now contains a **12-question original curriculum-aligned launch pack** using EN/AF/XH item records.
+
+Paper 1 — 6 questions:
+- Companies: share capital
+- Company financial statements: depreciation adjustment
+- Financial analysis: current ratio
+- Cash Flow Statement: cash effects
+- Financial analysis: return on shareholders' equity
+- Inventory valuation: FIFO
+
+Paper 2 — 6 questions:
+- Debtors' reconciliation
+- Value-added Tax
+- Manufacturing: production cost
+- Cost accounting: break-even point
+- Budgeting: cash-budget variance
+- Internal control: inventory shortage
+
+### Accounting next gate
+1. GitHub build check.
+2. Merge only if build passes.
+3. Learner-side test: confirm **1 / 12**.
+4. Verify EN / AF / XH switching.
+5. Verify Paper 1 shows **1 / 6** and Paper 2 shows **1 / 6**.
+6. Verify topic filters, hints, memoranda and navigation.
+7. Run production build and offline reload.
+8. Freeze only after those tests pass.
+
+**Important limitation:** this is a launch coverage pack, not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
 
 ## LAUNCH REPAIR / FREEZE STATUS
 
@@ -109,7 +123,8 @@ Accounting next action:
 - **MDE-ML-02:** 12-question EN/AF/XH Mathematical Literacy launch pack — **PASS**.
 - **MDE-ML-03:** Mathematical Literacy learner / production / offline acceptance — **PASS**.
 - **MDE-ML-04:** Mathematical Literacy launch baseline freeze — **COMPLETE**.
-- **MDE-ACC-01:** Accounting existing-pack audit — **NEXT**.
+- **MDE-ACC-01:** Accounting existing-pack audit — **PASS — no existing pack found**.
+- **MDE-ACC-02:** 12-question EN/AF/XH Accounting launch pack — **READY FOR BUILD VERIFICATION**.
 
 ## CURRENT RISK
 

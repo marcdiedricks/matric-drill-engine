@@ -1,0 +1,290 @@
+[
+  {
+    "id": "acc_p1_company_01",
+    "subject": "accounting",
+    "paper": 1,
+    "topic": "Companies",
+    "subtopic": "Share Capital",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "A company has issued 600 000 ordinary shares. It later repurchases 40 000 shares. Calculate the number of ordinary shares remaining in issue.",
+      "af": "'n Maatskappy het 600 000 gewone aandele uitgereik. Dit koop later 40 000 aandele terug. Bereken die aantal gewone aandele wat nog uitgereik is.",
+      "xh": "Inkampani ikhuphe izabelo eziqhelekileyo ezingama-600 000. Kamva iphinda ithenge izabelo ezingama-40 000. Bala inani lezabelo eziqhelekileyo eziseleyo zikhutshiwe."
+    },
+    "scaffoldHint": {
+      "en": "Subtract the shares repurchased from the shares originally issued.",
+      "af": "Trek die teruggekoopte aandele van die oorspronklik uitgereikte aandele af.",
+      "xh": "Thabatha izabelo eziphinde zathengwa kwizabelo ezazikhutshwe ekuqaleni."
+    },
+    "memoText": {
+      "en": "600 000 - 40 000 = **560 000 ordinary shares** remaining in issue.",
+      "af": "600 000 - 40 000 = **560 000 gewone aandele** bly uitgereik.",
+      "xh": "600 000 - 40 000 = **560 000 izabelo eziqhelekileyo** eziseleyo zikhutshiwe."
+    }
+  },
+  {
+    "id": "acc_p1_adjust_01",
+    "subject": "accounting",
+    "paper": 1,
+    "topic": "Company Financial Statements",
+    "subtopic": "Depreciation Adjustment",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "Equipment cost R240 000 and accumulated depreciation at the start of the year was R60 000. Depreciation is 20% per year on carrying value. Calculate the depreciation for the year and the closing carrying value.",
+      "af": "Toerusting kos R240 000 en opgehoopte waardevermindering aan die begin van die jaar was R60 000. Waardevermindering is 20% per jaar op drawaarde. Bereken die waardevermindering vir die jaar en die sluitingsdrawaarde.",
+      "xh": "Izixhobo zibiza i-R240 000 kwaye ukuhla kwexabiso okuqokelelweyo ekuqaleni konyaka bekuyi-R60 000. Ukuhla kwexabiso yi-20% ngonyaka kwixabiso elithwalwayo. Bala ukuhla kwexabiso konyaka kunye nexabiso elithwalwayo lokuphela konyaka."
+    },
+    "scaffoldHint": {
+      "en": "First find opening carrying value: cost minus accumulated depreciation. Then calculate 20% of that amount.",
+      "af": "Bereken eers die openingsdrawaarde: kosprys minus opgehoopte waardevermindering. Bereken dan 20% van daardie bedrag.",
+      "xh": "Qala ngokufumana ixabiso elithwalwayo ekuqaleni: ixabiso lokuthenga thabatha ukuhla kwexabiso okuqokelelweyo. Emva koko bala i-20% yelo xabiso."
+    },
+    "memoText": {
+      "en": "Opening carrying value = R240 000 - R60 000 = R180 000. Depreciation = 20% × R180 000 = **R36 000**. Closing carrying value = R180 000 - R36 000 = **R144 000**.",
+      "af": "Openingsdrawaarde = R240 000 - R60 000 = R180 000. Waardevermindering = 20% × R180 000 = **R36 000**. Sluitingsdrawaarde = R180 000 - R36 000 = **R144 000**.",
+      "xh": "Ixabiso elithwalwayo ekuqaleni = R240 000 - R60 000 = R180 000. Ukuhla kwexabiso = 20% × R180 000 = **R36 000**. Ixabiso elithwalwayo ekupheleni = R180 000 - R36 000 = **R144 000**."
+    }
+  },
+  {
+    "id": "acc_p1_ratio_01",
+    "subject": "accounting",
+    "paper": 1,
+    "topic": "Financial Analysis",
+    "subtopic": "Current Ratio",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "A company has current assets of R450 000 and current liabilities of R300 000. Calculate the current ratio.",
+      "af": "'n Maatskappy het bedryfsbates van R450 000 en bedryfslaste van R300 000. Bereken die bedryfsverhouding.",
+      "xh": "Inkampani inee-asethi zangoku ze-R450 000 kunye namatyala angoku e-R300 000. Bala umlinganiselo wangoku."
+    },
+    "scaffoldHint": {
+      "en": "Current ratio = current assets ÷ current liabilities.",
+      "af": "Bedryfsverhouding = bedryfsbates ÷ bedryfslaste.",
+      "xh": "Umlinganiselo wangoku = ii-asethi zangoku ÷ amatyala angoku."
+    },
+    "memoText": {
+      "en": "R450 000 ÷ R300 000 = **1.5 : 1**.",
+      "af": "R450 000 ÷ R300 000 = **1,5 : 1**.",
+      "xh": "R450 000 ÷ R300 000 = **1.5 : 1**."
+    }
+  },
+  {
+    "id": "acc_p1_cashflow_01",
+    "subject": "accounting",
+    "paper": 1,
+    "topic": "Cash Flow Statement",
+    "subtopic": "Cash Effects",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "During the year a company receives R500 000 from issuing ordinary shares, pays R320 000 cash for new equipment, and pays R90 000 in dividends. Calculate the net effect of these three transactions on cash.",
+      "af": "Gedurende die jaar ontvang 'n maatskappy R500 000 uit die uitreiking van gewone aandele, betaal R320 000 kontant vir nuwe toerusting en betaal R90 000 aan dividende. Bereken die netto uitwerking van hierdie drie transaksies op kontant.",
+      "xh": "Ngexesha lonyaka inkampani ifumana i-R500 000 ngokukhupha izabelo eziqhelekileyo, ihlawula i-R320 000 ngemali ngezixhobo ezintsha, kwaye ihlawula i-R90 000 njengezahlulo. Bala ifuthe elipheleleyo lezi ntengiselwano zintathu kwimali."
+    },
+    "scaffoldHint": {
+      "en": "Treat money received as positive and cash payments as negative.",
+      "af": "Hanteer geld ontvang as positief en kontantbetalings as negatief.",
+      "xh": "Phatha imali efunyenweyo njengedibanisayo, neentlawulo zemali njengezithabathayo."
+    },
+    "memoText": {
+      "en": "Net cash effect = R500 000 - R320 000 - R90 000 = **R90 000 increase in cash**.",
+      "af": "Netto kontantuitwerking = R500 000 - R320 000 - R90 000 = **R90 000 toename in kontant**.",
+      "xh": "Ifuthe elipheleleyo kwimali = R500 000 - R320 000 - R90 000 = **ukwanda kwemali nge-R90 000**."
+    }
+  },
+  {
+    "id": "acc_p1_roe_01",
+    "subject": "accounting",
+    "paper": 1,
+    "topic": "Financial Analysis",
+    "subtopic": "Return on Shareholders' Equity",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "A company earned net profit after tax of R180 000. Average shareholders' equity was R1 200 000. Calculate the return on average shareholders' equity (ROSHE).",
+      "af": "'n Maatskappy het 'n netto wins na belasting van R180 000 verdien. Gemiddelde aandeelhouersbelang was R1 200 000. Bereken die opbrengs op gemiddelde aandeelhouersbelang (OOAB).",
+      "xh": "Inkampani ifumene inzuzo emva kwerhafu ye-R180 000. Umndilili wobulungisa babanini-zabelo ubuyi-R1 200 000. Bala imbuyekezo kumndilili wobulungisa babanini-zabelo."
+    },
+    "scaffoldHint": {
+      "en": "ROSHE = net profit after tax ÷ average shareholders' equity × 100.",
+      "af": "OOAB = netto wins na belasting ÷ gemiddelde aandeelhouersbelang × 100.",
+      "xh": "Imbuyekezo = inzuzo emva kwerhafu ÷ umndilili wobulungisa babanini-zabelo × 100."
+    },
+    "memoText": {
+      "en": "R180 000 ÷ R1 200 000 × 100 = **15%**.",
+      "af": "R180 000 ÷ R1 200 000 × 100 = **15%**.",
+      "xh": "R180 000 ÷ R1 200 000 × 100 = **15%**."
+    }
+  },
+  {
+    "id": "acc_p1_inventory_01",
+    "subject": "accounting",
+    "paper": 1,
+    "topic": "Inventory Valuation",
+    "subtopic": "FIFO",
+    "difficulty": "medium",
+    "marks": 6,
+    "questionText": {
+      "en": "A business buys 100 units at R20 each and later buys 80 units at R25 each. It sells 130 units. Using FIFO, calculate the value of closing inventory.",
+      "af": "'n Onderneming koop 100 eenhede teen R20 elk en koop later 80 eenhede teen R25 elk. Dit verkoop 130 eenhede. Gebruik EIEU en bereken die waarde van die eindvoorraad.",
+      "xh": "Ishishini lithenga iiyunithi ezili-100 nge-R20 iyunithi nganye, lize kamva lithenge iiyunithi ezingama-80 nge-R25 iyunithi nganye. Lithengisa iiyunithi ezili-130. Usebenzisa i-FIFO, bala ixabiso lempahla eseleyo."
+    },
+    "scaffoldHint": {
+      "en": "FIFO assumes the oldest units are sold first. Work out which units remain after 130 units are sold.",
+      "af": "EIEU aanvaar dat die oudste eenhede eerste verkoop word. Bepaal watter eenhede oorbly nadat 130 eenhede verkoop is.",
+      "xh": "I-FIFO ithatha ukuba iiyunithi ezindala zithengiswa kuqala. Fumana ukuba zeziphi iiyunithi ezishiyekileyo emva kokuthengiswa kwe-130."
+    },
+    "memoText": {
+      "en": "Total units = 180. Units remaining = 180 - 130 = 50. Under FIFO the remaining 50 units are from the R25 batch. Closing inventory = 50 × R25 = **R1 250**.",
+      "af": "Totale eenhede = 180. Eenhede oor = 180 - 130 = 50. Volgens EIEU kom die oorblywende 50 eenhede uit die R25-lot. Eindvoorraad = 50 × R25 = **R1 250**.",
+      "xh": "Iiyunithi zizonke = 180. Eziseleyo = 180 - 130 = 50. Ngokwe-FIFO, eziyi-50 ziseleyo zivela kwiqela le-R25. Impahla eseleyo = 50 × R25 = **R1 250**."
+    }
+  },
+  {
+    "id": "acc_p2_recon_01",
+    "subject": "accounting",
+    "paper": 2,
+    "topic": "Reconciliations",
+    "subtopic": "Debtors' Reconciliation",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "The Debtors' Control account shows R82 000, but the debtors' list totals R79 500. An invoice of R2 500 was correctly recorded in the control account but omitted from the debtors' list. Calculate the corrected total of the debtors' list.",
+      "af": "Die Debiteurekontrole-rekening toon R82 000, maar die debiteurelys beloop R79 500. 'n Faktuur van R2 500 is korrek in die kontrolerekening aangeteken maar uit die debiteurelys weggelaat. Bereken die gekorrigeerde totaal van die debiteurelys.",
+      "xh": "Iakhawunti yoLawulo lwaBatyali ibonisa i-R82 000, kodwa uluhlu lwabatyali lulonke yi-R79 500. I-invoyisi ye-R2 500 yabhalwa ngokuchanekileyo kwiakhawunti yolawulo kodwa yashiywa kuluhlu lwabatyali. Bala itotali elungisiweyo yoluhlu lwabatyali."
+    },
+    "scaffoldHint": {
+      "en": "Add the omitted invoice to the debtors' list total.",
+      "af": "Tel die weggelate faktuur by die totaal van die debiteurelys.",
+      "xh": "Dibanisa i-invoyisi eshiyiweyo kwitotali yoluhlu lwabatyali."
+    },
+    "memoText": {
+      "en": "R79 500 + R2 500 = **R82 000**.",
+      "af": "R79 500 + R2 500 = **R82 000**.",
+      "xh": "R79 500 + R2 500 = **R82 000**."
+    }
+  },
+  {
+    "id": "acc_p2_vat_01",
+    "subject": "accounting",
+    "paper": 2,
+    "topic": "Value-added Tax",
+    "subtopic": "VAT Payable",
+    "difficulty": "medium",
+    "marks": 6,
+    "questionText": {
+      "en": "A VAT-registered business makes cash sales of R11 500 including 15% VAT and buys trading inventory for R5 750 including 15% VAT. Calculate output VAT, input VAT and the VAT payable to SARS for these transactions.",
+      "af": "'n BTW-geregistreerde onderneming maak kontantverkope van R11 500 insluitend 15% BTW en koop handelsvoorraad vir R5 750 insluitend 15% BTW. Bereken uitset-BTW, inset-BTW en die BTW betaalbaar aan SAID vir hierdie transaksies.",
+      "xh": "Ishishini elibhalisele i-VAT lithengisa ngemali i-R11 500 kuquka i-15% VAT, kwaye lithenga impahla yorhwebo nge-R5 750 kuquka i-15% VAT. Bala i-output VAT, i-input VAT kunye ne-VAT ehlawulwa kwi-SARS kwezi ntengiselwano."
+    },
+    "scaffoldHint": {
+      "en": "For VAT-inclusive amounts at 15%, VAT = amount × 15/115. VAT payable = output VAT - input VAT.",
+      "af": "Vir bedrae wat 15% BTW insluit, is BTW = bedrag × 15/115. BTW betaalbaar = uitset-BTW - inset-BTW.",
+      "xh": "Kwixabiso eliquka i-15% VAT, i-VAT = ixabiso × 15/115. I-VAT ehlawulwayo = output VAT - input VAT."
+    },
+    "memoText": {
+      "en": "Output VAT = R11 500 × 15/115 = **R1 500**. Input VAT = R5 750 × 15/115 = **R750**. VAT payable = R1 500 - R750 = **R750**.",
+      "af": "Uitset-BTW = R11 500 × 15/115 = **R1 500**. Inset-BTW = R5 750 × 15/115 = **R750**. BTW betaalbaar = R1 500 - R750 = **R750**.",
+      "xh": "Output VAT = R11 500 × 15/115 = **R1 500**. Input VAT = R5 750 × 15/115 = **R750**. I-VAT ehlawulwayo = R1 500 - R750 = **R750**."
+    }
+  },
+  {
+    "id": "acc_p2_mfg_01",
+    "subject": "accounting",
+    "paper": 2,
+    "topic": "Manufacturing",
+    "subtopic": "Production Cost",
+    "difficulty": "medium",
+    "marks": 6,
+    "questionText": {
+      "en": "A factory has direct material cost of R120 000, direct labour cost of R80 000 and factory overheads of R60 000. It produces 10 000 units. Calculate total production cost and production cost per unit.",
+      "af": "'n Fabriek het direkte materiaalkoste van R120 000, direkte arbeidskoste van R80 000 en fabrieksbokoste van R60 000. Dit vervaardig 10 000 eenhede. Bereken die totale produksiekoste en produksiekoste per eenheid.",
+      "xh": "Umzi-mveliso uneendleko zezinto ezithe ngqo ze-R120 000, iindleko zomsebenzi othe ngqo ze-R80 000 kunye neendleko ezingaphezulu zomzi-mveliso ze-R60 000. Uvelisa iiyunithi ezili-10 000. Bala iindleko zemveliso zizonke kunye neendleko zemveliso ngeyunithi."
+    },
+    "scaffoldHint": {
+      "en": "Add the three production costs, then divide the total by units produced.",
+      "af": "Tel die drie produksiekoste bymekaar en deel dan die totaal deur die eenhede vervaardig.",
+      "xh": "Dibanisa iindleko ezintathu zemveliso, uze wahlule itotali ngenani leeyunithi ezivelisiweyo."
+    },
+    "memoText": {
+      "en": "Total production cost = R120 000 + R80 000 + R60 000 = **R260 000**. Cost per unit = R260 000 ÷ 10 000 = **R26 per unit**.",
+      "af": "Totale produksiekoste = R120 000 + R80 000 + R60 000 = **R260 000**. Koste per eenheid = R260 000 ÷ 10 000 = **R26 per eenheid**.",
+      "xh": "Iindleko zemveliso zizonke = R120 000 + R80 000 + R60 000 = **R260 000**. Iindleko ngeyunithi = R260 000 ÷ 10 000 = **R26 ngeyunithi**."
+    }
+  },
+  {
+    "id": "acc_p2_bep_01",
+    "subject": "accounting",
+    "paper": 2,
+    "topic": "Cost Accounting",
+    "subtopic": "Break-even Point",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "Fixed costs are R90 000. The selling price is R50 per unit and variable cost is R30 per unit. Calculate the break-even point in units.",
+      "af": "Vaste koste is R90 000. Die verkoopprys is R50 per eenheid en veranderlike koste is R30 per eenheid. Bereken die gelykbreekpunt in eenhede.",
+      "xh": "Iindleko ezisisigxina yi-R90 000. Ixabiso lokuthengisa yi-R50 ngeyunithi kwaye iindleko eziguquguqukayo yi-R30 ngeyunithi. Bala indawo yokulingana ngenani leeyunithi."
+    },
+    "scaffoldHint": {
+      "en": "Break-even units = fixed costs ÷ (selling price per unit - variable cost per unit).",
+      "af": "Gelykbreekeenhede = vaste koste ÷ (verkoopprys per eenheid - veranderlike koste per eenheid).",
+      "xh": "Iiyunithi zokulingana = iindleko ezisisigxina ÷ (ixabiso lokuthengisa ngeyunithi - iindleko eziguquguqukayo ngeyunithi)."
+    },
+    "memoText": {
+      "en": "Contribution per unit = R50 - R30 = R20. Break-even point = R90 000 ÷ R20 = **4 500 units**.",
+      "af": "Bydrae per eenheid = R50 - R30 = R20. Gelykbreekpunt = R90 000 ÷ R20 = **4 500 eenhede**.",
+      "xh": "Igalelo ngeyunithi = R50 - R30 = R20. Indawo yokulingana = R90 000 ÷ R20 = **4 500 iiyunithi**."
+    }
+  },
+  {
+    "id": "acc_p2_budget_01",
+    "subject": "accounting",
+    "paper": 2,
+    "topic": "Budgeting",
+    "subtopic": "Cash Budget Variance",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "Budgeted cash receipts for a month were R250 000, but actual cash receipts were R230 000. Calculate the variance and state whether it is favourable or unfavourable.",
+      "af": "Begrote kontantontvangste vir 'n maand was R250 000, maar werklike kontantontvangste was R230 000. Bereken die afwyking en sê of dit gunstig of ongunstig is.",
+      "xh": "Iirisithi zemali ezazibhajethiwe ngenyanga zaziyi-R250 000, kodwa ezona risiithi zemali zaziyi-R230 000. Bala umahluko uze uchaze ukuba ulungile okanye awulunganga."
+    },
+    "scaffoldHint": {
+      "en": "Compare actual receipts with budgeted receipts. Lower actual receipts are unfavourable.",
+      "af": "Vergelyk werklike ontvangste met begrote ontvangste. Laer werklike ontvangste is ongunstig.",
+      "xh": "Thelekisa ezona risiithi kunye nezazibhajethiwe. Iirisithi zokwenene ezisezantsi azilunganga."
+    },
+    "memoText": {
+      "en": "Variance = R230 000 - R250 000 = **R20 000 unfavourable**.",
+      "af": "Afwyking = R230 000 - R250 000 = **R20 000 ongunstig**.",
+      "xh": "Umahluko = R230 000 - R250 000 = **R20 000 engalunganga**."
+    }
+  },
+  {
+    "id": "acc_p2_control_01",
+    "subject": "accounting",
+    "paper": 2,
+    "topic": "Internal Control",
+    "subtopic": "Inventory Shortage",
+    "difficulty": "medium",
+    "marks": 6,
+    "questionText": {
+      "en": "Inventory records show 320 units on hand, but a physical stock count finds only 292 units. Each unit costs R75. Calculate the shortage in units and rand, and suggest one internal-control measure to reduce future shortages.",
+      "af": "Voorraadrekords toon 320 eenhede voorhande, maar 'n fisiese voorraadtelling vind slegs 292 eenhede. Elke eenheid kos R75. Bereken die tekort in eenhede en rand, en stel een interne beheermaatreël voor om toekomstige tekorte te verminder.",
+      "xh": "Iirekhodi zempahla zibonisa iiyunithi ezingama-320 ezikhoyo, kodwa ubalo lwempahla lufumana kuphela iiyunithi ezingama-292. Iyunithi nganye ixabisa i-R75. Bala ukunqongophala ngeeyunithi nangemali, uze ucebise umlinganiselo omnye wolawulo lwangaphakathi wokunciphisa ukunqongophala kwixesha elizayo."
+    },
+    "scaffoldHint": {
+      "en": "Subtract the physical count from the recorded quantity, then multiply the shortage by unit cost.",
+      "af": "Trek die fisiese telling van die aangetekende hoeveelheid af en vermenigvuldig dan die tekort met die koste per eenheid.",
+      "xh": "Thabatha ubalo lwempahla kwinani elirekhodiweyo, uze uphindaphinde ukunqongophala ngexabiso leyunithi."
+    },
+    "memoText": {
+      "en": "Shortage = 320 - 292 = **28 units**. Rand value = 28 × R75 = **R2 100**. Valid control examples include regular independent stock counts, restricted access to stock, or checking stock records against physical counts.",
+      "af": "Tekort = 320 - 292 = **28 eenhede**. Randwaarde = 28 × R75 = **R2 100**. Geldige beheermaatreëls sluit gereelde onafhanklike voorraadtellings, beperkte toegang tot voorraad, of vergelyking van voorraadrekords met fisiese tellings in.",
+      "xh": "Ukunqongophala = 320 - 292 = **28 iiyunithi**. Ixabiso lerandi = 28 × R75 = **R2 100**. Imizekelo yolawulo ibandakanya ubalo lwempahla oluzimeleyo rhoqo, ukuthintela ukufikelela kwimpahla, okanye ukuthelekisa iirekhodi nobalo lwempahla."
+    }
+  }
+]
