@@ -1,0 +1,290 @@
+[
+  {
+    "id": "lang_p1_comp_01",
+    "subject": "languageskills",
+    "paper": 1,
+    "topic": "Comprehension",
+    "subtopic": "Main idea",
+    "difficulty": "easy",
+    "marks": 3,
+    "questionText": {
+      "en": "Read this short passage: A Grade 12 learner in Cape Town travels by bus to school and uses the trip to revise short notes on a phone. The learner says that small daily study sessions feel easier to maintain than one long session at the end of the week. State the MAIN IDEA of the passage in one sentence.",
+      "af": "Lees hierdie kort gedeelte: ’n Graad 12-leerder in Kaapstad ry per bus skool toe en gebruik die rit om kort notas op ’n selfoon te hersien. Die leerder sê klein daaglikse studiesessies is makliker om vol te hou as een lang sessie aan die einde van die week. Stel die HOOFGEDAGTE van die gedeelte in een sin.",
+      "xh": "Funda esi sicatshulwa sifutshane: Umfundi weBanga le-12 eKapa uhamba ngebhasi ukuya esikolweni aze asebenzise olo hambo ukuhlaziya amanqaku amafutshane kwifowuni. Umfundi uthi iiseshoni ezincinci zemihla ngemihla kulula ukuzigcina kuneseshoni enye ende ekupheleni kweveki. Chaza INGONGOMA EPHAMBILI yesicatshulwa ngesivakalisi esinye."
+    },
+    "scaffoldHint": {
+      "en": "Ask: what single message connects the bus trip, revision and daily routine?",
+      "af": "Vra: watter enkele boodskap verbind die busrit, hersiening en daaglikse roetine?",
+      "xh": "Buza: nguwuphi umyalezo omnye odibanisa uhambo lwebhasi, ukuhlaziya kunye nesiqhelo semihla ngemihla?"
+    },
+    "memoText": {
+      "en": "The passage shows that short, regular study sessions can make revision easier to maintain. Award for a clear statement of this central idea.",
+      "af": "Die gedeelte wys dat kort, gereelde studiesessies dit makliker kan maak om hersiening vol te hou. Ken punte toe vir ’n duidelike stelling van hierdie kerngedagte.",
+      "xh": "Isicatshulwa sibonisa ukuba iiseshoni zokufunda ezimfutshane neziqhubekayo zinokwenza kube lula ukuqhubeka nokuhlaziya. Nika amanqaku ngengongoma ephambili echazwe ngokucacileyo."
+    }
+  },
+  {
+    "id": "lang_p1_comp_02",
+    "subject": "languageskills",
+    "paper": 1,
+    "topic": "Comprehension",
+    "subtopic": "Inference",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "A school notice says: 'The library will stay open until 17:00 during the two weeks before final examinations. Learners must sign in at the front desk.' What can you INFER about why the school changed the library hours? Give TWO points.",
+      "af": "’n Skoolkennisgewing lui: 'Die biblioteek sal gedurende die twee weke voor die eindeksamen tot 17:00 oopbly. Leerders moet by die ontvangs inteken.' Wat kan jy AFLEI oor waarom die skool die biblioteekure verander het? Gee TWEE punte.",
+      "xh": "Isaziso sesikolo sithi: 'Ithala leencwadi liya kuhlala livuliwe kude kube ngu-17:00 kwiiveki ezimbini phambi kweemviwo zokugqibela. Abafundi kufuneka babhalise kwidesika engaphambili.' Yintoni onokuyicingela ngesizathu sokuba isikolo sitshintshe iiyure zethala leencwadi? Nika IINGONGOMA EZIMBINI."
+    },
+    "scaffoldHint": {
+      "en": "Link the timing to exam preparation and the sign-in rule to supervision or safety.",
+      "af": "Koppel die tydsberekening aan eksamenvoorbereiding en die intekenreël aan toesig of veiligheid.",
+      "xh": "Dibanisa ixesha nokulungiselela iimviwo kunye nomthetho wokubhalisa kulawulo okanye kukhuseleko."
+    },
+    "memoText": {
+      "en": "Possible inferences: the school wants to give learners more supervised study time before exams (2); signing in helps the school monitor who is using the facility and supports safety/accountability (2).",
+      "af": "Moontlike afleidings: die skool wil leerders meer studietyd onder toesig voor eksamens gee (2); inteken help die skool om te monitor wie die fasiliteit gebruik en bevorder veiligheid/aanspreeklikheid (2).",
+      "xh": "Okunokugqitywa: isikolo sifuna ukunika abafundi ixesha elininzi lokufunda phantsi kolawulo phambi kweemviwo (2); ukubhalisa kunceda isikolo sazi ukuba ngubani osebenzisa indawo kwaye kuxhasa ukhuseleko noxanduva (2)."
+    }
+  },
+  {
+    "id": "lang_p1_summary_03",
+    "subject": "languageskills",
+    "paper": 1,
+    "topic": "Summary",
+    "subtopic": "Selecting key points",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "You must summarise advice for preparing for an examination. Which FIVE ideas should normally be kept: plan study time; revise weak topics; sleep sufficiently; arrive early; read instructions carefully; describe your favourite television show; list every meal you ate this week?",
+      "af": "Jy moet raad oor voorbereiding vir ’n eksamen opsom. Watter VYF idees moet normaalweg behou word: beplan studietyd; hersien swak onderwerpe; slaap genoeg; kom vroeg; lees instruksies noukeurig; beskryf jou gunsteling televisieprogram; lys elke maaltyd wat jy hierdie week geëet het?",
+      "xh": "Kufuneka ushwankathele iingcebiso zokulungiselela uviwo. Zeziphi IINGONGOMA EZINTLANU ekufanele zigcinwe: cwangcisa ixesha lokufunda; hlaziya izihloko obuthathaka kuzo; lala ngokwaneleyo; fika kwangethuba; funda imiyalelo ngononophelo; chaza inkqubo yakho oyithandayo kamabonakude; dwelisa konke ukutya okutyileyo kule veki?"
+    },
+    "scaffoldHint": {
+      "en": "Keep only ideas directly connected to exam preparation.",
+      "af": "Behou slegs idees wat direk met eksamenvoorbereiding verband hou.",
+      "xh": "Gcina kuphela iingongoma ezinxulumene ngqo nokulungiselela uviwo."
+    },
+    "memoText": {
+      "en": "Keep: plan study time; revise weak topics; sleep sufficiently; arrive early; read instructions carefully. The television-show and meal details are irrelevant.",
+      "af": "Behou: beplan studietyd; hersien swak onderwerpe; slaap genoeg; kom vroeg; lees instruksies noukeurig. Die televisieprogram- en maaltydbesonderhede is irrelevant.",
+      "xh": "Gcina: cwangcisa ixesha lokufunda; hlaziya izihloko obuthathaka kuzo; lala ngokwaneleyo; fika kwangethuba; funda imiyalelo ngononophelo. Iinkcukacha zenkqubo kamabonakude nezokutya azihambelani nomsebenzi."
+    }
+  },
+  {
+    "id": "lang_p1_summary_04",
+    "subject": "languageskills",
+    "paper": 1,
+    "topic": "Summary",
+    "subtopic": "Paraphrasing",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "Rewrite this idea in your own words without changing its meaning: 'Learners should check the number of marks before deciding how much detail to include in an answer.'",
+      "af": "Skryf hierdie idee in jou eie woorde sonder om die betekenis te verander: 'Leerders moet die aantal punte nagaan voordat hulle besluit hoeveel besonderhede om in ’n antwoord in te sluit.'",
+      "xh": "Bhala le ngcinga ngamazwi akho ngaphandle kokutshintsha intsingiselo: 'Abafundi kufuneka bajonge inani lamanqaku phambi kokuba bagqibe ukuba zingakanani iinkcukacha abaza kuzifaka kwimpendulo.'"
+    },
+    "scaffoldHint": {
+      "en": "Keep the two ideas: marks guide the amount of detail; use different wording.",
+      "af": "Behou die twee idees: punte bepaal die hoeveelheid besonderhede; gebruik ander bewoording.",
+      "xh": "Gcina iingongoma ezimbini: amanqaku akhokela ubungakanani beenkcukacha; sebenzisa amagama ahlukileyo."
+    },
+    "memoText": {
+      "en": "Example: Use the mark allocation to judge how detailed your answer should be. Any accurate paraphrase earns credit.",
+      "af": "Voorbeeld: Gebruik die puntetoekenning om te bepaal hoe volledig jou antwoord moet wees. Enige akkurate parafrase verdien krediet.",
+      "xh": "Umzekelo: Sebenzisa ulwabiwo lwamanqaku ukugqiba ukuba impendulo yakho kufuneka ibe neenkcukacha ezingakanani. Naluphi na uguqulelo oluchanekileyo ngamazwi akho luyamkeleka."
+    }
+  },
+  {
+    "id": "lang_p1_visual_05",
+    "subject": "languageskills",
+    "paper": 1,
+    "topic": "Visual Literacy",
+    "subtopic": "Purpose and audience",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "Imagine a poster at a Western Cape school showing a large water bottle, the words 'BRING WATER TO YOUR EXAM', and a small reminder to use a clear bottle. Identify the likely PURPOSE and TARGET AUDIENCE of the poster.",
+      "af": "Stel jou ’n plakkaat by ’n Wes-Kaapse skool voor met ’n groot waterbottel, die woorde 'BRING WATER NA JOU EKSAMEN', en ’n klein herinnering om ’n deursigtige bottel te gebruik. Identifiseer die waarskynlike DOEL en TEIKENGEHOOR van die plakkaat.",
+      "xh": "Cinga ngepowusta esikolweni saseNtshona Koloni enebhotile enkulu yamanzi, amagama athi 'YIZA NAMANZI KUVIWO', kunye nesikhumbuzo esincinci sokusebenzisa ibhotile ebonakalayo. Chonga INJONGO kunye NABANTU ekujoliswe kubo yipowusta."
+    },
+    "scaffoldHint": {
+      "en": "Purpose = what the poster wants people to do. Audience = who needs the message.",
+      "af": "Doel = wat die plakkaat wil hê mense moet doen. Gehoor = wie die boodskap nodig het.",
+      "xh": "Injongo = into ipowusta efuna abantu bayenze. Abantu ekujoliswe kubo = abo bafuna lo myalezo."
+    },
+    "memoText": {
+      "en": "Purpose: remind/encourage examination candidates to bring permitted water in a clear bottle (2). Audience: learners writing examinations at the school (2).",
+      "af": "Doel: herinner/moedig eksamenkandidate aan om toegelate water in ’n deursigtige bottel saam te bring (2). Teikengehoor: leerders wat eksamen by die skool skryf (2).",
+      "xh": "Injongo: ukukhumbuza/ukukhuthaza ababhali beemviwo ukuba beze namanzi avumelekileyo kwibhotile ebonakalayo (2). Abantu ekujoliswe kubo: abafundi ababhala iimviwo esikolweni (2)."
+    }
+  },
+  {
+    "id": "lang_p1_visual_06",
+    "subject": "languageskills",
+    "paper": 1,
+    "topic": "Visual Literacy",
+    "subtopic": "Persuasive technique",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "An advertisement for a low-data study app uses the line 'Study anywhere. Even when data is finished.' and shows a learner using an ordinary phone on a bus. Explain TWO ways the advertisement tries to persuade its audience.",
+      "af": "’n Advertensie vir ’n laedata-studie-app gebruik die reël 'Leer enige plek. Selfs wanneer jou data klaar is.' en wys ’n leerder wat ’n gewone selfoon op ’n bus gebruik. Verduidelik TWEE maniere waarop die advertensie sy gehoor probeer oortuig.",
+      "xh": "Intengiso ye-app yokufunda esebenzisa idatha encinci ithi 'Funda naphi na. Nokuba idatha iphelile.' kwaye ibonisa umfundi esebenzisa ifowuni eqhelekileyo ebhasini. Chaza IINDLELA EZIMBINI intengiso ezama ngazo ukweyisela abantu."
+    },
+    "scaffoldHint": {
+      "en": "Consider the promise in the slogan and the relatable image.",
+      "af": "Dink aan die belofte in die slagspreuk en die herkenbare beeld.",
+      "xh": "Cinga ngesithembiso esikwisilogeni kunye nomfanekiso oqhelekileyo kubafundi."
+    },
+    "memoText": {
+      "en": "The slogan promises convenience/offline usefulness and directly addresses data limits (2). The image presents an ordinary, relatable learner and suggests the app works during everyday travel (2).",
+      "af": "Die slagspreuk beloof gerief/vanlyn bruikbaarheid en spreek databeperkings direk aan (2). Die beeld wys ’n gewone, herkenbare leerder en suggereer dat die app tydens alledaagse reis werk (2).",
+      "xh": "Isilogeni sithembisa ukusetyenziswa lula/ngaphandle kwedatha kwaye sithetha ngqo ngengxaki yedatha (2). Umfanekiso ubonisa umfundi oqhelekileyo kwaye ucebisa ukuba i-app isebenza nakuhambo lwemihla ngemihla (2)."
+    }
+  },
+  {
+    "id": "lang_p2_structure_07",
+    "subject": "languageskills",
+    "paper": 2,
+    "topic": "Language Structures",
+    "subtopic": "Register",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "A learner writes to a principal: 'Hey, I wanna know if you can move the exam, cos Friday is rough.' Identify TWO problems with the REGISTER and rewrite the sentence more appropriately.",
+      "af": "’n Leerder skryf aan ’n skoolhoof: 'Hey, ek wil weet of jy die eksamen kan skuif, want Vrydag is rof.' Identifiseer TWEE probleme met die REGISTER en herskryf die sin meer gepas.",
+      "xh": "Umfundi ubhalela inqununu athi: 'Hey, ndifuna ukwazi ukuba ungakwazi na ukuhambisa uviwo, kuba uLwesihlanu unzima.' Chonga IINGXAKI EZIMBINI kwindlela yolwimi uze uphinde ubhale isivakalisi ngendlela efanelekileyo."
+    },
+    "scaffoldHint": {
+      "en": "A message to a principal should be polite and formal.",
+      "af": "’n Boodskap aan ’n skoolhoof behoort beleefd en formeel te wees.",
+      "xh": "Umyalezo oya kwinqununu kufuneka ube nembeko kwaye usebenzise ulwimi olusesikweni."
+    },
+    "memoText": {
+      "en": "Problems include slang/informal greeting and casual wording (2). Example rewrite: 'Good day, Principal. Could you please advise whether the examination date can be reconsidered, as Friday presents a difficulty?' (2).",
+      "af": "Probleme sluit sleng/informele groet en te gemaklike bewoording in (2). Voorbeeld: 'Goeiedag, Skoolhoof. Kan u asseblief aandui of die eksamendatum heroorweeg kan word, aangesien Vrydag ’n probleem skep?' (2).",
+      "xh": "Iingxaki ziquka ulwimi olungaqhelekanga/umbuliso ongasesikweni kunye namagama angafanelekanga (2). Umzekelo: 'Molo, Nqununu. Nceda usazise ukuba umhla woviwo ungaphinda uqwalaselwe na, kuba uLwesihlanu usinika ubunzima?' (2)."
+    }
+  },
+  {
+    "id": "lang_p2_structure_08",
+    "subject": "languageskills",
+    "paper": 2,
+    "topic": "Language Structures",
+    "subtopic": "Ambiguity",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "Explain why this sentence is ambiguous and rewrite it clearly: 'The teacher told the learner that she needed more time.'",
+      "af": "Verduidelik waarom hierdie sin dubbelsinnig is en herskryf dit duidelik: 'Die onderwyser het vir die leerder gesê dat sy meer tyd nodig het.'",
+      "xh": "Chaza ukuba kutheni esi sivakalisi singacacanga uze usibhale kwakhona ngokucacileyo: 'Utitshala uxelele umfundi ukuba yena ufuna ixesha elingakumbi.'"
+    },
+    "scaffoldHint": {
+      "en": "Who does 'she' refer to?",
+      "af": "Na wie verwys 'sy'?",
+      "xh": "Igama elithi 'yena' libhekisa kubani?"
+    },
+    "memoText": {
+      "en": "It is unclear whether the teacher or the learner needs more time (2). Clear rewrite example: 'The teacher told the learner, “You need more time.”' or 'The teacher said that the teacher herself needed more time.' (2).",
+      "af": "Dit is onduidelik of die onderwyser of die leerder meer tyd nodig het (2). Duidelike voorbeeld: 'Die onderwyser het vir die leerder gesê: “Jy het meer tyd nodig.”' of 'Die onderwyser het gesê dat sy self meer tyd nodig het.' (2).",
+      "xh": "Akucaci ukuba ngutitshala okanye ngumfundi ofuna ixesha elingakumbi (2). Umzekelo ocacileyo: 'Utitshala uxelele umfundi wathi, “Wena ufuna ixesha elingakumbi.”' okanye 'Utitshala uthe yena ngokwakhe ufuna ixesha elingakumbi.' (2)."
+    }
+  },
+  {
+    "id": "lang_p2_edit_09",
+    "subject": "languageskills",
+    "paper": 2,
+    "topic": "Editing",
+    "subtopic": "Punctuation and sentence control",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "Correct the punctuation and sentence boundary in: 'Before the exam I checked my calculator my pens and my admission letter everything was ready.'",
+      "af": "Korrigeer die leestekens en sinsgrens in: 'Voor die eksamen het ek my sakrekenaar my penne en my toelatingsbrief nagegaan alles was gereed.'",
+      "xh": "Lungisa iziphumlisi kunye nokwahlulwa kwezivakalisi kule nto: 'Phambi koviwo ndajonga ikhalityhuleyitha iipeni kunye neleta yam yokwamkelwa yonke into yayilungile.'"
+    },
+    "scaffoldHint": {
+      "en": "Use commas in the list and separate the final complete thought.",
+      "af": "Gebruik kommas in die lys en skei die laaste volledige gedagte.",
+      "xh": "Sebenzisa iikoma kuluhlu uze wahlule ingcinga yokugqibela epheleleyo."
+    },
+    "memoText": {
+      "en": "Example: 'Before the exam, I checked my calculator, my pens and my admission letter. Everything was ready.' Accept equivalent correct punctuation.",
+      "af": "Voorbeeld: 'Voor die eksamen het ek my sakrekenaar, my penne en my toelatingsbrief nagegaan. Alles was gereed.' Aanvaar gelykwaardige korrekte leestekens.",
+      "xh": "Umzekelo: 'Phambi koviwo, ndajonga ikhalityhuleyitha, iipeni kunye neleta yam yokwamkelwa. Yonke into yayilungile.' Yamkela olunye ulungiso oluchanekileyo."
+    }
+  },
+  {
+    "id": "lang_p2_edit_10",
+    "subject": "languageskills",
+    "paper": 2,
+    "topic": "Editing",
+    "subtopic": "Conciseness",
+    "difficulty": "medium",
+    "marks": 3,
+    "questionText": {
+      "en": "Edit this sentence to make it concise without losing meaning: 'Due to the fact that the bus was late, the learner arrived at school at a later time than expected.'",
+      "af": "Redigeer hierdie sin om dit bondig te maak sonder om betekenis te verloor: 'As gevolg van die feit dat die bus laat was, het die leerder later by die skool aangekom as wat verwag is.'",
+      "xh": "Hlela esi sivakalisi sibe mfutshane ngaphandle kokulahlekelwa yintsingiselo: 'Ngenxa yento yokuba ibhasi ifike emva kwexesha, umfundi wafika esikolweni ngexesha elalisemva kwelo lalilindelwe.'"
+    },
+    "scaffoldHint": {
+      "en": "Replace wordy phrases with shorter equivalents.",
+      "af": "Vervang omslagtige frases met korter ekwivalente.",
+      "xh": "Tshintsha amabinzana amade usebenzise amagama amafutshane anentsingiselo efanayo."
+    },
+    "memoText": {
+      "en": "Example: 'Because the bus was late, the learner arrived at school later than expected.'",
+      "af": "Voorbeeld: 'Omdat die bus laat was, het die leerder later as verwag by die skool aangekom.'",
+      "xh": "Umzekelo: 'Kuba ibhasi yayisemva kwexesha, umfundi wafika esikolweni emva kwexesha elilindelekileyo.'"
+    }
+  },
+  {
+    "id": "lang_p2_exam_11",
+    "subject": "languageskills",
+    "paper": 2,
+    "topic": "Exam Technique",
+    "subtopic": "Command words",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "Explain the difference between the command words IDENTIFY and EXPLAIN in an examination question, and state what a learner should do for each.",
+      "af": "Verduidelik die verskil tussen die opdragwoorde IDENTIFISEER en VERDUIDELIK in ’n eksamenvraag, en sê wat ’n leerder vir elkeen moet doen.",
+      "xh": "Chaza umahluko phakathi kwamagama omyalelo CHONGA kunye CHAZA kumbuzo woviwo, uze uchaze ukuba umfundi kufuneka enze ntoni kwelinye nelinye."
+    },
+    "scaffoldHint": {
+      "en": "Identify usually needs the correct item; explain needs the item plus how/why.",
+      "af": "Identifiseer vereis gewoonlik die korrekte item; verduidelik vereis die item plus hoe/waarom.",
+      "xh": "Ukuchonga kufuna impendulo echanekileyo; ukuchaza kufuna impendulo kunye nendlela okanye isizathu."
+    },
+    "memoText": {
+      "en": "IDENTIFY: name/state the required item directly (2). EXPLAIN: give the point and show how or why it is relevant, usually with supporting detail (2).",
+      "af": "IDENTIFISEER: noem/stel die vereiste item direk (2). VERDUIDELIK: gee die punt en toon hoe of waarom dit relevant is, gewoonlik met ondersteunende besonderhede (2).",
+      "xh": "CHONGA: biza okanye chaza into efunekayo ngokuthe ngqo (2). CHAZA: nika ingongoma uze ubonise indlela okanye isizathu sokuba ibalulekile, ngenkcukacha exhasayo (2)."
+    }
+  },
+  {
+    "id": "lang_p2_exam_12",
+    "subject": "languageskills",
+    "paper": 2,
+    "topic": "Exam Technique",
+    "subtopic": "Mark allocation and checking",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "A learner has 8 minutes left and two unanswered questions: Question A is worth 6 marks and Question B is worth 2 marks. Give TWO sensible exam-technique actions the learner should take and explain why.",
+      "af": "’n Leerder het 8 minute oor en twee onbeantwoorde vrae: Vraag A tel 6 punte en Vraag B tel 2 punte. Gee TWEE verstandige eksamentegniek-stappe wat die leerder moet neem en verduidelik waarom.",
+      "xh": "Umfundi unemizuzu esi-8 eseleyo kunye nemibuzo emibini engaphendulwanga: Umbuzo A unamanqaku ama-6 kwaye Umbuzo B unamanqaku ama-2. Nika AMANYATHELO AMABINI afanelekileyo obuchule boviwo umfundi amele ukuwathatha uze uchaze isizathu."
+    },
+    "scaffoldHint": {
+      "en": "Use marks and remaining time to prioritise, but try to collect easy marks too.",
+      "af": "Gebruik punte en oorblywende tyd om te prioritiseer, maar probeer ook maklike punte kry.",
+      "xh": "Sebenzisa amanqaku kunye nexesha eliseleyo ukwenza izinto ezibalulekileyo kuqala, kodwa zama nokufumana amanqaku alula."
+    },
+    "memoText": {
+      "en": "Examples: allocate more time to the 6-mark question because it carries greater value (2); still answer the 2-mark question briefly if possible because leaving it blank guarantees no marks, and reserve a final moment to check numbering/instructions (any sensible second action, 2).",
+      "af": "Voorbeelde: gee meer tyd aan die 6-punt-vraag omdat dit meer punte werd is (2); beantwoord steeds die 2-punt-vraag kortliks indien moontlik omdat ’n blanko antwoord geen punte kan verdien nie, en gebruik ’n laaste oomblik om nommering/instruksies na te gaan (enige sinvolle tweede stap, 2).",
+      "xh": "Imizekelo: nika ixesha elininzi kumbuzo wamanqaku ama-6 kuba unexabiso elikhulu (2); zama ukuphendula nombuzo wamanqaku ama-2 ngokufutshane kuba ukuwushiya ungenanto kuqinisekisa ukuba awufumani manqaku, kwaye gcina umzuzwana wokugqibela ukujonga iinombolo nemiyalelo (naliphi na inyathelo lesibini elifanelekileyo, 2)."
+    }
+  }
+]
