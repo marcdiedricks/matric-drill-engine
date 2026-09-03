@@ -1,4 +1,5 @@
 import Dexie, { type Table } from 'dexie';
+import { applyVerifiedContentCorrections } from './contentCorrections';
 
 export type Language = 'en' | 'af' | 'xh';
 
@@ -88,13 +89,15 @@ export async function initDatabase(subject: string): Promise<void> {
 
     if (rawList.length === 0) return;
 
-    const questionList: QuestionRecord[] = rawList.map((q: any) => ({
-      ...q,
-      subject,
-      questionText: toLocalizedString(q.questionText),
-      scaffoldHint: toLocalizedString(q.scaffoldHint),
-      memoText: toLocalizedString(q.memoText)
-    }));
+    const questionList: QuestionRecord[] = rawList
+      .map((q: any) => ({
+        ...q,
+        subject,
+        questionText: toLocalizedString(q.questionText),
+        scaffoldHint: toLocalizedString(q.scaffoldHint),
+        memoText: toLocalizedString(q.memoText)
+      }) as QuestionRecord)
+      .map(applyVerifiedContentCorrections);
 
     await db.transaction('rw', db.questions, async () => {
       const existing = await db.questions.where('subject').equals(subject).toArray();
