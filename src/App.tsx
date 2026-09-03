@@ -14,7 +14,8 @@ const SUBJECTS = [
   { id: 'geography', name: 'Geography' },
   { id: 'economics', name: 'Economics' },
   { id: 'history', name: 'History' },
-  { id: 'languageskills', name: 'Language Exam Skills' }
+  { id: 'languageskills', name: 'Language Exam Skills' },
+  { id: 'tourism', name: 'Tourism' }
 ];
 
 const UI = {
@@ -33,7 +34,8 @@ const SUBJECT_NAMES: Record<string, Record<Language, string>> = {
   geography: { en: 'Geography', af: 'Geografie', xh: 'IJografi' },
   economics: { en: 'Economics', af: 'Ekonomie', xh: 'EzoQoqosho' },
   history: { en: 'History', af: 'Geskiedenis', xh: 'Imbali' },
-  languageskills: { en: 'Language Exam Skills', af: 'Taaleksamenvaardighede', xh: 'Izakhono zoVavanyo loLwimi' }
+  languageskills: { en: 'Language Exam Skills', af: 'Taaleksamenvaardighede', xh: 'Izakhono zoVavanyo loLwimi' },
+  tourism: { en: 'Tourism', af: 'Toerisme', xh: 'Ezokhenketho' }
 };
 
 function renderMathInText(text: string): string {
