@@ -124,6 +124,35 @@ Do not automatically expand into another subject. The next move is a controlled 
 - **MDE-TOUR-03:** Learner / production / single-paper / offline acceptance — **PASS**.
 - **MDE-TOUR-04:** Tourism launch-baseline freeze — **COMPLETE**.
 
+## PHASE 2 — EDUCATIONAL IMPACT EXPANSION
+
+**Decision:** Depth before breadth. Tier 3 technical subjects and Tier 4B specialist subjects remain pending while the existing launch subjects are made substantially more useful per learner.
+
+Phase 2 is governed by the detailed programme in `01_PHASE_2_EDUCATIONAL_IMPACT_EXPANSION.md` and has six locked pillars:
+
+1. **Curriculum Impact Matrix** — audit each existing subject against important Grade 12 curriculum and examination areas before adding content.
+2. **Expanded High-Value Drill Bank** — grow the current 12–16 question packs in controlled waves, initially toward approximately 24–30 carefully chosen drills per subject rather than random volume.
+3. **Weak-Spot and Exam-Survival Modes** — build on existing scoring and weak-spot persistence with Quick Drill, Exam Survival and Drill My Weak Spots paths.
+4. **Curated Video Learning Link Repository** — store links and metadata only, never the videos; keep the core PWA fully useful offline and use video as an optional connected learning path.
+5. **Matric Learner Support and Resilience Hub** — offline practical guidance on study methods, study planning, exam technique, ordinary exam stress, exam-day preparation and seeking appropriate support when needed.
+6. **Official DBE/WCED Resource Gateway** — curated links to useful official past papers, memoranda, study guides, revision resources and examination-readiness material when connectivity is available.
+
+### Phase 2 educational design rules
+
+- The app remains a practical revision and diagnostic companion, not a replacement for school, teachers, textbooks, full curriculum materials or complete past-paper practice.
+- New questions must close a verified educational gap identified by the Curriculum Impact Matrix.
+- Memoranda may add concise `Common mistake`, `Why marks are lost`, or `Exam tip` guidance where it materially helps the learner.
+- Video and external resources are supplementary; the learner must retain the core learning experience without data.
+- Performance feedback must be practical and non-shaming.
+- Model-generated translations remain distinct from human-reviewed language content.
+- Existing frozen subjects are expanded one at a time using inspect → matrix → smallest safe increment → test → verify → re-freeze.
+
+### Phase 2 restart checkpoint
+
+**MDE-IMPACT-01 — Mathematics Curriculum Impact Matrix.**
+
+First controlled action on restart: audit the existing Mathematics launch pack against the highest-value Grade 12 curriculum and examination areas, identify gaps and propose the smallest controlled expansion. Do not add new Mathematics questions until the matrix has been reviewed and accepted.
+
 ## CURRENT RISK
 
-The Sunday launch deadline remains close. The controlled launch-priority subject wave is complete, but this does not mean every subject is fully syllabus-complete or human-certified. Scope discipline remains mandatory. The next action must be launch-readiness reassessment before any new subject expansion.
+The Sunday launch deadline remains close. The controlled launch-priority subject wave is complete, but this does not mean every subject is fully syllabus-complete or human-certified. Scope discipline remains mandatory. Phase 2 must improve educational impact without destabilising the verified launch baseline or turning the PWA into a high-data content repository.
