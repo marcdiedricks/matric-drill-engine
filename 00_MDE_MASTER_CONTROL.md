@@ -36,8 +36,9 @@ Every build decision must pass all of these gates:
 | Tier 1: Core STEM | Physical Sciences | Physics/Chemistry topic-family pack, KaTeX, EN/AF/XH | **FROZEN LAUNCH BASELINE — 14-question coverage pack** |
 | Tier 1: High-Enrollment | Mathematical Literacy | Finance, Data, Probability, Measurement, Maps/Plans, EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
 | Tier 1: Commerce | Accounting | Paper 1 Financial Reporting & Evaluation; Paper 2 Managerial Accounting, Internal Auditing & Control; EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
-| Tier 1: Commerce | Business Studies | Paper 1 Business Environments & Operations; Paper 2 Business Ventures & Roles; EN/AF/XH | **ACTIVE — 12-question coverage pack ready for build verification** |
-| Tier 2: Humanities | Geography / History / Economics / Tourism | Curriculum and exam-bank ingestion | **Pending** |
+| Tier 1: Commerce | Business Studies | Paper 1 Business Environments & Operations; Paper 2 Business Ventures & Roles; EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
+| Tier 2: Humanities | Geography | Climate & Weather, Geomorphology, Rural/Urban Settlements, Economic Geography, Mapwork/GIS | **ACTIVE — next subject gate** |
+| Tier 2: Humanities | History / Economics / Tourism | Curriculum and exam-bank ingestion | **Pending** |
 | Tier 3: Technical | Civil / Mechanical / Electrical / EGD | Technical banks + schematic/diagram caching | **Pending** |
 | Tier 4: Languages & Arts | Language / Arts / Music content | Comprehension/text/audio/media/archive support | **Pending** |
 
@@ -71,44 +72,34 @@ Verified: 1/12 loading; EN/AF/XH learner views; paper/topic filters; hints; memo
 
 **Limitation:** functionally launchable topic-family baseline only. Not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
 
-## CURRENT SUBJECT GATE — BUSINESS STUDIES
+## BUSINESS STUDIES FREEZE RECORD — 3 SEPTEMBER 2026
 
-**Only active subject:** Business Studies
+Verified:
+- Business Studies loads as **1 / 12**.
+- English / Afrikaans / isiXhosa switching works.
+- Paper 1 filter shows **1 / 6**.
+- Paper 2 filter shows **1 / 6**.
+- Memorandum rendering works.
+- Next navigation and topic filtering work.
+- Production build passed.
+- Offline reload was user-verified with connectivity disabled.
 
-Repository audit result:
-- No `public/packs/business.json` existed in `main`.
-- Repository search found no alternative Business Studies learner pack.
-- Therefore there was no existing Business Studies learner content to preserve or duplicate.
+**Limitation:** functionally launchable 12-question topic-family baseline only. Not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
 
-The controlled `business-launch-01` branch now contains a **12-question original curriculum-aligned launch pack** using EN/AF/XH item records.
+## CURRENT SUBJECT GATE — GEOGRAPHY
 
-Paper 1 — 6 questions:
-- Business Environments: macro-environment impact
-- Business Environments: legislation and compliance
-- Business Operations: human-resources recruitment/selection
-- Business Operations: quality management
-- Business Operations: training and development
-- Business Environments: SWOT/business strategies
+**Only active subject:** Geography
 
-Paper 2 — 6 questions:
-- Business Ventures: management and leadership
-- Business Ventures: investment
-- Business Ventures: insurance
-- Business Roles: conflict management
-- Business Roles: team performance
-- Business Roles: ethics and professionalism
+Mathematics, Life Sciences, Physical Sciences, Mathematical Literacy, Accounting and Business Studies are frozen. Any change to those subjects now requires a controlled correction branch, explicit test, verification and re-freeze.
 
-### Business Studies next gate
-1. GitHub build check.
-2. Merge only if build passes.
-3. Learner-side test: confirm **1 / 12**.
-4. Verify EN / AF / XH switching.
-5. Verify Paper 1 shows **1 / 6** and Paper 2 shows **1 / 6**.
-6. Verify topic filters, hints, memoranda and navigation.
-7. Run production build and offline reload.
-8. Freeze only after those tests pass.
-
-**Important limitation:** this is a launch coverage pack, not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
+Geography next action:
+1. Inspect the repository for any existing Geography learner pack before creating anything new.
+2. Audit question count, schema, language coverage and paper/topic distribution if a pack exists.
+3. Map Grade 12 Geography topic-family coverage, including mapwork/GIS.
+4. Preserve usable existing material and replace only placeholder, monolingual or structurally incompatible records.
+5. Build one controlled EN/AF/XH launch pack.
+6. Run GitHub build check.
+7. Learner test → production/offline test → freeze before opening the next subject lane.
 
 ## LAUNCH REPAIR / FREEZE STATUS
 
@@ -134,8 +125,11 @@ Paper 2 — 6 questions:
 - **MDE-ACC-03:** Accounting learner / production / offline acceptance — **PASS**.
 - **MDE-ACC-04:** Accounting launch baseline freeze — **COMPLETE**.
 - **MDE-BS-01:** Business Studies existing-pack audit — **PASS — no existing pack found**.
-- **MDE-BS-02:** 12-question EN/AF/XH Business Studies launch pack — **READY FOR BUILD VERIFICATION**.
+- **MDE-BS-02:** 12-question EN/AF/XH Business Studies launch pack — **PASS**.
+- **MDE-BS-03:** Business Studies learner / production / offline acceptance — **PASS**.
+- **MDE-BS-04:** Business Studies launch baseline freeze — **COMPLETE**.
+- **MDE-GEO-01:** Geography existing-pack audit — **NEXT**.
 
 ## CURRENT RISK
 
-The Sunday launch deadline remains close. Scope discipline is mandatory. Only Business Studies is open now. Do not open another subject until Business Studies reaches its controlled freeze gate.
+The Sunday launch deadline remains close. Scope discipline is mandatory. Only Geography is open now. Do not open History, Economics, Tourism or another subject until Geography reaches its controlled freeze gate.
