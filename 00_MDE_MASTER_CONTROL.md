@@ -39,7 +39,7 @@ Every build decision must pass all of these gates:
 | Tier 1: Commerce | Business Studies | Paper 1 Business Environments & Operations; Paper 2 Business Ventures & Roles; EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
 | Tier 2: Humanities | Geography | Climate & Weather, Geomorphology, Rural/Urban Settlements, Economic Geography, Mapwork/GIS | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
 | Tier 2: Humanities | Economics | Paper 1 Macroeconomics & Economic Pursuits; Paper 2 Microeconomics & Contemporary Economic Issues; EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
-| Tier 2: Humanities | History | Grade 12 Paper 1 & 2 topic-family launch pack, EN/AF/XH | **ACTIVE — next subject gate** |
+| Tier 2: Humanities | History | Grade 12 Paper 1 & 2 topic-family launch pack, EN/AF/XH | **ACTIVE — 12-question launch pack ready for build verification** |
 | Tier 2: Humanities | Tourism | Curriculum and exam-bank ingestion | **Pending — Western Cape launch-priority subject** |
 | Tier 3: Technical | Civil / Mechanical / Electrical / EGD | Technical banks + schematic/diagram caching | **Pending — post-launch priority wave** |
 | Tier 4A: Core Language Exam Support | English / Afrikaans / isiXhosa | Comprehension, summary, visual literacy, language structures, editing and exam technique | **Pending — launch-priority mini-layer** |
@@ -86,13 +86,46 @@ Verified:
 
 Mathematics, Life Sciences, Physical Sciences, Mathematical Literacy, Accounting, Business Studies, Geography and Economics are frozen. Any change to a frozen subject requires a controlled correction branch, explicit test, verification and re-freeze.
 
-### History next action
-1. Inspect the repository for any existing History learner pack before creating anything new.
-2. Audit any existing pack for question count, schema, language coverage and Paper 1 / Paper 2 distribution.
-3. Preserve usable existing work and avoid duplication.
-4. Build only the smallest controlled EN/AF/XH launch baseline required.
-5. Run GitHub build check.
-6. Learner test → production/offline test → freeze before opening the language exam-skills layer.
+Repository audit result:
+- No `public/packs/history.json` existed in `main`.
+- Repository search found no alternative History learner pack.
+- History was not registered in the app subject selector.
+- The existing dynamic pack loader already supports `/packs/<subject>.json`, so no engine redesign is required.
+
+The controlled `history-launch-01` branch now contains:
+- History registered in the learner selector as English `History`, Afrikaans `Geskiedenis`, isiXhosa `Imbali`.
+- A **12-question original curriculum-aligned EN/AF/XH launch pack**.
+
+Paper 1 — 6 questions:
+- The Cold War: origins of the Cold War
+- Extension of the Cold War: Vietnam
+- Independent Africa: Angola and the Cold War
+- Independent Africa: the Congo after independence
+- Civil Society Protests: US Civil Rights Movement
+- Civil Society Protests: Black Power Movement
+
+Paper 2 — 6 questions:
+- Civil Resistance in South Africa: Black Consciousness
+- Civil Resistance in South Africa: crisis of apartheid in the 1980s
+- Coming of Democracy in South Africa: negotiated settlement
+- Coming of Democracy in South Africa: Truth and Reconciliation Commission
+- End of the Cold War and a New World Order: Gorbachev and Soviet collapse
+- End of the Cold War and a New World Order: impact on South Africa
+
+The topic map follows the DBE Grade 12 History examination-guideline structure. South African material is naturally prominent in Paper 2, while Paper 1 retains the prescribed international/African case-study focus.
+
+### History next gate
+1. Run GitHub build check.
+2. Merge only if build passes.
+3. Learner-side test: confirm **1 / 12**.
+4. Verify EN / AF / XH switching and History subject names.
+5. Verify Paper 1 shows **1 / 6** and Paper 2 shows **1 / 6**.
+6. Verify topic filters, hints, memoranda and navigation.
+7. Run local production build and preview.
+8. Verify offline reload.
+9. Freeze only after those tests pass, then open the language exam-skills layer.
+
+**Important limitation:** this is a launch coverage pack, not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
 
 ## LOCKED WESTERN CAPE PRIORITY SEQUENCE
 
@@ -109,11 +142,9 @@ After that launch-priority wave, reassess before expansion into EGD and the tech
 - **MDE-ACC-01 → 04:** Accounting audit, pack, acceptance and freeze — **COMPLETE**.
 - **MDE-BS-01 → 04:** Business Studies audit, pack, acceptance and freeze — **COMPLETE**.
 - **MDE-GEO-01 → 04:** Geography audit, pack, acceptance and freeze — **COMPLETE**.
-- **MDE-ECO-01:** Economics existing-pack and engine-readiness audit — **PASS — no existing pack; selector registration required**.
-- **MDE-ECO-02:** Economics selector registration + 12-question EN/AF/XH launch pack — **PASS**.
-- **MDE-ECO-03:** Economics learner / production / offline acceptance — **PASS**.
-- **MDE-ECO-04:** Economics launch baseline freeze — **COMPLETE**.
-- **MDE-HIS-01:** History existing-pack audit — **NEXT**.
+- **MDE-ECO-01 → 04:** Economics audit, pack, acceptance and freeze — **COMPLETE**.
+- **MDE-HIS-01:** History existing-pack and engine-readiness audit — **PASS — no existing pack; selector registration required**.
+- **MDE-HIS-02:** History selector registration + 12-question EN/AF/XH launch pack — **READY FOR BUILD VERIFICATION**.
 
 ## CURRENT RISK
 
