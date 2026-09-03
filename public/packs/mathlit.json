@@ -1,0 +1,290 @@
+[
+  {
+    "id": "ml_p1_fin_01",
+    "subject": "mathlit",
+    "paper": 1,
+    "topic": "Finance",
+    "subtopic": "Budgets",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "A household earns R18 500 per month. Its monthly expenses are R6 200 for rent, R3 450 for food, R1 800 for transport, R1 250 for electricity and water, and R2 100 for other costs. Calculate the amount left after all expenses.",
+      "af": "'n Huishouding verdien R18 500 per maand. Die maandelikse uitgawes is R6 200 vir huur, R3 450 vir kos, R1 800 vir vervoer, R1 250 vir elektrisiteit en water, en R2 100 vir ander koste. Bereken die bedrag wat oorbly nadat alle uitgawes betaal is.",
+      "xh": "Ikhaya lifumana i-R18 500 ngenyanga. Iindleko zenyanga yi-R6 200 yerente, i-R3 450 yokutya, i-R1 800 yezothutho, i-R1 250 yombane namanzi, kunye ne-R2 100 yezinye iindleko. Bala imali eseleyo emva kokuhlawula zonke iindleko."
+    },
+    "scaffoldHint": {
+      "en": "Add all expenses first, then subtract the total from the monthly income.",
+      "af": "Tel eers al die uitgawes bymekaar en trek dan die totaal van die maandelikse inkomste af.",
+      "xh": "Dibanisa zonke iindleko kuqala, uze uthabathe isixa eso kwingeniso yenyanga."
+    },
+    "memoText": {
+      "en": "Total expenses = R6 200 + R3 450 + R1 800 + R1 250 + R2 100 = R14 800. Amount left = R18 500 - R14 800 = **R3 700**.",
+      "af": "Totale uitgawes = R6 200 + R3 450 + R1 800 + R1 250 + R2 100 = R14 800. Bedrag oor = R18 500 - R14 800 = **R3 700**.",
+      "xh": "Iindleko zizonke = R6 200 + R3 450 + R1 800 + R1 250 + R2 100 = R14 800. Imali eseleyo = R18 500 - R14 800 = **R3 700**."
+    }
+  },
+  {
+    "id": "ml_p1_fin_02",
+    "subject": "mathlit",
+    "paper": 1,
+    "topic": "Finance",
+    "subtopic": "Tariff Systems",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "A mobile-data tariff charges a fixed monthly fee of R120 plus R35 for each additional gigabyte used. Thando uses 6 additional gigabytes in one month. Calculate the total monthly charge.",
+      "af": "'n Mobiele-data-tarief hef 'n vaste maandelikse fooi van R120 plus R35 vir elke bykomende gigagreep wat gebruik word. Thando gebruik 6 bykomende gigagrepe in een maand. Bereken die totale maandelikse koste.",
+      "xh": "Umrhumo wedatha yeselula ubiza umrhumo osisigxina we-R120 ngenyanga kunye ne-R35 ngegigabhayithi nganye eyongezelelweyo esetyenzisiweyo. UThando usebenzisa iigigabhayithi ezi-6 ezongezelelweyo ngenyanga. Bala intlawulo yenyanga iyonke."
+    },
+    "scaffoldHint": {
+      "en": "Calculate the usage charge first: 6 × R35, then add the fixed fee.",
+      "af": "Bereken eers die gebruikskoste: 6 × R35, en tel dan die vaste fooi by.",
+      "xh": "Bala kuqala iindleko zokusetyenziswa: 6 × R35, uze udibanise umrhumo osisigxina."
+    },
+    "memoText": {
+      "en": "Usage charge = 6 × R35 = R210. Total = R120 + R210 = **R330**.",
+      "af": "Gebruikskoste = 6 × R35 = R210. Totaal = R120 + R210 = **R330**.",
+      "xh": "Iindleko zokusetyenziswa = 6 × R35 = R210. Iyonke = R120 + R210 = **R330**."
+    }
+  },
+  {
+    "id": "ml_p1_fin_03",
+    "subject": "mathlit",
+    "paper": 1,
+    "topic": "Finance",
+    "subtopic": "Exchange Rates",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "An exchange rate is R18.40 for €1. A traveller needs €250. Ignore commission. Calculate how many rand are needed.",
+      "af": "'n Wisselkoers is R18,40 vir €1. 'n Reisiger benodig €250. Ignoreer kommissie. Bereken hoeveel rand benodig word.",
+      "xh": "Izinga lotshintshiselwano yi-R18.40 nge-€1. Umhambi ufuna i-€250. Ungayibali ikhomishini. Bala ukuba zingaphi iirandi ezifunekayo."
+    },
+    "scaffoldHint": {
+      "en": "Multiply the number of euros by the rand-per-euro exchange rate.",
+      "af": "Vermenigvuldig die aantal euro met die rand-per-euro wisselkoers.",
+      "xh": "Phinda-phinda inani lee-euro ngezinga leerandi nge-euro."
+    },
+    "memoText": {
+      "en": "R18.40 × 250 = **R4 600**.",
+      "af": "R18,40 × 250 = **R4 600**.",
+      "xh": "R18.40 × 250 = **R4 600**."
+    }
+  },
+  {
+    "id": "ml_p1_data_01",
+    "subject": "mathlit",
+    "paper": 1,
+    "topic": "Data Handling",
+    "subtopic": "Mean and Median",
+    "difficulty": "easy",
+    "marks": 5,
+    "questionText": {
+      "en": "The daily number of customers at a small shop over five days was 42, 51, 47, 60 and 50. Calculate the mean and determine the median.",
+      "af": "Die daaglikse aantal klante by 'n klein winkel oor vyf dae was 42, 51, 47, 60 en 50. Bereken die gemiddelde en bepaal die mediaan.",
+      "xh": "Inani labathengi bemihla ngemihla kwivenkile encinci kwiintsuku ezintlanu lalingu-42, 51, 47, 60 no-50. Bala i-avareji uze ufumane i-median."
+    },
+    "scaffoldHint": {
+      "en": "For the mean, add all five values and divide by 5. For the median, order the values and choose the middle one.",
+      "af": "Vir die gemiddelde, tel al vyf waardes bymekaar en deel deur 5. Vir die mediaan, rangskik die waardes en kies die middelste een.",
+      "xh": "Kwi-avareji, dibanisa onke amanani amahlanu uze wahlule ngo-5. Kwi-median, cwangcisa amanani ngokulandelelana uze ukhethe eliphakathi."
+    },
+    "memoText": {
+      "en": "Mean = (42 + 51 + 47 + 60 + 50) ÷ 5 = 250 ÷ 5 = **50**. Ordered data: 42, 47, 50, 51, 60, so median = **50**.",
+      "af": "Gemiddelde = (42 + 51 + 47 + 60 + 50) ÷ 5 = 250 ÷ 5 = **50**. Gerangskik: 42, 47, 50, 51, 60, dus mediaan = **50**.",
+      "xh": "I-avareji = (42 + 51 + 47 + 60 + 50) ÷ 5 = 250 ÷ 5 = **50**. Idatha ecwangcisiweyo: 42, 47, 50, 51, 60, ngoko i-median = **50**."
+    }
+  },
+  {
+    "id": "ml_p1_data_02",
+    "subject": "mathlit",
+    "paper": 1,
+    "topic": "Data Handling",
+    "subtopic": "Percentages from Data",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "In a survey of 240 learners, 156 said they use public transport to get to school. Calculate the percentage of learners who use public transport.",
+      "af": "In 'n opname van 240 leerders het 156 gesê dat hulle openbare vervoer gebruik om skool toe te gaan. Bereken die persentasie leerders wat openbare vervoer gebruik.",
+      "xh": "Kuphando lwabafundi abangama-240, abali-156 bathi basebenzisa izithuthi zikawonke-wonke ukuya esikolweni. Bala ipesenti yabafundi abasebenzisa izithuthi zikawonke-wonke."
+    },
+    "scaffoldHint": {
+      "en": "Use percentage = part ÷ total × 100%.",
+      "af": "Gebruik persentasie = deel ÷ totaal × 100%.",
+      "xh": "Sebenzisa ipesenti = inxalenye ÷ iyonke × 100%."
+    },
+    "memoText": {
+      "en": "156 ÷ 240 × 100% = **65%**.",
+      "af": "156 ÷ 240 × 100% = **65%**.",
+      "xh": "156 ÷ 240 × 100% = **65%**."
+    }
+  },
+  {
+    "id": "ml_p1_prob_01",
+    "subject": "mathlit",
+    "paper": 1,
+    "topic": "Probability",
+    "subtopic": "Simple Probability",
+    "difficulty": "easy",
+    "marks": 3,
+    "questionText": {
+      "en": "A bag contains 5 red, 3 blue and 2 green counters. One counter is chosen at random. What is the probability of choosing a blue counter? Give your answer as a fraction and a percentage.",
+      "af": "'n Sak bevat 5 rooi, 3 blou en 2 groen tellers. Een teller word lukraak gekies. Wat is die waarskynlikheid om 'n blou teller te kies? Gee jou antwoord as 'n breuk en 'n persentasie.",
+      "xh": "Ingxowa ineethokheni ezi-5 ezibomvu, ezi-3 eziluhlaza okwesibhakabhaka nezi-2 eziluhlaza. Ithokheni enye ikhethwa ngokungacwangciswanga. Lithini amathuba okukhetha ithokheni eluhlaza okwesibhakabhaka? Nika impendulo njengeqhezu nepesenti."
+    },
+    "scaffoldHint": {
+      "en": "Probability = favourable outcomes ÷ total outcomes.",
+      "af": "Waarskynlikheid = gunstige uitkomste ÷ totale uitkomste.",
+      "xh": "Amathuba = iziphumo ezifunwayo ÷ zonke iziphumo ezinokwenzeka."
+    },
+    "memoText": {
+      "en": "Total counters = 10. P(blue) = 3/10 = **30%**.",
+      "af": "Totale tellers = 10. P(blou) = 3/10 = **30%**.",
+      "xh": "Iithokheni zizonke = 10. P(blue) = 3/10 = **30%**."
+    }
+  },
+  {
+    "id": "ml_p2_meas_01",
+    "subject": "mathlit",
+    "paper": 2,
+    "topic": "Measurement",
+    "subtopic": "Unit Conversion",
+    "difficulty": "easy",
+    "marks": 3,
+    "questionText": {
+      "en": "A water tank holds 2.75 kilolitres. Convert this capacity to litres.",
+      "af": "'n Watertenk hou 2,75 kiloliter. Skakel hierdie kapasiteit om na liter.",
+      "xh": "Itanki lamanzi lithwala iikhilolitha ezi-2.75. Guqulela lo mthamo kwiilitha."
+    },
+    "scaffoldHint": {
+      "en": "1 kilolitre = 1 000 litres.",
+      "af": "1 kiloliter = 1 000 liter.",
+      "xh": "Ikhilolitha e-1 = iilitha ezi-1 000."
+    },
+    "memoText": {
+      "en": "2.75 × 1 000 = **2 750 litres**.",
+      "af": "2,75 × 1 000 = **2 750 liter**.",
+      "xh": "2.75 × 1 000 = **2 750 iilitha**."
+    }
+  },
+  {
+    "id": "ml_p2_meas_02",
+    "subject": "mathlit",
+    "paper": 2,
+    "topic": "Measurement",
+    "subtopic": "Area and Cost",
+    "difficulty": "medium",
+    "marks": 6,
+    "questionText": {
+      "en": "A rectangular classroom floor measures 8.5 m by 6 m. New flooring costs R185 per square metre. Calculate the floor area and the total flooring cost, ignoring wastage.",
+      "af": "'n Reghoekige klaskamervloer meet 8,5 m by 6 m. Nuwe vloerbedekking kos R185 per vierkante meter. Bereken die vloeroppervlakte en die totale koste van die vloerbedekking, sonder vermorsing.",
+      "xh": "Umgangatho wegumbi lokufundela oxande ulinganisa i-8.5 m nge-6 m. Umgangatho omtsha ubiza i-R185 ngemitha yesikwere. Bala indawo yomgangatho kunye neendleko zizonke, ungabali inkcitho eyongezelelweyo."
+    },
+    "scaffoldHint": {
+      "en": "Area of a rectangle = length × width. Then multiply the area by the cost per square metre.",
+      "af": "Oppervlakte van 'n reghoek = lengte × breedte. Vermenigvuldig dan die oppervlakte met die koste per vierkante meter.",
+      "xh": "Indawo yoxande = ubude × ububanzi. Emva koko phinda-phinda indawo ngeendleko ngemitha yesikwere."
+    },
+    "memoText": {
+      "en": "Area = 8.5 × 6 = **51 m²**. Cost = 51 × R185 = **R9 435**.",
+      "af": "Oppervlakte = 8,5 × 6 = **51 m²**. Koste = 51 × R185 = **R9 435**.",
+      "xh": "Indawo = 8.5 × 6 = **51 m²**. Iindleko = 51 × R185 = **R9 435**."
+    }
+  },
+  {
+    "id": "ml_p2_meas_03",
+    "subject": "mathlit",
+    "paper": 2,
+    "topic": "Measurement",
+    "subtopic": "Volume",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "A rectangular storage box is 1.2 m long, 0.8 m wide and 0.5 m high. Calculate its volume in cubic metres.",
+      "af": "'n Reghoekige stoorkas is 1,2 m lank, 0,8 m breed en 0,5 m hoog. Bereken die volume in kubieke meter.",
+      "xh": "Ibhokisi yokugcina exande iyi-1.2 m ubude, i-0.8 m ububanzi kunye ne-0.5 m ukuphakama. Bala umthamo wayo ngeemitha ezi-cubic."
+    },
+    "scaffoldHint": {
+      "en": "Volume of a rectangular prism = length × width × height.",
+      "af": "Volume van 'n reghoekige prisma = lengte × breedte × hoogte.",
+      "xh": "Umthamo weprism exande = ubude × ububanzi × ukuphakama."
+    },
+    "memoText": {
+      "en": "Volume = 1.2 × 0.8 × 0.5 = **0.48 m³**.",
+      "af": "Volume = 1,2 × 0,8 × 0,5 = **0,48 m³**.",
+      "xh": "Umthamo = 1.2 × 0.8 × 0.5 = **0.48 m³**."
+    }
+  },
+  {
+    "id": "ml_p2_map_01",
+    "subject": "mathlit",
+    "paper": 2,
+    "topic": "Maps & Plans",
+    "subtopic": "Scale",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "A road map uses a scale of 1 : 50 000. The distance between two points on the map is 7.4 cm. Calculate the actual distance in kilometres.",
+      "af": "'n Padkaart gebruik 'n skaal van 1 : 50 000. Die afstand tussen twee punte op die kaart is 7,4 cm. Bereken die werklike afstand in kilometer.",
+      "xh": "Imephu yendlela isebenzisa isikali esingu-1 : 50 000. Umgama phakathi kweendawo ezimbini kwimephu yi-7.4 cm. Bala umgama wokwenene ngeekhilomitha."
+    },
+    "scaffoldHint": {
+      "en": "Multiply 7.4 cm by 50 000 to get actual centimetres, then convert cm to km.",
+      "af": "Vermenigvuldig 7,4 cm met 50 000 om die werklike sentimeter te kry, en skakel dan cm na km om.",
+      "xh": "Phinda-phinda i-7.4 cm nge-50 000 ukufumana iisentimitha zokwenene, uze uguqulele i-cm kwi-km."
+    },
+    "memoText": {
+      "en": "7.4 × 50 000 = 370 000 cm = 3 700 m = **3.7 km**.",
+      "af": "7,4 × 50 000 = 370 000 cm = 3 700 m = **3,7 km**.",
+      "xh": "7.4 × 50 000 = 370 000 cm = 3 700 m = **3.7 km**."
+    }
+  },
+  {
+    "id": "ml_p2_map_02",
+    "subject": "mathlit",
+    "paper": 2,
+    "topic": "Maps & Plans",
+    "subtopic": "Floor Plans",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "On a floor plan drawn to a scale of 1 : 100, a wall measures 6.8 cm. Determine the actual wall length in metres.",
+      "af": "Op 'n vloerplan wat volgens 'n skaal van 1 : 100 geteken is, meet 'n muur 6,8 cm. Bepaal die werklike muurlengte in meter.",
+      "xh": "Kwisicwangciso somgangatho esizotywe ngesikali esingu-1 : 100, udonga lulinganisa i-6.8 cm. Fumana ubude bokwenene bodonga ngeemitha."
+    },
+    "scaffoldHint": {
+      "en": "Multiply the plan measurement by 100, then convert centimetres to metres.",
+      "af": "Vermenigvuldig die planmaat met 100 en skakel dan sentimeter na meter om.",
+      "xh": "Phinda-phinda umlinganiselo wesicwangciso nge-100, uze uguqulele iisentimitha kwiimitha."
+    },
+    "memoText": {
+      "en": "6.8 × 100 = 680 cm = **6.8 m**.",
+      "af": "6,8 × 100 = 680 cm = **6,8 m**.",
+      "xh": "6.8 × 100 = 680 cm = **6.8 m**."
+    }
+  },
+  {
+    "id": "ml_p2_prob_01",
+    "subject": "mathlit",
+    "paper": 2,
+    "topic": "Probability",
+    "subtopic": "Contextual Probability",
+    "difficulty": "easy",
+    "marks": 3,
+    "questionText": {
+      "en": "A weather report says there is a 35% chance of rain tomorrow. Express this probability as a decimal and as a fraction out of 100.",
+      "af": "'n Weerberig sê daar is 'n 35%-kans op reën môre. Druk hierdie waarskynlikheid uit as 'n desimale getal en as 'n breuk uit 100.",
+      "xh": "Ingxelo yemozulu ithi kukho amathuba angama-35% emvula ngomso. Bonisa la mathuba njenge-decimal nanjengeqhezu elingaphezulu kwe-100."
+    },
+    "scaffoldHint": {
+      "en": "A percentage can be written over 100. Divide by 100 to get the decimal.",
+      "af": "'n Persentasie kan oor 100 geskryf word. Deel deur 100 om die desimale getal te kry.",
+      "xh": "Ipesenti ingabhalwa phezu kwe-100. Yahlula nge-100 ukufumana i-decimal."
+    },
+    "memoText": {
+      "en": "35% = **35/100** = **0.35**.",
+      "af": "35% = **35/100** = **0,35**.",
+      "xh": "35% = **35/100** = **0.35**."
+    }
+  }
+]
