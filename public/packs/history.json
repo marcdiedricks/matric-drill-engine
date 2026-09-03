@@ -1,0 +1,290 @@
+[
+  {
+    "id": "hist_p1_coldwar_01",
+    "subject": "history",
+    "paper": 1,
+    "topic": "The Cold War",
+    "subtopic": "Origins of the Cold War",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "After the Second World War, the USA and USSR became rival superpowers. Explain TWO reasons why tensions developed into the Cold War.",
+      "af": "Na die Tweede Wêreldoorlog het die VSA en USSR mededingende supermoondhede geword. Verduidelik TWEE redes waarom spanning tot die Koue Oorlog ontwikkel het.",
+      "xh": "Emva kweMfazwe Yehlabathi Yesibini, i-USA ne-USSR zaba ngamazwe amakhulu akhuphisana. Chaza IZIZATHU EZIMBINI zokuba kutheni uxinzelelo lwakhula lwaba yiMfazwe eBandayo."
+    },
+    "scaffoldHint": {
+      "en": "Think ideology, spheres of influence and containment.",
+      "af": "Dink aan ideologie, invloedsfere en inperking.",
+      "xh": "Cinga ngezimvo zezopolitiko, imimandla yempembelelo kunye nomgaqo wokuthintela ukwanda kobukomanisi."
+    },
+    "memoText": {
+      "en": "Any two explained: ideological conflict between capitalism and communism; Soviet expansion in Eastern Europe; US containment through the Truman Doctrine/Marshall Plan; rivalry over spheres of influence; mistrust after World War II (2 x 2).",
+      "af": "Enige twee verduidelik: ideologiese konflik tussen kapitalisme en kommunisme; Sowjet-uitbreiding in Oos-Europa; Amerikaanse inperking deur die Truman-leer/Marshall-plan; mededinging oor invloedsfere; wantroue ná die Tweede Wêreldoorlog (2 x 2).",
+      "xh": "Naziphi na ezimbini ezichaziweyo: ungquzulwano lwezimvo phakathi kobungxowankulu nobukomanisi; ukwanda kweSoviet eMpuma Yurophu; umgaqo wase-US wokuthintela ukwanda kobukomanisi ngeTruman Doctrine/Marshall Plan; ukhuphiswano ngemimandla yempembelelo; ukungathembani emva kweMfazwe Yehlabathi Yesibini (2 x 2)."
+    }
+  },
+  {
+    "id": "hist_p1_vietnam_02",
+    "subject": "history",
+    "paper": 1,
+    "topic": "Extension of the Cold War",
+    "subtopic": "Vietnam",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "Explain TWO reasons why the United States struggled to defeat North Vietnam and the Viet Cong despite its military superiority.",
+      "af": "Verduidelik TWEE redes waarom die Verenigde State gesukkel het om Noord-Viëtnam en die Viet Cong te verslaan ten spyte van sy militêre meerderwaardigheid.",
+      "xh": "Chaza IZIZATHU EZIMBINI zokuba kutheni i-United States yasokola ukoyisa iNorth Vietnam neViet Cong nangona yayinamandla omkhosi aphezulu."
+    },
+    "scaffoldHint": {
+      "en": "Think guerrilla tactics, local support, terrain and political pressure in the USA.",
+      "af": "Dink aan guerrillataktiek, plaaslike steun, terrein en politieke druk in die VSA.",
+      "xh": "Cinga ngamaqhinga eguerrilla, inkxaso yabantu bendawo, umhlaba kunye noxinzelelo lwezopolitiko e-USA."
+    },
+    "memoText": {
+      "en": "Any two explained: guerrilla warfare and tunnel networks; knowledge of terrain; support among parts of the rural population; supply from North Vietnam; limits of conventional US tactics; growing anti-war pressure and declining US public support (2 x 2).",
+      "af": "Enige twee verduidelik: guerrillaoorlog en tonnelnetwerke; kennis van die terrein; steun onder dele van die plattelandse bevolking; voorrade uit Noord-Viëtnam; beperkings van konvensionele Amerikaanse taktiek; groeiende anti-oorlogsdruk en dalende openbare steun in die VSA (2 x 2).",
+      "xh": "Naziphi na ezimbini ezichaziweyo: imfazwe yeguerrilla kunye nemijelo engaphantsi komhlaba; ulwazi lomhlaba; inkxaso kwezinye iindawo zasemaphandleni; uncedo oluvela eNorth Vietnam; imida yamaqhinga aqhelekileyo ase-US; ukwanda koxinzelelo oluchasene nemfazwe kunye nokwehla kwenkxaso yoluntu e-USA (2 x 2)."
+    }
+  },
+  {
+    "id": "hist_p1_angola_03",
+    "subject": "history",
+    "paper": 1,
+    "topic": "Independent Africa",
+    "subtopic": "Angola and the Cold War",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "Why did the Angolan Civil War become part of the wider Cold War? Give TWO explained reasons.",
+      "af": "Waarom het die Angolese Burgeroorlog deel van die groter Koue Oorlog geword? Gee TWEE verduidelikte redes.",
+      "xh": "Kutheni iMfazwe Yamakhaya yaseAngola yaba yinxalenye yeMfazwe eBandayo ebanzi? Nika IZIZATHU EZIMBINI ezichaziweyo."
+    },
+    "scaffoldHint": {
+      "en": "Identify the local movements and the foreign powers that supported them.",
+      "af": "Identifiseer die plaaslike bewegings en die buitelandse moondhede wat hulle gesteun het.",
+      "xh": "Chonga imibutho yaseAngola kunye namazwe angaphandle awayeyixhasa."
+    },
+    "memoText": {
+      "en": "The conflict drew in rival Cold War powers: the USSR and Cuba supported the MPLA, while the USA and apartheid South Africa backed anti-MPLA forces such as UNITA; each side sought strategic influence in southern Africa (2 x 2).",
+      "af": "Die konflik het mededingende Koue Oorlog-moondhede ingetrek: die USSR en Kuba het die MPLA gesteun, terwyl die VSA en apartheid-Suid-Afrika anti-MPLA-magte soos UNITA gesteun het; elke kant het strategiese invloed in Suider-Afrika gesoek (2 x 2).",
+      "xh": "Ungquzulwano lwatsala amazwe akhuphisana kwiMfazwe eBandayo: i-USSR neCuba zaxhasa iMPLA, logama i-USA noMzantsi Afrika wobandlululo baxhasa amaqela achasene neMPLA afana neUNITA; icala ngalinye lalifuna impembelelo yobuchule eMzantsi Afrika (2 x 2)."
+    }
+  },
+  {
+    "id": "hist_p1_congo_04",
+    "subject": "history",
+    "paper": 1,
+    "topic": "Independent Africa",
+    "subtopic": "The Congo after independence",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "State ONE political challenge and ONE economic challenge faced by the Congo after independence, and explain each briefly.",
+      "af": "Noem EEN politieke uitdaging en EEN ekonomiese uitdaging wat die Kongo ná onafhanklikheid in die gesig gestaar het, en verduidelik elkeen kortliks.",
+      "xh": "Chaza UMNGENI OMNYE wezopolitiko kunye NOMNGENI OMNYE woqoqosho owajongana nawo iCongo emva kwenkululeko, uze uchaze ngamnye ngokufutshane."
+    },
+    "scaffoldHint": {
+      "en": "Consider political instability and the colonial economic legacy.",
+      "af": "Oorweeg politieke onstabiliteit en die koloniale ekonomiese nalatenskap.",
+      "xh": "Cinga ngokungazinzi kwezopolitiko kunye nelifa loqoqosho lobukoloniyali."
+    },
+    "memoText": {
+      "en": "Political: instability, leadership struggles, secession or authoritarian rule (2). Economic: dependence on raw-material exports, foreign control, weak diversification or unequal development inherited from colonialism (2).",
+      "af": "Polities: onstabiliteit, leierskapstryd, afskeiding of outoritêre bewind (2). Ekonomies: afhanklikheid van grondstofuitvoer, buitelandse beheer, swak diversifikasie of ongelyke ontwikkeling wat van kolonialisme geërf is (2).",
+      "xh": "Ezopolitiko: ukungazinzi, iingxabano zobunkokeli, ukwahlukana kwemimandla okanye ulawulo olugunyazisayo (2). Ezoqoqosho: ukuxhomekeka ekuthunyelweni kwezinto ezingekalungiswa, ulawulo lwangaphandle, ukungohlulwa kakuhle koqoqosho okanye uphuhliso olungalinganiyo olwashiywa bubukoloniyali (2)."
+    }
+  },
+  {
+    "id": "hist_p1_civilrights_05",
+    "subject": "history",
+    "paper": 1,
+    "topic": "Civil Society Protests",
+    "subtopic": "Civil Rights Movement",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "Explain how TWO non-violent protest methods used by the US Civil Rights Movement challenged racial segregation.",
+      "af": "Verduidelik hoe TWEE nie-gewelddadige protesmetodes wat deur die Amerikaanse Burgerregtebeweging gebruik is, rassesegregasie uitgedaag het.",
+      "xh": "Chaza ukuba IINDLELA EZIMBINI zoqhankqalazo olungenabundlobongela ezasetyenziswa yi-US Civil Rights Movement zacela umngeni njani kucalucalulo lobuhlanga."
+    },
+    "scaffoldHint": {
+      "en": "Examples include boycotts, sit-ins, Freedom Rides and marches.",
+      "af": "Voorbeelde sluit boikotte, sitbetogings, Freedom Rides en optogte in.",
+      "xh": "Imizekelo ibandakanya ii-boycott, ii-sit-in, iiFreedom Rides kunye nemingcelele."
+    },
+    "memoText": {
+      "en": "Any two methods with effect: boycotts applied economic pressure; sit-ins directly challenged segregated facilities; Freedom Rides tested desegregation rulings; marches created national publicity and political pressure (2 x 2).",
+      "af": "Enige twee met uitwerking: boikotte het ekonomiese druk toegepas; sitbetogings het gesegregeerde fasiliteite direk uitgedaag; Freedom Rides het desegregasie-uitsprake getoets; optogte het nasionale publisiteit en politieke druk geskep (2 x 2).",
+      "xh": "Naziphi na ezimbini kunye nefuthe lazo: ii-boycott zabeka uxinzelelo lwezoqoqosho; ii-sit-in zacela umngeni ngokuthe ngqo kwiindawo ezahlulwe ngokobuhlanga; iiFreedom Rides zavavanya izigqibo zokuphelisa ucalucalulo; imingcelele yadala ingqalelo yesizwe noxinzelelo lwezopolitiko (2 x 2)."
+    }
+  },
+  {
+    "id": "hist_p1_blackpower_06",
+    "subject": "history",
+    "paper": 1,
+    "topic": "Civil Society Protests",
+    "subtopic": "Black Power Movement",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "How did the Black Power Movement differ in emphasis from the earlier mainstream Civil Rights Movement? Give TWO explained points.",
+      "af": "Hoe het die Black Power-beweging in klem verskil van die vroeëre hoofstroom-Burgerregtebeweging? Gee TWEE verduidelikte punte.",
+      "xh": "IBlack Power Movement yahluka njani kugxininiso lwayo kwiCivil Rights Movement yangaphambili? Nika IINGONGOMA EZIMBINI ezichaziweyo."
+    },
+    "scaffoldHint": {
+      "en": "Think black pride, self-determination and attitudes toward integration and self-defence.",
+      "af": "Dink aan swart trots, selfbeskikking en houdings teenoor integrasie en selfverdediging.",
+      "xh": "Cinga ngokuzingca kwabantu abamnyama, ukuzimela kunye neendlela zokujonga ukudityaniswa nokuzikhusela."
+    },
+    "memoText": {
+      "en": "The movement stressed black pride, self-determination and community control; some activists were more sceptical of integration and strict non-violence and supported self-defence or independent black political power (2 x 2).",
+      "af": "Die beweging het swart trots, selfbeskikking en gemeenskapsbeheer beklemtoon; sommige aktiviste was meer skepties oor integrasie en streng nie-geweld en het selfverdediging of onafhanklike swart politieke mag gesteun (2 x 2).",
+      "xh": "Umbutho wagxininisa ukuzingca kwabantu abamnyama, ukuzimela kunye nolawulo loluntu; abanye abaphembeleli babengathembi kakhulu ukudityaniswa kunye nokungasebenzisi bundlobongela ngokupheleleyo kwaye baxhasa ukuzikhusela okanye amandla ezopolitiko azimeleyo abantu abamnyama (2 x 2)."
+    }
+  },
+  {
+    "id": "hist_p2_bc_07",
+    "subject": "history",
+    "paper": 2,
+    "topic": "Civil Resistance in South Africa",
+    "subtopic": "Black Consciousness",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "Explain TWO ways in which Black Consciousness challenged apartheid in the 1970s.",
+      "af": "Verduidelik TWEE maniere waarop Swartbewussyn apartheid in die 1970's uitgedaag het.",
+      "xh": "Chaza IINDLELA EZIMBINI iBlack Consciousness eyacela ngayo umngeni kubandlululo ngeminyaka yoo-1970."
+    },
+    "scaffoldHint": {
+      "en": "Focus on psychological liberation, black pride, organisation and mobilisation.",
+      "af": "Fokus op sielkundige bevryding, swart trots, organisasie en mobilisering.",
+      "xh": "Gxila kwinkululeko yengqondo, ukuzingca kwabantu abamnyama, umbutho kunye nokudibanisa abantu."
+    },
+    "memoText": {
+      "en": "It promoted psychological liberation and black pride, rejecting apartheid ideas of inferiority; it built organisations and mobilised students and communities, helping inspire resistance including the climate around the 1976 Soweto uprising (2 x 2).",
+      "af": "Dit het sielkundige bevryding en swart trots bevorder en apartheid se idees van minderwaardigheid verwerp; dit het organisasies gebou en studente en gemeenskappe gemobiliseer en weerstand aangevuur, insluitend die klimaat rondom die Soweto-opstand van 1976 (2 x 2).",
+      "xh": "Yakhuthaza inkululeko yengqondo nokuzingca kwabantu abamnyama, yal拒a iingcinga zocalucalulo zokuba abantu abamnyama bangaphantsi; yakha imibutho yaza yadibanisa abafundi noluntu, yanceda ukukhuthaza ukuxhathisa kuquka imeko eyakhokelela kuvukelo lwaseSoweto luka-1976 (2 x 2)."
+    }
+  },
+  {
+    "id": "hist_p2_crisis_08",
+    "subject": "history",
+    "paper": 2,
+    "topic": "Civil Resistance in South Africa",
+    "subtopic": "Crisis of apartheid in the 1980s",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "Explain ONE form of internal resistance and ONE form of international pressure that weakened apartheid during the 1980s.",
+      "af": "Verduidelik EEN vorm van interne weerstand en EEN vorm van internasionale druk wat apartheid gedurende die 1980's verswak het.",
+      "xh": "Chaza UHLOBO OLUNYE lokuxhathisa ngaphakathi elizweni kunye NOHLOBO OLUNYE loxinzelelo lwamazwe ngamazwe olwenza buthathaka ucalucalulo ngeminyaka yoo-1980."
+    },
+    "scaffoldHint": {
+      "en": "Internal examples: UDF, unions, civic action. External examples: sanctions, boycotts, disinvestment.",
+      "af": "Interne voorbeelde: UDF, vakbonde, burgerlike optrede. Eksterne voorbeelde: sanksies, boikotte, disinvestering.",
+      "xh": "Imizekelo yangaphakathi: UDF, imibutho yabasebenzi, intshukumo yoluntu. Yangaphandle: izohlwayo, ii-boycott, ukurhoxiswa kotyalo-mali."
+    },
+    "memoText": {
+      "en": "Internal resistance such as UDF/community mobilisation, strikes or union action made apartheid harder to govern (2). International sanctions, boycotts or disinvestment increased economic and diplomatic pressure on the government (2).",
+      "af": "Interne weerstand soos UDF-/gemeenskapsmobilisering, stakings of vakbondoptrede het apartheid moeiliker regeerbaar gemaak (2). Internasionale sanksies, boikotte of disinvestering het ekonomiese en diplomatieke druk op die regering verhoog (2).",
+      "xh": "Ukuxhathisa ngaphakathi okufana nokudibanisa uluntu yi-UDF, uqhankqalazo okanye intshukumo yemibutho yabasebenzi kwenza ucalucalulo lwanzima ukululawula (2). Izohlwayo zamazwe ngamazwe, ii-boycott okanye ukurhoxiswa kotyalo-mali kwandisa uxinzelelo lwezoqoqosho nolwezopolitiko kurhulumente (2)."
+    }
+  },
+  {
+    "id": "hist_p2_negotiations_09",
+    "subject": "history",
+    "paper": 2,
+    "topic": "Coming of Democracy in South Africa",
+    "subtopic": "Negotiated settlement",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "Identify TWO developments between 1990 and 1994 that helped move South Africa from apartheid toward democratic elections, and explain their importance.",
+      "af": "Identifiseer TWEE ontwikkelings tussen 1990 en 1994 wat Suid-Afrika gehelp het om van apartheid na demokratiese verkiesings te beweeg, en verduidelik hul belangrikheid.",
+      "xh": "Chonga IZIGANEKO EZIMBINI phakathi kuka-1990 no-1994 ezanceda uMzantsi Afrika ukusuka kubandlululo ukuya kunyulo lwentando yesininzi, uze uchaze ukubaluleka kwazo."
+    },
+    "scaffoldHint": {
+      "en": "Think unbanning, Mandela's release, negotiations, interim arrangements and the 1994 election.",
+      "af": "Dink aan ontbanning, Mandela se vrylating, onderhandelinge, tussentydse reëlings en die 1994-verkiesing.",
+      "xh": "Cinga ngokuvunyelwa kwemibutho, ukukhululwa kukaMandela, uthethathethwano, amalungiselelo exeshana kunye nonyulo luka-1994."
+    },
+    "memoText": {
+      "en": "Any two explained: unbanning of political organisations; release of Nelson Mandela; formal negotiations such as CODESA/multiparty talks; interim constitutional agreements; agreement on an election date; 27 April 1994 election and formation of the GNU (2 x 2).",
+      "af": "Enige twee verduidelik: ontbanning van politieke organisasies; vrylating van Nelson Mandela; formele onderhandelinge soos KODESA/veelpartygesprekke; tussentydse grondwetlike ooreenkomste; ooreenkoms oor 'n verkiesingsdatum; die verkiesing van 27 April 1994 en vorming van die RNE (2 x 2).",
+      "xh": "Naziphi na ezimbini ezichaziweyo: ukuvunyelwa kwemibutho yezopolitiko; ukukhululwa kukaNelson Mandela; uthethathethwano olusesikweni olufana neCODESA/iintetho zamaqela amaninzi; izivumelwano zomgaqo-siseko wexeshana; ukuvumelana ngomhla wonyulo; unyulo lwe-27 Epreli 1994 kunye nokusekwa kweGNU (2 x 2)."
+    }
+  },
+  {
+    "id": "hist_p2_trc_10",
+    "subject": "history",
+    "paper": 2,
+    "topic": "Coming of Democracy in South Africa",
+    "subtopic": "Truth and Reconciliation Commission",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "Explain ONE purpose of the Truth and Reconciliation Commission and ONE criticism made of its approach to justice.",
+      "af": "Verduidelik EEN doel van die Waarheids-en-versoeningskommissie en EEN kritiek op sy benadering tot geregtigheid.",
+      "xh": "Chaza INJONGO ENYE yeTruth and Reconciliation Commission kunye NOKUGXEKWA OKUNYE kwendlela yayo yobulungisa."
+    },
+    "scaffoldHint": {
+      "en": "Think truth-telling and reconciliation, but also debates about amnesty, justice and reparations.",
+      "af": "Dink aan waarheidvertelling en versoening, maar ook debatte oor amnestie, geregtigheid en vergoeding.",
+      "xh": "Cinga ngokuthetha inyaniso noxolelwaniso, kodwa nakwiingxoxo malunga noxolelo, ubulungisa kunye nembuyekezo."
+    },
+    "memoText": {
+      "en": "Purpose: establish a fuller record of gross human-rights violations, hear victims and promote reconciliation/restorative justice (2). Criticism: amnesty could be seen as denying punishment, reparations were inadequate/slow, or some victims felt justice was incomplete (any one, 2).",
+      "af": "Doel: skep 'n vollediger rekord van ernstige menseregteskendings, hoor slagoffers en bevorder versoening/herstellende geregtigheid (2). Kritiek: amnestie kon as die ontduiking van straf gesien word, vergoeding was onvoldoende/stadig, of sommige slagoffers het gevoel geregtigheid was onvolledig (enige een, 2).",
+      "xh": "Injongo: ukwenza ingxelo epheleleyo ngakumbi yokophulwa okukhulu kwamalungelo oluntu, ukuva amaxhoba nokukhuthaza uxolelwaniso/ubulungisa obubuyiselayo (2). Ukugxekwa: uxolelo lwalunokubonwa njengokuphepha isohlwayo, imbuyekezo yayingonelanga/iyacotha, okanye amanye amaxhoba avakalelwa kukuba ubulungisa abuphelelanga (nayiphi na enye, 2)."
+    }
+  },
+  {
+    "id": "hist_p2_coldwarend_11",
+    "subject": "history",
+    "paper": 2,
+    "topic": "End of the Cold War and a New World Order",
+    "subtopic": "Gorbachev and the collapse of the Soviet Union",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "Explain how Gorbachev's reforms contributed to the weakening of Soviet control and the end of the Cold War.",
+      "af": "Verduidelik hoe Gorbatsjof se hervormings bygedra het tot die verswakking van Sowjetbeheer en die einde van die Koue Oorlog.",
+      "xh": "Chaza ukuba iinguqu zikaGorbachev zanceda njani ekubeni buthathaka kolawulo lweSoviet nasekupheleni kweMfazwe eBandayo."
+    },
+    "scaffoldHint": {
+      "en": "Use glasnost, perestroika and reduced Soviet intervention in Eastern Europe.",
+      "af": "Gebruik glasnost, perestroika en verminderde Sowjet-ingryping in Oos-Europa.",
+      "xh": "Sebenzisa iglasnost, iperestroika kunye nokuncipha kongenelelo lweSoviet eMpuma Yurophu."
+    },
+    "memoText": {
+      "en": "Glasnost opened political debate and criticism; perestroika attempted economic restructuring; reduced Soviet intervention allowed Eastern European governments to lose communist control, accelerating the fall of the Berlin Wall and disintegration of the Soviet bloc (any two well explained, 4).",
+      "af": "Glasnost het politieke debat en kritiek oopgestel; perestroika het ekonomiese herstrukturering probeer; verminderde Sowjet-ingryping het kommunistiese beheer in Oos-Europa verswak en die val van die Berlynse Muur en verbrokkeling van die Sowjetblok versnel (enige twee goed verduidelik, 4).",
+      "xh": "Iglasnost yavula ingxoxo yezopolitiko nokugxeka; iperestroika yazama ukuhlengahlengisa uqoqosho; ukuncipha kongenelelo lweSoviet kwavumela ukwehla kolawulo lobukomanisi eMpuma Yurophu, kwakhawulezisa ukuwa koDonga lwaseBerlin kunye nokuqhekeka kweSoviet bloc (naziphi na ezimbini ezichazwe kakuhle, 4)."
+    }
+  },
+  {
+    "id": "hist_p2_sa_turningpoint_12",
+    "subject": "history",
+    "paper": 2,
+    "topic": "End of the Cold War and a New World Order",
+    "subtopic": "Impact on South Africa",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "Why did the end of the Cold War help create a new political opening in South Africa? Give TWO explained reasons.",
+      "af": "Waarom het die einde van die Koue Oorlog gehelp om 'n nuwe politieke opening in Suid-Afrika te skep? Gee TWEE verduidelikte redes.",
+      "xh": "Kutheni ukuphela kweMfazwe eBandayo kwanceda ukudala ithuba elitsha lezopolitiko eMzantsi Afrika? Nika IZIZATHU EZIMBINI ezichaziweyo."
+    },
+    "scaffoldHint": {
+      "en": "Consider the weakening of anti-communist arguments and changing international support structures.",
+      "af": "Oorweeg die verswakking van anti-kommunistiese argumente en veranderende internasionale steunstrukture.",
+      "xh": "Cinga ngokuba buthathaka kweengxoxo ezichasene nobukomanisi kunye nokutshintsha kwenkxaso yamazwe ngamazwe."
+    },
+    "memoText": {
+      "en": "The apartheid government could no longer use the same Cold War anti-communist justification for repression (2). The Soviet collapse changed external support and strategic calculations for all sides, making negotiation more attractive and contributing to the political transition (2).",
+      "af": "Die apartheidsregering kon nie meer dieselfde Koue Oorlog-anti-kommunistiese regverdiging vir onderdrukking gebruik nie (2). Die ineenstorting van die Sowjetunie het eksterne steun en strategiese berekeninge vir alle kante verander, wat onderhandeling aantrekliker gemaak en tot die politieke oorgang bygedra het (2).",
+      "xh": "Urhulumente wobandlululo wayengasenakusebenzisa ngendlela efanayo isizathu seMfazwe eBandayo sokulwa nobukomanisi ukuthethelela ingcinezelo (2). Ukuwa kweSoviet Union kwatshintsha inkxaso yangaphandle kunye nezicwangciso zamacala onke, kwenza uthethathethwano lube nomtsalane ngakumbi kwaye kwanceda kutshintsho lwezopolitiko (2)."
+    }
+  }
+]
