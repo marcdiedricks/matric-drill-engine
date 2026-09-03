@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ls-gr12-genetics-01",
+    "subject": "lifesciences",
+    "paper": 2,
+    "topic": "Genetics & Inheritance",
+    "subtopic": "Monohybrid Crosses",
+    "difficulty": "medium",
+    "marks": 6,
+    "sourceYear": 2023,
+    "questionText": {
+      "en": "In humans, brown eye colour ($B$) is dominant over blue eye colour ($b$). A heterozygous brown-eyed male marries a blue-eyed female.<br/><br/>Represent a genetic cross to determine the possible genotypes and phenotypes of their offspring.",
+      "af": "By mense is bruin oogkleur ($B$) dominant oor blou oogkleur ($b$). 'n Heterosigotiese bruinoog-man trou met 'n blouoog-vrou.<br/><br/>Stel 'n genetiese kruising voor om die moontlike genotipes en fenotipes van hul nageslag te bepaal.",
+      "xh": "Ebantwini, umbala wamehlo amdaka ($B$) wongamele umbala wamehlo aluhlaza ($b$). Indoda enamehlo amdaka e-heterozygous itshata nebhinqa elinamehlo aluhlaza.<br/><br/>Bonisa umnqamlezo wemfuza ukumisela ii-genotypes kunye nee-phenotypes ezinokwenzeka zenzala yabo."
+    },
+    "scaffoldHint": {
+      "en": "Start by identifying the parental genotypes ($P_1$). Remember: heterozygous brown means $Bb$, and blue eyes must be homozygous recessive ($bb$). Use a Punnett square or direct gamete cross.",
+      "af": "Begin deur die ouerlike genotipes ($P_1$) te identifiseer. Onthou: heterosigoties bruin beteken $Bb$, en blou oë moet homosigoties resessief wees ($bb$). Gebruik 'n Punnett-vierkant.",
+      "xh": "Qala ngokuchonga ii-genotypes zabazali ($P_1$). Khumbula: i-heterozygous emdaka ithetha ukuba ngu-$Bb$, kwaye amehlo aluhlaza kufuneka abe yi-homozygous recessive ($bb$)."
+    },
+    "memoText": {
+      "en": "**$P_1$ Phenotype**: Brown eyes $\\times$ Blue eyes<br/>**$P_1$ Genotype**: $Bb \\times bb$<br/>**Meiosis / Gametes**: $B, b \\times b, b$<br/>**Fertilisation (Offspring Genotypes)**: $Bb, bb$<br/>**$F_1$ Genotype ratio**: 1 $Bb$ : 1 $bb$ (50% $Bb$, 50% $bb$)<br/>**$F_1$ Phenotype ratio**: 1 Brown eyes : 1 Blue eyes (50% brown, 50% blue)",
+      "af": "**$P_1$-fenotipe**: Bruin oë $\\times$ Blou oë<br/>**$P_1$-genotipe**: $Bb \\times bb$<br/>**Meiose / Gamete**: $B, b \\times b, b$<br/>**Bevrugting (Nageslag-genotipes)**: $Bb, bb$<br/>**$F_1$-genotipeverhouding**: 1 $Bb$ : 1 $bb$ (50% $Bb$, 50% $bb$)<br/>**$F_1$-fenotipeverhouding**: 1 Bruin oë : 1 Blou oë (50% bruin, 50% blou)",
+      "xh": "**$P_1$ Phenotype**: Amehlo amdaka $\\times$ Amehlo aluhlaza<br/>**$P_1$ Genotype**: $Bb \\times bb$<br/>**Meiosis / Gametes**: $B, b \\times b, b$<br/>**Ukudityaniswa (Genotypes zenzala)**: $Bb, bb$<br/>**$F_1$ Genotype ratio**: 1 $Bb$ : 1 $bb$ (50% $Bb$, 50% $bb$)<br/>**$F_1$ Phenotype ratio**: 1 Amehlo amdaka : 1 Amehlo aluhlaza (50% amdaka, 50% aluhlaza)"
+    }
+  },
+  {
+    "id": "ls-gr12-evolution-01",
+    "subject": "lifesciences",
+    "paper": 2,
+    "topic": "Evolution",
+    "subtopic": "Darwinism",
+    "difficulty": "hard",
+    "marks": 7,
+    "sourceYear": 2022,
+    "questionText": {
+      "en": "Describe how Darwin would have explained the development of long necks in tortoises found on the Galapagos Islands.",
+      "af": "Beskryf hoe Darwin die ontwikkeling van lang nekke by skilpaaie op die Galapagos-eilande sou verduidelik het.",
+      "xh": "Chaza ukuba uDarwin wayeza kuyicacisa njani inkqubela yentamo ezinde kufudo olufumaneka kwiiZiqithi zaseGalapagos."
+    },
+    "scaffoldHint": {
+      "en": "Structure your answer using natural selection principles: variation in neck length, struggle for survival (higher vegetation), natural selection / survival of the fittest, reproduction, and inheritance over many generations.",
+      "af": "Struktureer jou antwoord volgens natuurlike seleksie: variasie in neklengte, stryd om oorlewing (hoër plantegroei), oorlewing van die geskikste, voortplanting en oorerwing oor baie geslagte.",
+      "xh": "Cwangcisa impendulo yakho usebenzisa imigaqo yokukhetha kwendalo: ukwahluka kubude bentamo, umzabalazo wokusinda, ukusinda kofanelekileyo, ukuzala nokudlulisela kwizizukulwana ezininzi."
+    },
+    "memoText": {
+      "en": "1. There was a large degree of **genetic variation** in the ancestral tortoise population (some had short necks, some had longer necks).<br/>2. When low-lying vegetation became scarce, tortoises with **longer necks had a survival advantage** as they could reach higher leaves.<br/>3. Tortoises with shorter necks could not compete and died.<br/>4. The surviving tortoises reproduced and passed the **allele / gene for long necks** to their offspring.<br/>5. Over many generations, this process repeated, resulting in the long-necked tortoise population today.",
+      "af": "1. Daar was 'n groot mate van **genetiese variasie** in die voorouerskilpadbevolking (sommige het kort nekke gehad, ander langer nekke).<br/>2. Toe lae plantegroei skaars geword het, het skilpaaie met **langer nekke 'n oorlewingsvoordeel** gehad omdat hulle hoër kon bykom.<br/>3. Skilpaaie met korter nekke kon nie meeding nie en het gesterf.<br/>4. Die oorlewende skilpaaie het voortgeplant en die **geen vir lang nekke** oorgedra na hul nageslag.<br/>5. Oor baie geslagte heen het hierdie proses herhaal, wat gelei het tot die langnekbevolking vandag.",
+      "xh": "1. Kwakukho **iyantlukwano yemfuza** enkulu kubemi bofudo bamandulo.<br/>2. Xa utyani olusezantsi lwaye lwanqongopha, ufudo olunee**ntamo ezinde lwaba nethuba elihle lokusinda** ngokufikelela kumagqabi aphakamileyo.<br/>3. Ufudo oluneentamo ezimfutshane alukwazanga ukukhuphisana lwaza lwafa.<br/>4. Ufudo olwasindayo lwazala lwaza lwadlulisela i-**allele / imfuza yeentamo ezinde** kwinzala yalo.<br/>5. Kwizizukulwana ezininzi, le nkqubo yaphindaphindeka, ekhokelela kubemi bofudo oluneentamo ezinde namhlanje."
+    }
+  }
+]

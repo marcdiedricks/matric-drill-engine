@@ -1,0 +1,73 @@
+
+{
+  "version": 2,
+  "subject": "physics",
+  "questions": [
+    {
+      "id": "ps_p1_newton_01",
+      "authority": "DBE NATIONAL SENIOR CERTIFICATE",
+      "subject": "physics",
+      "paper": 1,
+      "sourceYear": "Nov 2023",
+      "topic": "Newton's Laws & Mechanics",
+      "difficulty": "medium",
+      "marks": 5,
+      "questionText": "A crate of mass $20\\text{ kg}$ is pulled along a rough horizontal floor by a constant force of $80\\text{ N}$ acting at an angle of $30^\\circ$ above the horizontal.\n\nThe crate accelerates horizontally at $1.2\\text{ m}\\cdot\\text{s}^{-2}$.\n\nCalculate the magnitude of the kinetic frictional force acting on the crate.",
+      "scaffoldHint": "Resolve the applied force into its horizontal component: $F_x = F\\cos(30^\\circ)$. Then apply Newton's Second Law along the horizontal direction: $F_{\\text{net},x} = ma$, where $F_{\\text{net},x} = F_x - f_k$.",
+      "memoText": "**Horizontal Component:**\n$$F_x = 80\\cos(30^\\circ) = 69.282\\text{ N}$$\n\n**Apply Newton's Second Law:**\n$$F_{\\text{net}} = ma$$\n$$F_x - f_k = ma$$\n$$69.282 - f_k = (20)(1.2)$$\n$$69.282 - f_k = 24$$\n$$f_k = 69.282 - 24 = 45.28\\text{ N}$$\n\n*(1 mark formula, 1 mark cosine component, 1 mark substitution, 1 mark final answer with unit)*"
+    },
+    {
+      "id": "ps_p1_doppler_01",
+      "authority": "AUTHENTIC IEB",
+      "subject": "physics",
+      "paper": 1,
+      "sourceYear": "Nov 2023",
+      "topic": "Doppler Effect",
+      "difficulty": "medium",
+      "marks": 5,
+      "questionText": "An ambulance moves away from a stationary observer at a constant speed of $25\\text{ m}\\cdot\\text{s}^{-1}$ while its siren emits sound waves at a frequency of $680\\text{ Hz}$.\n\nTake the speed of sound in air as $340\\text{ m}\\cdot\\text{s}^{-1}$.\n\nCalculate the frequency of the sound detected by the observer.",
+      "scaffoldHint": "Use the Doppler formula: $f_L = \\left(\\frac{v \\pm v_L}{v \\pm v_S}\\right)f_S$. The listener is stationary ($v_L = 0$) and the source is moving *away* from the listener, so the denominator must increase: $(v + v_S)$.",
+      "memoText": "**Doppler Formula:**\n$$f_L = \\left(\\frac{v}{v + v_S}\\right)f_S$$\n\n**Substitution:**\n$$f_L = \\left(\\frac{340}{340 + 25}\\right)(680)$$\n$$f_L = \\left(\\frac{340}{365}\\right)(680) \\approx 633.42\\text{ Hz}$$\n\n*(1 mark formula, 1 mark $v_L = 0$, 1 mark denominator sign, 1 mark substitution, 1 mark answer with unit)*"
+    },
+    {
+      "id": "ps_p1_work_01",
+      "authority": "DBE NATIONAL SENIOR CERTIFICATE",
+      "subject": "physics",
+      "paper": 1,
+      "sourceYear": "May/June 2024",
+      "topic": "Work, Energy & Power",
+      "difficulty": "hard",
+      "marks": 4,
+      "questionText": "State the **Work-Energy Theorem** in words.\n\nA roller-coaster cart of mass $300\\text{ kg}$ starts from rest at the top of a frictionless track of vertical height $15\\text{ m}$. Calculate its velocity at the bottom of the track using energy principles.",
+      "scaffoldHint": "The theorem states: The net work done on an object equals the change in its kinetic energy. Since only gravity does work, $W_{\\text{net}} = \\Delta E_k$, or apply conservation of mechanical energy: $E_{\\text{mech, top}} = E_{\\text{mech, bottom}}$.",
+      "memoText": "**Theorem Statement:**\nThe net work done on an object is equal to the change in its kinetic energy. *(2 marks)*\n\n**Calculation:**\n$$W_{\\text{net}} = \\Delta E_k$$\n$$mgh = \\frac{1}{2}mv^2 - 0$$\n$$(300)(9.8)(15) = \\frac{1}{2}(300)v^2$$\n$$44\\,100 = 150v^2$$\n$$v^2 = 294 \\implies v = 17.15\\text{ m}\\cdot\\text{s}^{-1}$$\n\n*(1 mark formula/conservation, 1 mark answer with unit)*"
+    },
+    {
+      "id": "ps_p2_organic_01",
+      "authority": "DBE NATIONAL SENIOR CERTIFICATE",
+      "subject": "physics",
+      "paper": 2,
+      "sourceYear": "Nov 2023",
+      "topic": "Organic Chemistry",
+      "difficulty": "medium",
+      "marks": 4,
+      "questionText": "Consider the organic compound with the molecular formula $\\text{C}_4\\text{H}_8\\text{O}_2$ that gives a sweet, fruity smell.\n\n1. Name the homologous series to which this compound belongs.\n2. Write down the IUPAC name of the isomer formed by reacting ethanoic acid with ethanol.",
+      "scaffoldHint": "Fruity smelling compounds are esters. Esters are named with the alkyl group from the alcohol first, followed by the carboxylate group from the carboxylic acid (-oate).",
+      "memoText": "1. **Homologous Series:** Esters *(1 mark)*\n\n2. **IUPAC Name:** Ethyl ethanoate *(3 marks: 1 for ethyl, 1 for ethano-, 1 for -ate)*",
+      "scaffoldHint": "Esters form from alcohol + carboxylic acid. Alcohol gives 'ethyl', acid gives 'ethanoate'."
+    },
+    {
+      "id": "ps_p2_equilibrium_01",
+      "authority": "AUTHENTIC IEB",
+      "subject": "physics",
+      "paper": 2,
+      "sourceYear": "2024 Exemplar",
+      "topic": "Chemical Equilibrium",
+      "difficulty": "hard",
+      "marks": 6,
+      "questionText": "Consider the following reversible reaction at equilibrium in a closed $2\\text{ dm}^3$ container:\n$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H < 0)$$\n\nAt equilibrium, the mixture contains $0.4\\text{ mol}$ of $\\text{N}_2$, $0.6\\text{ mol}$ of $\\text{H}_2$, and $0.8\\text{ mol}$ of $\\text{NH}_3$.\n\nCalculate the equilibrium constant ($K_c$) for this reaction at this temperature.",
+      "scaffoldHint": "First calculate the equilibrium concentrations: $c = \\frac{n}{V}$ where $V = 2\\text{ dm}^3$. Then substitute into the expression: $K_c = \\frac{[\\text{NH}_3]^2}{[\\text{N}_2][\\text{H}_2]^3}$.",
+      "memoText": "**Equilibrium Concentrations:**\n$$[\\text{N}_2] = \\frac{0.4}{2} = 0.2\\text{ mol}\\cdot\\text{dm}^{-3}$$\n$$[\\text{H}_2] = \\frac{0.6}{2} = 0.3\\text{ mol}\\cdot\\text{dm}^{-3}$$\n$$[\\text{NH}_3] = \\frac{0.8}{2} = 0.4\\text{ mol}\\cdot\\text{dm}^{-3}$$\n\n**Expression & Substitution:**\n$$K_c = \\frac{[\\text{NH}_3]^2}{[\\text{N}_2][\\text{H}_2]^3}$$\n$$K_c = \\frac{(0.4)^2}{(0.2)(0.3)^3}$$\n$$K_c = \\frac{0.16}{(0.2)(0.027)} = \\frac{0.16}{0.0054} \\approx 29.63$$\n\n*(1 mark dividing by volume, 1 mark $K_c$ expression, 2 marks substitution, 1 mark answer)*"
+    }
+  ]
+}

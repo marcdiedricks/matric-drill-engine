@@ -1,0 +1,402 @@
+[
+  {
+    "id": "math_p1_alg_01",
+    "subject": "Mathematics",
+    "paper": 1,
+    "topic": "Algebra, Equations & Inequalities",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "easy",
+    "marks": 3,
+    "sourceYear": 2023,
+    "questionText": {
+      "en": "Solve for $x$: $2x^2 - 7x - 4 = 0$",
+      "af": "Los op vir $x$: $2x^2 - 7x - 4 = 0$",
+      "xh": "Sombulula u-$x$: $2x^2 - 7x - 4 = 0$"
+    },
+    "scaffoldHint": {
+      "en": "Factorise the quadratic trinomial into two linear brackets $(2x + 1)(x - 4) = 0$, or use the quadratic formula.",
+      "af": "Faktoriseer die vierkantige drieterm in twee lineêre hakies $(2x + 1)(x - 4) = 0$, of gebruik die kwadratiese formule.",
+      "xh": "Faka izibiyeli kwitrinomial yesikwere $(2x + 1)(x - 4) = 0$, okanye sebenzisa ifomula yekwadratiki."
+    },
+    "memoText": {
+      "en": "$(2x + 1)(x - 4) = 0$\n$2x + 1 = 0$ or $x - 4 = 0$\n$x = -\\frac{1}{2}$ or $x = 4$",
+      "af": "$(2x + 1)(x - 4) = 0$\n$2x + 1 = 0$ of $x - 4 = 0$\n$x = -\\frac{1}{2}$ of $x = 4$",
+      "xh": "$(2x + 1)(x - 4) = 0$\n$2x + 1 = 0$ okanye $x - 4 = 0$\n$x = -\\frac{1}{2}$ okanye $x = 4$"
+    }
+  },
+  {
+    "id": "math_p1_alg_02",
+    "subject": "Mathematics",
+    "paper": 1,
+    "topic": "Algebra, Equations & Inequalities",
+    "subtopic": "Quadratic Inequalities",
+    "difficulty": "medium",
+    "marks": 4,
+    "sourceYear": 2022,
+    "questionText": {
+      "en": "Solve for $x$: $x(x - 3) \\ge 10$",
+      "af": "Los op vir $x$: $x(x - 3) \\ge 10$",
+      "xh": "Sombulula u-$x$: $x(x - 3) \\ge 10$"
+    },
+    "scaffoldHint": {
+      "en": "Rewrite in standard form $x^2 - 3x - 10 \\ge 0$, factorise, determine critical values, and test intervals.",
+      "af": "Skryf in standaardvorm $x^2 - 3x - 10 \\ge 0$, faktoriseer, bepaal kritieke waardes, en toets intervalle.",
+      "xh": "Bhala ngendlela eqhelekileyo $x^2 - 3x - 10 \\ge 0$, faka izibiyeli, fumana amanani abalulekileyo, uze uvavanye izithuba."
+    },
+    "memoText": {
+      "en": "$x^2 - 3x - 10 \\ge 0$\n$(x - 5)(x + 2) \\ge 0$\nCritical values: $x = -2; 5$\n$x \\le -2$ or $x \\ge 5$",
+      "af": "$x^2 - 3x - 10 \\ge 0$\n$(x - 5)(x + 2) \\ge 0$\nKritieke waardes: $x = -2; 5$\n$x \\le -2$ of $x \\ge 5$",
+      "xh": "$x^2 - 3x - 10 \\ge 0$\n$(x - 5)(x + 2) \\ge 0$\nAmanani abalulekileyo: $x = -2; 5$\n$x \\le -2$ okanye $x \\ge 5$"
+    }
+  },
+  {
+    "id": "math_p1_alg_03",
+    "subject": "Mathematics",
+    "paper": 1,
+    "topic": "Algebra, Equations & Inequalities",
+    "subtopic": "Simultaneous Equations",
+    "difficulty": "hard",
+    "marks": 6,
+    "sourceYear": 2023,
+    "questionText": {
+      "en": "Solve simultaneously for $x$ and $y$:\n$x - y = 3$\n$x^2 - xy + y^2 = 21$",
+      "af": "Los gelyktydig op vir $x$ en $y$:\n$x - y = 3$\n$x^2 - xy + y^2 = 21$",
+      "xh": "Sombulula ngaxeshanye u-$x$ no-$y$:\n$x - y = 3$\n$x^2 - xy + y^2 = 21$"
+    },
+    "scaffoldHint": {
+      "en": "Express $x$ in terms of $y$ ($x = y + 3$) from the linear equation and substitute it into the quadratic equation.",
+      "af": "Druk $x$ uit in terme van $y$ ($x = y + 3$) uit die lineêre vergelyking en vervang dit in die kwadratiese vergelyking.",
+      "xh": "Veza u-$x$ ngokwe-$y$ ($x = y + 3$) kwi-ikhweyijini yomgca uze uyifake kwi-ikhweyijini yesikwere."
+    },
+    "memoText": {
+      "en": "$x = y + 3$\n$(y + 3)^2 - (y + 3)y + y^2 = 21$\n$y^2 + 6y + 9 - y^2 - 3y + y^2 = 21$\n$y^2 + 3y - 12 = 0$\n$(y + 4)(y - 1) = 0$ (or if standard factors: $(y + 4)(y - 3)$ depending on roots)\nFor $y = 1 \\implies x = 4$\nFor $y = -4 \\implies x = -1$",
+      "af": "$x = y + 3$\n$(y + 3)^2 - (y + 3)y + y^2 = 21$\n$y^2 + 6y + 9 - y^2 - 3y + y^2 = 21$\n$y^2 + 3y - 12 = 0$\nVir $y = 1 \\implies x = 4$\nVir $y = -4 \\implies x = -1$",
+      "xh": "$x = y + 3$\n$(y + 3)^2 - (y + 3)y + y^2 = 21$\n$y^2 + 6y + 9 - y^2 - 3y + y^2 = 21$\n$y^2 + 3y - 12 = 0$\nUkuba $y = 1 \\implies x = 4$\nUkuba $y = -4 \\implies x = -1$"
+    }
+  },
+  {
+    "id": "math_p1_pat_01",
+    "subject": "Mathematics",
+    "paper": 1,
+    "topic": "Patterns, Sequences & Series",
+    "subtopic": "Quadratic Patterns",
+    "difficulty": "medium",
+    "marks": 4,
+    "sourceYear": 2021,
+    "questionText": {
+      "en": "The first four terms of a quadratic pattern are: $3; 8; 15; 24; \\dots$\nDetermine the general term $T_n$.",
+      "af": "Die eerste vier terme van 'n kwadratiese patroon is: $3; 8; 15; 24; \\dots$\nBepaal die algemene term $T_n$.",
+      "xh": "Amanani amane okuqala ephethini yesikwere ngala: $3; 8; 15; 24; \\dots$\nFumana ithemu jikelele engu-$T_n$."
+    },
+    "scaffoldHint": {
+      "en": "Find first differences ($5, 7, 9$) and second constant difference ($2a = 2$). Then $3a + b = T_2 - T_1$ and $a + b + c = T_1$.",
+      "af": "Vind eerste verskille ($5, 7, 9$) en tweede konstante verskil ($2a = 2$). Dan is $3a + b = T_2 - T_1$ en $a + b + c = T_1$.",
+      "xh": "Fumana umahluko wokuqala ($5, 7, 9$) kunye nomahluko wesibini ongaguqukiyo ($2a = 2$). Emva koko $3a + b = T_2 - T_1$ kunye no-$a + b + c = T_1$."
+    },
+    "memoText": {
+      "en": "$2a = 2 \\implies a = 1$\n$3(1) + b = 5 \\implies b = 2$\n$1 + 2 + c = 3 \\implies c = 0$\n$T_n = n^2 + 2n$",
+      "af": "$2a = 2 \\implies a = 1$\n$3(1) + b = 5 \\implies b = 2$\n$1 + 2 + c = 3 \\implies c = 0$\n$T_n = n^2 + 2n$",
+      "xh": "$2a = 2 \\implies a = 1$\n$3(1) + b = 5 \\implies b = 2$\n$1 + 2 + c = 3 \\implies c = 0$\n$T_n = n^2 + 2n$"
+    }
+  },
+  {
+    "id": "math_p1_pat_02",
+    "subject": "Mathematics",
+    "paper": 1,
+    "topic": "Patterns, Sequences & Series",
+    "subtopic": "Geometric Series to Infinity",
+    "difficulty": "medium",
+    "marks": 3,
+    "sourceYear": 2022,
+    "questionText": {
+      "en": "Calculate the sum to infinity ($S_\\infty$) of the geometric series: $27 + 9 + 3 + \\dots$",
+      "af": "Bereken die som tot oneindigheid ($S_\\infty$) van die meetkundige reeks: $27 + 9 + 3 + \\dots$",
+      "xh": "Bala isimbuku esiya kuthi ga kwinzulu ($S_\\infty$) solu ngcelele lwejometri: $27 + 9 + 3 + \\dots$"
+    },
+    "scaffoldHint": {
+      "en": "Verify convergence $|r| < 1$, find $a = 27$ and $r = \\frac{1}{3}$, then apply $S_\\infty = \\frac{a}{1 - r}$.",
+      "af": "Verifieer konvergensie $|r| < 1$, vind $a = 27$ en $r = \\frac{1}{3}$, en pas toe $S_\\infty = \\frac{a}{1 - r}$.",
+      "xh": "Qinisekisa ukuba iyadibana na $|r| < 1$, fumana $a = 27$ kunye no-$r = \\frac{1}{3}$, uze usebenzise $S_\\infty = \\frac{a}{1 - r}$."
+    },
+    "memoText": {
+      "en": "$a = 27$, $r = \\frac{9}{27} = \\frac{1}{3}$\n$S_\\infty = \\frac{a}{1 - r} = \\frac{27}{1 - \\frac{1}{3}} = \\frac{27}{\\frac{2}{3}} = \\frac{81}{2} = 40.5$",
+      "af": "$a = 27$, $r = \\frac{9}{27} = \\frac{1}{3}$\n$S_\\infty = \\frac{a}{1 - r} = \\frac{27}{1 - \\frac{1}{3}} = \\frac{27}{\\frac{2}{3}} = \\frac{81}{2} = 40.5$",
+      "xh": "$a = 27$, $r = \\frac{9}{27} = \\frac{1}{3}$\n$S_\\infty = \\frac{a}{1 - r} = \\frac{27}{1 - \\frac{1}{3}} = \\frac{27}{\\frac{2}{3}} = \\frac{81}{2} = 40.5$"
+    }
+  },
+  {
+    "id": "math_p1_fn_01",
+    "subject": "Mathematics",
+    "paper": 1,
+    "topic": "Functions & Inverses",
+    "subtopic": "Hyperbolic Functions",
+    "difficulty": "medium",
+    "marks": 3,
+    "sourceYear": 2023,
+    "questionText": {
+      "en": "Given $f(x) = \\frac{3}{x - 2} + 1$, write down the equations of the asymptotes of $f$.",
+      "af": "Gegee $f(x) = \\frac{3}{x - 2} + 1$, skryf die vergelykings van die asimptote van $f$ neer.",
+      "xh": "Ukunikwe $f(x) = \\frac{3}{x - 2} + 1$, bhala phantsi ii-ikhweyijini zee-asimptowuthi zika-$f$."
+    },
+    "scaffoldHint": {
+      "en": "Vertical asymptote occurs where the denominator is zero ($x - p = 0$); horizontal asymptote is $y = q$.",
+      "af": "Vertikale asimptoot vind plaas waar die noemer nul is ($x - p = 0$); horisontale asimptoot is $y = q$.",
+      "xh": "I-asimptowuthi ethe nkqo ibakho apho idinomineyitha iliqanda ($x - p = 0$); ethe tyaba ngu-$y = q$."
+    },
+    "memoText": {
+      "en": "Vertical asymptote: $x = 2$\nHorizontal asymptote: $y = 1$",
+      "af": "Vertikale asimptoot: $x = 2$\nHorisontale asimptoot: $y = 1$",
+      "xh": "I-asimptowuthi ethe nkqo: $x = 2$\nI-asimptowuthi ethe tyaba: $y = 1$"
+    }
+  },
+  {
+    "id": "math_p1_fn_02",
+    "subject": "Mathematics",
+    "paper": 1,
+    "topic": "Functions & Inverses",
+    "subtopic": "Exponential Inverses",
+    "difficulty": "medium",
+    "marks": 3,
+    "sourceYear": 2022,
+    "questionText": {
+      "en": "Given $g(x) = 2^x$. Determine the equation of $g^{-1}(x)$ in the form $y = \\dots$",
+      "af": "Gegee $g(x) = 2^x$. Bepaal die vergelyking van $g^{-1}(x)$ in die vorm $y = \\dots$",
+      "xh": "Ukunikwe $g(x) = 2^x$. Fumana i-ikhweyijini ka-$g^{-1}(x)$ ngendlela ethi $y = \\dots$"
+    },
+    "scaffoldHint": {
+      "en": "Swap $x$ and $y$ to obtain $x = 2^y$, then convert the exponential equation into logarithmic form.",
+      "af": "Ruil $x$ en $y$ om sodat $x = 2^y$, en herlei dan die eksponensiële vergelyking na logaritmiese vorm.",
+      "xh": "Tshintshiselana ngo-$x$ no-$y$ ukuze ufumane $x = 2^y$, uze uguqulele kwifom yelogarithm."
+    },
+    "memoText": {
+      "en": "$x = 2^y$\n$y = \\log_2 x$\n$g^{-1}(x) = \\log_2 x$",
+      "af": "$x = 2^y$\n$y = \\log_2 x$\n$g^{-1}(x) = \\log_2 x$",
+      "xh": "$x = 2^y$\n$y = \\log_2 x$\n$g^{-1}(x) = \\log_2 x$"
+    }
+  },
+  {
+    "id": "math_p1_calc_01",
+    "subject": "Mathematics",
+    "paper": 1,
+    "topic": "Differential Calculus",
+    "subtopic": "First Principles",
+    "difficulty": "hard",
+    "marks": 5,
+    "sourceYear": 2023,
+    "questionText": {
+      "en": "Determine $f'(x)$ from first principles if $f(x) = 3x^2 - 5$.",
+      "af": "Bepaal $f'(x)$ vanaf eerste beginsels indien $f(x) = 3x^2 - 5$.",
+      "xh": "Fumana u-$f'(x)$ ukusuka kwimigaqo yokuqala ukuba $f(x) = 3x^2 - 5$."
+    },
+    "scaffoldHint": {
+      "en": "State $f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$, expand $3(x+h)^2 - 5$, cancel terms, and factor out $h$.",
+      "af": "Stel $f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$, brei $3(x+h)^2 - 5$ uit, kanselleer terme, en faktoriseer $h$ uit.",
+      "xh": "Xela ukuba $f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$, vula u-$3(x+h)^2 - 5$, rhoxisa amagama, uze ukhuphe u-$h$ ngaphandle."
+    },
+    "memoText": {
+      "en": "$f'(x) = \\lim_{h \\to 0} \\frac{[3(x+h)^2 - 5] - [3x^2 - 5]}{h}$\n$= \\lim_{h \\to 0} \\frac{3(x^2 + 2xh + h^2) - 5 - 3x^2 + 5}{h}$\n$= \\lim_{h \\to 0} \\frac{6xh + 3h^2}{h} = \\lim_{h \\to 0} (6x + 3h) = 6x$",
+      "af": "$f'(x) = \\lim_{h \\to 0} \\frac{[3(x+h)^2 - 5] - [3x^2 - 5]}{h}$\n$= \\lim_{h \\to 0} \\frac{3(x^2 + 2xh + h^2) - 5 - 3x^2 + 5}{h}$\n$= \\lim_{h \\to 0} \\frac{6xh + 3h^2}{h} = \\lim_{h \\to 0} (6x + 3h) = 6x$",
+      "xh": "$f'(x) = \\lim_{h \\to 0} \\frac{[3(x+h)^2 - 5] - [3x^2 - 5]}{h}$\n$= \\lim_{h \\to 0} \\frac{3(x^2 + 2xh + h^2) - 5 - 3x^2 + 5}{h}$\n$= \\lim_{h \\to 0} \\frac{6xh + 3h^2}{h} = \\lim_{h \\to 0} (6x + 3h) = 6x$"
+    }
+  },
+  {
+    "id": "math_p1_calc_02",
+    "subject": "Mathematics",
+    "paper": 1,
+    "topic": "Differential Calculus",
+    "subtopic": "Cubic Polynomial Stationary Points",
+    "difficulty": "medium",
+    "marks": 5,
+    "sourceYear": 2022,
+    "questionText": {
+      "en": "Find the coordinates of the turning points of the curve $f(x) = x^3 - 3x^2 - 9x + 2$.",
+      "af": "Vind die koördinate van die draaipunte van die kromme $f(x) = x^3 - 3x^2 - 9x + 2$.",
+      "xh": "Fumana ii-ikhodineyithi zeendawo zokujika zegophe $f(x) = x^3 - 3x^2 - 9x + 2$."
+    },
+    "scaffoldHint": {
+      "en": "Differentiate to find $f'(x) = 0$, solve for $x$, and substitute back into $f(x)$ for the $y$-values.",
+      "af": "Differensieer om $f'(x) = 0$ te vind, los op vir $x$, en vervang terug in $f(x)$ vir die $y$-waardes.",
+      "xh": "Bala i-derivative ufumane $f'(x) = 0$, sombulula u-$x$, uze ubuyisele ku-$f(x)$ ukufumana amaxabiso ka-$y$."
+    },
+    "memoText": {
+      "en": "$f'(x) = 3x^2 - 6x - 9 = 0$\n$x^2 - 2x - 3 = 0 \\implies (x - 3)(x + 1) = 0$\n$x = 3$ or $x = -1$\n$f(3) = (3)^3 - 3(3)^2 - 9(3) + 2 = -25 \\implies (3; -25)$\n$f(-1) = (-1)^3 - 3(-1)^2 - 9(-1) + 2 = 7 \\implies (-1; 7)$",
+      "af": "$f'(x) = 3x^2 - 6x - 9 = 0$\n$x^2 - 2x - 3 = 0 \\implies (x - 3)(x + 1) = 0$\n$x = 3$ of $x = -1$\n$f(3) = -25 \\implies (3; -25)$\n$f(-1) = 7 \\implies (-1; 7)$",
+      "xh": "$f'(x) = 3x^2 - 6x - 9 = 0$\n$x^2 - 2x - 3 = 0 \\implies (x - 3)(x + 1) = 0$\n$x = 3$ okanye $x = -1$\n$f(3) = -25 \\implies (3; -25)$\n$f(-1) = 7 \\implies (-1; 7)$"
+    }
+  },
+  {
+    "id": "math_p1_fin_01",
+    "subject": "Mathematics",
+    "paper": 1,
+    "topic": "Financial Mathematics",
+    "subtopic": "Sinking Funds & Annuities",
+    "difficulty": "hard",
+    "marks": 5,
+    "sourceYear": 2023,
+    "questionText": {
+      "en": "Lindiwe takes a loan of $\\text{R}250\\,000$ to buy a car. The bank charges $10.5\\%$ interest p.a. compounded monthly. Calculate her monthly instalment if the loan is repaid over $5$ years.",
+      "af": "Lindiwe neem 'n lening van $\\text{R}250\\,000$ om 'n motor te koop. Die bank hef $10.5\\%$ rente p.j. maandeliks saamgestel. Bereken haar maandelikse paaiement as die lening oor $5$ jaar terugbetaal word.",
+      "xh": "ULindiwe uthatha imali-mboleko engama-$\\text{R}250\\,000$ yokuthenga imoto. Ibhanki ibiza inzala eyi-$10.5\\%$ ngonyaka ebalwa ngenyanga. Bala intlawulo yakhe yenyanga ukuba imali-mboleko ihlawulwa kwisithuba seminyaka emi-$5$."
+    },
+    "scaffoldHint": {
+      "en": "Use the present value annuity formula: $P = \\frac{x[1 - (1 + i)^{-n}]}{i}$ where $i = \\frac{0.105}{12}$ and $n = 5 \\times 12 = 60$.",
+      "af": "Gebruik die huidige-waarde annuïteitsformule: $P = \\frac{x[1 - (1 + i)^{-n}]}{i}$ waar $i = \\frac{0.105}{12}$ en $n = 5 \\times 12 = 60$.",
+      "xh": "Sebenzisa ifomula ye-annuity yexabiso langoku: $P = \\frac{x[1 - (1 + i)^{-n}]}{i}$ apho $i = \\frac{0.105}{12}$ kunye no-$n = 5 \\times 12 = 60$."
+    },
+    "memoText": {
+      "en": "$P = 250000$, $i = \\frac{0.105}{12} = 0.00875$, $n = 60$\n$250000 = \\frac{x[1 - (1 + 0.00875)^{-60}]}{0.00875}$\n$x = \\frac{250000 \\times 0.00875}{1 - (1.00875)^{-60}} \\approx \\text{R}5\\,373.11$",
+      "af": "$P = 250000$, $i = \\frac{0.105}{12} = 0.00875$, $n = 60$\n$250000 = \\frac{x[1 - (1 + 0.00875)^{-60}]}{0.00875}$\n$x \\approx \\text{R}5\\,373.11$",
+      "xh": "$P = 250000$, $i = \\frac{0.105}{12} = 0.00875$, $n = 60$\n$250000 = \\frac{x[1 - (1 + 0.00875)^{-60}]}{0.00875}$\n$x \\approx \\text{R}5\\,373.11$"
+    }
+  },
+  {
+    "id": "math_p1_prob_01",
+    "subject": "Mathematics",
+    "paper": 1,
+    "topic": "Probability",
+    "subtopic": "Counting Principle",
+    "difficulty": "medium",
+    "marks": 3,
+    "sourceYear": 2021,
+    "questionText": {
+      "en": "How many different 7-digit telephone codes can be formed using digits $0$ to $9$ if repetition is NOT allowed and the code must start with the digit $7$?",
+      "af": "Hoeveel verskillende 7-syfer telefoon kodes kan gevorm word deur die syfers $0$ tot $9$ te gebruik as herhaling NIE toegelaat word NIE en die kode met 'n $7$ moet begin?",
+      "xh": "Zingaphi iikhowudi zefowuni ezinamanani asi-7 ezinokwenziwa kusetyenziswa amanani $0$ ukuya ku-$9$ ukuba ukuphinda akuvumelekanga kwaye ikhowudi kufuneka iqale ngenani u-$7$?"
+    },
+    "scaffoldHint": {
+      "en": "The first position is fixed ($1$ choice). Remaining 6 positions must be filled from the remaining 9 digits without repetition: $1 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4$.",
+      "af": "Die eerste posisie is vas ($1$ keuse). Die oorblywende 6 posisies moet gevul word uit die oorblywende 9 syfers sonder herhaling: $1 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4$.",
+      "xh": "Indawo yokuqala imiselwe (ukhetho olu-$1$). Iindawo ezi-6 eziseleyo kufuneka zizaliswe ngamanani asi-9 aseleyo ngaphandle kokuphinda: $1 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4$."
+    },
+    "memoText": {
+      "en": "Number of codes $= 1 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4 = 60\\,480$",
+      "af": "Aantal kodes $= 1 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4 = 60\\,480$",
+      "xh": "Inani leekhowudi $= 1 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4 = 60\\,480$"
+    }
+  },
+  {
+    "id": "math_p2_geom_01",
+    "subject": "Mathematics",
+    "paper": 2,
+    "topic": "Analytical Geometry",
+    "subtopic": "Equation of Circle Tangent",
+    "difficulty": "hard",
+    "marks": 5,
+    "sourceYear": 2022,
+    "questionText": {
+      "en": "The circle defined by $(x - 3)^2 + (y + 1)^2 = 25$ touches a tangent line at the point $P(7; 2)$. Determine the equation of this tangent.",
+      "af": "Die sirkel gedefinieer deur $(x - 3)^2 + (y + 1)^2 = 25$ raak aan 'n raaklyn by punt $P(7; 2)$. Bepaal die vergelyking van hierdie raaklyn.",
+      "xh": "Isangqa esichazwe ngu-$(x - 3)^2 + (y + 1)^2 = 25$ sichukumisa umgca otangent kwindawo $P(7; 2)$. Fumana i-ikhweyijini yalo mgca otangent."
+    },
+    "scaffoldHint": {
+      "en": "Centre is $M(3; -1)$. Find gradient of radius $m_{radius} = \\frac{2 - (-1)}{7 - 3}$. Use $m_{tangent} \\times m_{radius} = -1$ and point-slope equation.",
+      "af": "Middelpunt is $M(3; -1)$. Vind helling van radius $m_{radius} = \\frac{2 - (-1)}{7 - 3}$. Gebruik $m_{raaklyn} \\times m_{radius} = -1$ en punt-helling vergelyking.",
+      "xh": "Umbindi ngu-$M(3; -1)$. Fumana igradient yeradius $m_{radius} = \\frac{2 - (-1)}{7 - 3}$. Sebenzisa $m_{tangent} \\times m_{radius} = -1$ kunye ne-ikhweyijini yomgca."
+    },
+    "memoText": {
+      "en": "Centre $M(3; -1)$\n$m_{MP} = \\frac{2 - (-1)}{7 - 3} = \\frac{3}{4}$\n$m_{tangent} = -\\frac{4}{3}$ (radius $\\perp$ tangent)\n$y - 2 = -\\frac{4}{3}(x - 7) \\implies y = -\\frac{4}{3}x + \\frac{28}{3} + 2 = -\\frac{4}{3}x + \\frac{34}{3}$",
+      "af": "Middelpunt $M(3; -1)$\n$m_{MP} = \\frac{2 - (-1)}{7 - 3} = \\frac{3}{4}$\n$m_{raaklyn} = -\\frac{4}{3}$ (radius $\\perp$ raaklyn)\n$y - 2 = -\\frac{4}{3}(x - 7) \\implies y = -\\frac{4}{3}x + \\frac{34}{3}$",
+      "xh": "Umbindi $M(3; -1)$\n$m_{MP} = \\frac{2 - (-1)}{7 - 3} = \\frac{3}{4}$\n$m_{tangent} = -\\frac{4}{3}$ (iradius $\\perp$ itangent)\n$y - 2 = -\\frac{4}{3}(x - 7) \\implies y = -\\frac{4}{3}x + \\frac{34}{3}$"
+    }
+  },
+  {
+    "id": "math_p2_trig_01",
+    "subject": "Mathematics",
+    "paper": 2,
+    "topic": "Trigonometry",
+    "subtopic": "Double Angles & Identities",
+    "difficulty": "medium",
+    "marks": 4,
+    "sourceYear": 2023,
+    "questionText": {
+      "en": "Simplify to a single trigonometric ratio without using a calculator:\n$\\frac{\\sin 2\\theta}{\\cos 2\\theta + 1}$",
+      "af": "Vereenvoudig tot 'n enkele trigonometriese verhouding sonder om 'n sakrekenaar te gebruik:\n$\\frac{\\sin 2\\theta}{\\cos 2\\theta + 1}$",
+      "xh": "Yenza lula kwireyishiyo enye yetrigonometri ngaphandle kokusebenzisa umatshini wokubala:\n$\\frac{\\sin 2\\theta}{\\cos 2\\theta + 1}$"
+    },
+    "scaffoldHint": {
+      "en": "Expand $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$ and choose $\\cos 2\\theta = 2\\cos^2\\theta - 1$ to cancel the $+1$ in the denominator.",
+      "af": "Brei $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$ uit en kies $\\cos 2\\theta = 2\\cos^2\\theta - 1$ sodat die $+1$ in die noemer uitkanselleer.",
+      "xh": "Vula $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$ uze ukhethe $\\cos 2\\theta = 2\\cos^2\\theta - 1$ ukuze kucinywe u-$+1$ kwidinomineyitha."
+    },
+    "memoText": {
+      "en": "$\\frac{2\\sin\\theta\\cos\\theta}{(2\\cos^2\\theta - 1) + 1} = \\frac{2\\sin\\theta\\cos\\theta}{2\\cos^2\\theta} = \\frac{\\sin\\theta}{\\cos\\theta} = \\tan\\theta$",
+      "af": "$\\frac{2\\sin\\theta\\cos\\theta}{(2\\cos^2\\theta - 1) + 1} = \\frac{2\\sin\\theta\\cos\\theta}{2\\cos^2\\theta} = \\frac{\\sin\\theta}{\\cos\\theta} = \\tan\\theta$",
+      "xh": "$\\frac{2\\sin\\theta\\cos\\theta}{(2\\cos^2\\theta - 1) + 1} = \\frac{2\\sin\\theta\\cos\\theta}{2\\cos^2\\theta} = \\frac{\\sin\\theta}{\\cos\\theta} = \\tan\\theta$"
+    }
+  },
+  {
+    "id": "math_p2_trig_02",
+    "subject": "Mathematics",
+    "paper": 2,
+    "topic": "Trigonometry",
+    "subtopic": "General Solutions",
+    "difficulty": "hard",
+    "marks": 6,
+    "sourceYear": 2021,
+    "questionText": {
+      "en": "Determine the general solution for: $\\cos 2x - \\sin x = 0$.",
+      "af": "Bepaal die algemene oplossing vir: $\\cos 2x - \\sin x = 0$.",
+      "xh": "Fumana isisombululo gabalala sale: $\\cos 2x - \\sin x = 0$."
+    },
+    "scaffoldHint": {
+      "en": "Substitute $\\cos 2x = 1 - 2\\sin^2 x$ to obtain a quadratic in $\\sin x$, factorise, and solve.",
+      "af": "Vervang $\\cos 2x = 1 - 2\\sin^2 x$ om 'n kwadratiese vergelyking in $\\sin x$ te kry, faktoriseer en los op.",
+      "xh": "Faka u-$\\cos 2x = 1 - 2\\sin^2 x$ ukufumana i-ikhweyijini yesikwere ku-$\\sin x$, yahlula-hlula uze usombulule."
+    },
+    "memoText": {
+      "en": "$1 - 2\\sin^2 x - \\sin x = 0$\n$2\\sin^2 x + \\sin x - 1 = 0$\n$(2\\sin x - 1)(\\sin x + 1) = 0$\n$\\sin x = \\frac{1}{2} \\implies x = 30^\\circ + k \\cdot 360^\\circ$ or $x = 150^\\circ + k \\cdot 360^\\circ$\n$\\sin x = -1 \\implies x = 270^\\circ + k \\cdot 360^\\circ$, where $k \\in \\mathbb{Z}$",
+      "af": "$1 - 2\\sin^2 x - \\sin x = 0$\n$2\\sin^2 x + \\sin x - 1 = 0$\n$(2\\sin x - 1)(\\sin x + 1) = 0$\n$\\sin x = \\frac{1}{2} \\implies x = 30^\\circ + k \\cdot 360^\\circ$ of $x = 150^\\circ + k \\cdot 360^\\circ$\n$\\sin x = -1 \\implies x = 270^\\circ + k \\cdot 360^\\circ$, waar $k \\in \\mathbb{Z}$",
+      "xh": "$1 - 2\\sin^2 x - \\sin x = 0$\n$2\\sin^2 x + \\sin x - 1 = 0$\n$(2\\sin x - 1)(\\sin x + 1) = 0$\n$\\sin x = \\frac{1}{2} \\implies x = 30^\\circ + k \\cdot 360^\\circ$ okanye $x = 150^\\circ + k \\cdot 360^\\circ$\n$\\sin x = -1 \\implies x = 270^\\circ + k \\cdot 360^\\circ$, apho $k \\in \\mathbb{Z}$"
+    }
+  },
+  {
+    "id": "math_p2_euc_01",
+    "subject": "Mathematics",
+    "paper": 2,
+    "topic": "Euclidean Geometry",
+    "subtopic": "Proportionality Theorem",
+    "difficulty": "medium",
+    "marks": 5,
+    "sourceYear": 2022,
+    "questionText": {
+      "en": "In $\\Delta ABC$, $D$ lies on $AB$ and $E$ lies on $AC$ such that $DE \\parallel BC$. If $AD = 4\\text{ cm}$, $DB = 6\\text{ cm}$, and $AE = 5\\text{ cm}$, calculate the length of $EC$.",
+      "af": "In $\\Delta ABC$, lê $D$ op $AB$ en $E$ op $AC$ sodat $DE \\parallel BC$. As $AD = 4\\text{ cm}$, $DB = 6\\text{ cm}$, en $AE = 5\\text{ cm}$, bereken die lengte van $EC$.",
+      "xh": "Kwi-$\\Delta ABC$, u-$D$ usekugqibeleni kuka-$AB$ kwaye u-$E$ usekugqibeleni kuka-$AC$ ukuze u-$DE \\parallel BC$. Ukuba $AD = 4\\text{ cm}$, $DB = 6\\text{ cm}$, kwaye $AE = 5\\text{ cm}$, bala ubude buka-$EC$."
+    },
+    "scaffoldHint": {
+      "en": "Apply the line parallel to one side of triangle theorem: $\\frac{AD}{DB} = \\frac{AE}{EC}$ (line $\\parallel$ one side of $\\Delta$).",
+      "af": "Pas die stelling toe van lyn ewewydig aan een sy van 'n driehoek: $\\frac{AD}{DB} = \\frac{AE}{EC}$ (lyn $\\parallel$ een sy van $\\Delta$).",
+      "xh": "Sebenzisa ithiyori yomgca ohambelana necala elinye likanxantathu: $\\frac{AD}{DB} = \\frac{AE}{EC}$ (umgca $\\parallel$ icala elinye le-$\\Delta$)."
+    },
+    "memoText": {
+      "en": "$\\frac{AD}{DB} = \\frac{AE}{EC}$ (line $\\parallel$ one side of $\\Delta$)\n$\\frac{4}{6} = \\frac{5}{EC}$\n$4 \\cdot EC = 30 \\implies EC = 7.5\\text{ cm}$",
+      "af": "$\\frac{AD}{DB} = \\frac{AE}{EC}$ (lyn $\\parallel$ een sy van $\\Delta$)\n$\\frac{4}{6} = \\frac{5}{EC}$\n$4 \\cdot EC = 30 \\implies EC = 7.5\\text{ cm}$",
+      "xh": "$\\frac{AD}{DB} = \\frac{AE}{EC}$ (umgca $\\parallel$ icala elinye le-$\\Delta$)\n$\\frac{4}{6} = \\frac{5}{EC}$\n$4 \\cdot EC = 30 \\implies EC = 7.5\\text{ cm}$"
+    }
+  },
+  {
+    "id": "math_p2_stat_01",
+    "subject": "Mathematics",
+    "paper": 2,
+    "topic": "Statistics & Regression",
+    "subtopic": "Least Squares Regression",
+    "difficulty": "medium",
+    "marks": 4,
+    "sourceYear": 2023,
+    "questionText": {
+      "en": "A researcher collects bivariate data on hours studied ($x$) and test marks ($y$). The calculator outputs: $a = 28.5$, $b = 4.2$, and $r = 0.94$. State the equation of the least squares regression line and comment on the correlation strength.",
+      "af": "'n Navorser versamel bivariante data oor ure gestudeer ($x$) en toets punte ($y$). Die sakrekenaar lewer: $a = 28.5$, $b = 4.2$, en $r = 0.94$. Gee die vergelyking van die kleinste-kwadrate regressielyn en lewer kommentaar op die korrelasiesterkte.",
+      "xh": "Umphengululi uqokelela idatha yezinto ezimbini kwiiyure zokufunda ($x$) kunye namanqaku ovavanyo ($y$). Umatshini wokubala unika: $a = 28.5$, $b = 4.2$, kunye no-$r = 0.94$. Bhala i-ikhweyijini yomgca weregression yezikwere ezincinci kwaye ugwebe ngamandla oqhagamshelwano."
+    },
+    "scaffoldHint": {
+      "en": "Use standard format $\\hat{y} = a + bx$. Since $r = 0.94$ is close to $+1$, determine whether it is strong or weak positive.",
+      "af": "Gebruik die standaardformaat $\\hat{y} = a + bx$. Aangesien $r = 0.94$ naby aan $+1$ is, bepaal of dit 'n sterk of swak positiewe korrelasie is.",
+      "xh": "Sebenzisa ifomathi eqhelekileyo $\\hat{y} = a + bx$. Kuba u-$r = 0.94$ esondele kakhulu ku-$+1$, chaza ukuba ngaba luqhagamshelwano olomeleleyo olulungileyo."
+    },
+    "memoText": {
+      "en": "Regression line: $\\hat{y} = 28.5 + 4.2x$\nCorrelation: Very strong positive correlation between hours studied and test marks.",
+      "af": "Regressielyn: $\\hat{y} = 28.5 + 4.2x$\nKorrelasie: Baie sterk positiewe korrelasie tussen ure gestudeer en toetspunte.",
+      "xh": "Umgca weregression: $\\hat{y} = 28.5 + 4.2x$\nUQhagamshelwano: Uqhagamshelwano olomelele kakhulu oluhle phakathi kweeyure zokufunda namanqaku ovavanyo."
+    }
+  }
+]
