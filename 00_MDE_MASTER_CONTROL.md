@@ -42,7 +42,7 @@ Every build decision must pass all of these gates:
 | Tier 2: Humanities | History | Grade 12 Paper 1 & 2 topic-family launch pack, EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
 | Tier 2: Humanities | Tourism | Curriculum and exam-bank ingestion | **Pending — Western Cape launch-priority subject** |
 | Tier 3: Technical | Civil / Mechanical / Electrical / EGD | Technical banks + schematic/diagram caching | **Pending — post-launch priority wave** |
-| Tier 4A: Core Language Exam Support | English / Afrikaans / isiXhosa | Comprehension, summary, visual literacy, language structures, editing and exam technique | **ACTIVE — current launch-priority mini-layer** |
+| Tier 4A: Core Language Exam Support | English / Afrikaans / isiXhosa | Shared comprehension, summary, visual literacy, language structures, editing and exam-technique layer | **ACTIVE — 12-question launch pack ready for build verification** |
 | Tier 4B: Arts & Specialist Subjects | Arts / Music / specialist content | Visual/audio/media/archive support | **Pending — post-launch specialist expansion** |
 
 ## FROZEN SUBJECT RECORDS — 3 SEPTEMBER 2026
@@ -72,14 +72,7 @@ Verified: 1/12 loading; EN/AF/XH learner views; Paper 1 = 1/6; Paper 2 = 1/6; me
 Verified: Economics loads as **1 / 12**; learner-side functionality user-verified; Paper 1 = **1 / 6**; Paper 2 = **1 / 6**; local production build passed; production preview and offline preview reload user-verified.
 
 ### History
-Verified:
-- History loads as **1 / 12**.
-- Learner-side functionality was user-verified as working.
-- Paper 1 filter shows **1 / 6**.
-- Paper 2 filter shows **1 / 6**.
-- Local production build passed.
-- Production preview showed **1 / 12** and the remaining learner flow was user-verified as working.
-- Offline preview reload was user-verified with connectivity disabled.
+Verified: History loads as **1 / 12**; learner-side functionality user-verified; Paper 1 = **1 / 6**; Paper 2 = **1 / 6**; local production build passed; production preview **1 / 12** and remaining learner flow user-verified; offline preview reload user-verified.
 
 **Standing limitation for frozen launch baselines:** these are functionally launchable coverage packs, not claims of full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
 
@@ -89,13 +82,45 @@ Verified:
 
 Mathematics, Life Sciences, Physical Sciences, Mathematical Literacy, Accounting, Business Studies, Geography, Economics and History are frozen. Any change to a frozen subject requires a controlled correction branch, explicit test, verification and re-freeze.
 
-### Language exam-skills next action
-1. Inspect the repository for any existing English, Afrikaans or isiXhosa exam-skills packs before creating anything new.
-2. Preserve usable existing work and avoid duplication.
-3. Keep the three languages inside the same app architecture.
-4. Build only the smallest launch-priority exam-skills layer covering comprehension, summary, visual literacy, language structures/editing and exam technique.
-5. Run GitHub build check.
-6. Learner test → production/offline test → freeze before opening Tourism.
+Repository audit result:
+- No existing English/Afrikaans/isiXhosa exam-skills learner pack was found in `main`.
+- Repository search found no alternative shared language-exam-skills layer.
+- The existing dynamic loader already supports a new `/packs/<subject>.json` pack without engine redesign.
+
+The controlled `language-skills-launch-01` branch now contains:
+- One shared learner selector lane: English `Language Exam Skills`, Afrikaans `Taaleksamenvaardighede`, isiXhosa `Izakhono zoVavanyo loLwimi`.
+- A **12-question original EN/AF/XH launch pack** using the same app architecture.
+
+Internal skill group 1 — 6 questions:
+- Comprehension: main idea
+- Comprehension: inference
+- Summary: selecting key points
+- Summary: paraphrasing
+- Visual literacy: purpose and audience
+- Visual literacy: persuasive technique
+
+Internal skill group 2 — 6 questions:
+- Language structures: register
+- Language structures: ambiguity
+- Editing: punctuation and sentence control
+- Editing: conciseness
+- Exam technique: command words
+- Exam technique: mark allocation and checking
+
+**Important architecture note:** the existing learner shell labels these two internal groups as Paper 1 and Paper 2 because the current filter is paper-based. This is an internal launch-pack grouping only and is **not a claim that all three DBE language subjects use this exact paper mapping**. The layer is transversal exam support, not a replacement for subject-specific Home Language / First Additional Language paper specifications.
+
+### Language exam-skills next gate
+1. Run GitHub build check.
+2. Merge only if build passes.
+3. Learner-side test: confirm **1 / 12**.
+4. Verify EN / AF / XH switching and localized lane names.
+5. Verify internal group Paper 1 shows **1 / 6** and Paper 2 shows **1 / 6**.
+6. Verify topic filters, hints, memoranda and navigation.
+7. Run local production build and preview.
+8. Verify offline reload.
+9. Freeze only after those tests pass, then open Tourism.
+
+**Important limitation:** this is a compact transversal exam-skills launch layer. It is not full language-curriculum coverage, subject-specific paper certification, human language-quality certification, verified past-paper provenance or institutional certification.
 
 ## LOCKED WESTERN CAPE PRIORITY SEQUENCE
 
@@ -113,11 +138,9 @@ After that launch-priority wave, reassess before expansion into EGD and the tech
 - **MDE-BS-01 → 04:** Business Studies audit, pack, acceptance and freeze — **COMPLETE**.
 - **MDE-GEO-01 → 04:** Geography audit, pack, acceptance and freeze — **COMPLETE**.
 - **MDE-ECO-01 → 04:** Economics audit, pack, acceptance and freeze — **COMPLETE**.
-- **MDE-HIS-01:** History existing-pack and engine-readiness audit — **PASS — no existing pack; selector registration required**.
-- **MDE-HIS-02:** History selector registration + 12-question EN/AF/XH launch pack — **PASS**.
-- **MDE-HIS-03:** History learner / production / offline acceptance — **PASS**.
-- **MDE-HIS-04:** History launch baseline freeze — **COMPLETE**.
-- **MDE-LANG-01:** English/Afrikaans/isiXhosa exam-skills existing-work audit — **NEXT**.
+- **MDE-HIS-01 → 04:** History audit, pack, acceptance and freeze — **COMPLETE**.
+- **MDE-LANG-01:** English/Afrikaans/isiXhosa exam-skills existing-work audit — **PASS — no existing pack; shared selector lane required**.
+- **MDE-LANG-02:** Shared selector lane + 12-question EN/AF/XH exam-skills pack — **READY FOR BUILD VERIFICATION**.
 
 ## CURRENT RISK
 
