@@ -10,7 +10,8 @@ const SUBJECTS = [
   { id: 'lifesciences', name: 'Life Sciences' },
   { id: 'mathlit', name: 'Mathematical Literacy' },
   { id: 'accounting', name: 'Accounting' },
-  { id: 'business', name: 'Business Studies' }
+  { id: 'business', name: 'Business Studies' },
+  { id: 'geography', name: 'Geography' }
 ];
 
 const UI = {
@@ -25,7 +26,8 @@ const SUBJECT_NAMES: Record<string, Record<Language, string>> = {
   lifesciences: { en: 'Life Sciences', af: 'Lewenswetenskappe', xh: 'IiNzululwazi zoBomi' },
   mathlit: { en: 'Mathematical Literacy', af: 'Wiskundige Geletterdheid', xh: 'ULwazi lweMathematika' },
   accounting: { en: 'Accounting', af: 'Rekeningkunde', xh: 'Ucwangciso-mali' },
-  business: { en: 'Business Studies', af: 'Besigheidstudies', xh: 'Izifundo zoShishino' }
+  business: { en: 'Business Studies', af: 'Besigheidstudies', xh: 'Izifundo zoShishino' },
+  geography: { en: 'Geography', af: 'Geografie', xh: 'IJografi' }
 };
 
 function renderMathInText(text: string): string {
