@@ -33,7 +33,7 @@ Every build decision must pass all of these gates:
 | Engine Foundation | Mobile UI & Accessibility | Mobile-first, high-contrast, thumb-friendly layout | **VERIFIED PASS — current launch baseline** |
 | Tier 1: Core STEM | Mathematics | Paper 1 & 2 framework, KaTeX, EN/AF/XH, current 16-question launch pack | **FROZEN LAUNCH BASELINE — not full syllabus complete** |
 | Tier 1: Core STEM | Life Sciences | Grade 12 Paper 1 & 2 topic-family launch pack, EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
-| Tier 1: Core STEM | Physical Sciences | Full curriculum-aligned bank, KaTeX, EN/AF/XH | **ACTIVE — next subject gate** |
+| Tier 1: Core STEM | Physical Sciences | Physics/Chemistry topic-family pack, KaTeX, EN/AF/XH | **ACTIVE — 14-question coverage pack ready for build verification** |
 | Tier 1: High-Enrollment | Mathematical Literacy | Full curriculum-aligned bank | **Pending** |
 | Tier 1: Commerce | Accounting | Full curriculum-aligned bank | **Pending** |
 | Tier 1: Commerce | Business Studies | Full curriculum-aligned bank | **Pending** |
@@ -74,16 +74,39 @@ Verified:
 
 **Only active subject:** Physical Sciences
 
-Mathematics and Life Sciences are frozen and must not be casually modified. Any change to either frozen subject now requires a controlled correction branch, explicit test, verification and re-freeze.
+The existing Physical Sciences pack was audited before modification. It contained only **5 questions**, used a different object-wrapper structure, was effectively English-only at item level, included unverified DBE/IEB authenticity and year claims, and contained a duplicate `scaffoldHint` key in one organic-chemistry record.
 
-Physical Sciences next action:
-1. Inspect the existing `public/packs/physics.json` before creating anything new.
-2. Audit current question count, schema, language coverage and Paper 1 / Paper 2 distribution.
-3. Map Grade 12 Physical Sciences topic-family coverage.
-4. Preserve usable existing questions and replace placeholder or monolingual records only where necessary.
-5. Build one controlled EN/AF/XH launch pack with KaTeX-compatible notation.
-6. Run GitHub build check.
-7. Learner test → production/offline test → freeze before opening Mathematical Literacy.
+The controlled `physics-launch-01` branch now contains a **14-question multilingual launch pack** using the same item-level EN/AF/XH structure as the other active packs. Unsupported authenticity/year claims have been removed. Existing useful scientific concepts were retained where appropriate but rewritten as original curriculum-aligned drills.
+
+Paper 1 coverage:
+- Newton's Laws & Mechanics
+- Momentum & Impulse
+- Vertical Projectile Motion
+- Work, Energy & Power
+- Doppler Effect
+- Electrostatics
+- Electric Circuits
+- Electrodynamics
+- Photoelectric Effect
+
+Paper 2 coverage:
+- Organic Chemistry
+- Rate & Extent of Reaction
+- Chemical Equilibrium
+- Acids & Bases
+- Electrochemistry
+
+### Physical Sciences next gate
+1. GitHub build check.
+2. Pull request review/merge only if the build passes.
+3. Learner-side test: confirm **1 / 14**.
+4. Verify EN / AF / XH switching.
+5. Verify Paper 1 shows **1 / 9** and Paper 2 shows **1 / 5**.
+6. Verify topic filters, hints, memoranda and KaTeX rendering.
+7. Run production build and offline reload test.
+8. Freeze only after those tests pass.
+
+**Important limitation:** topic-family coverage is not full syllabus depth. Human language-quality certification, deeper question density, provenance QA and institutional certification remain separate future gates.
 
 ## LAUNCH REPAIR / FREEZE STATUS
 
@@ -96,7 +119,8 @@ Physical Sciences next action:
 - **MDE-LS-01:** Life Sciences topic-family launch pack — **PASS**.
 - **MDE-LS-02:** Life Sciences learner / production / offline acceptance — **PASS**.
 - **MDE-LS-03:** Life Sciences launch baseline freeze — **COMPLETE**.
-- **MDE-PS-01:** Physical Sciences existing-pack audit — **NEXT**.
+- **MDE-PS-01:** Physical Sciences existing-pack audit — **PASS**.
+- **MDE-PS-02:** 14-question EN/AF/XH Physical Sciences launch pack — **READY FOR BUILD VERIFICATION**.
 
 ## CURRENT RISK
 
