@@ -1,4 +1,5 @@
 import Dexie, { type Table } from 'dexie';
+import { applyVerifiedContentCorrections } from './contentCorrections';
 
 export type Language = 'en' | 'af' | 'xh';
 
@@ -16,7 +17,8 @@ export interface QuestionRecord {
   subtopic?: string;
   difficulty: 'easy' | 'medium' | 'hard';
   marks: number;
-  sourceYear?: number;
+  sourceYear?: number | string;
+  authority?: string;
   questionText: LocalizedString;
   scaffoldHint: LocalizedString;
   memoText: LocalizedString;
@@ -50,24 +52,62 @@ export async function requestPersistentStorage(): Promise<boolean> {
   return false;
 }
 
-export async function initDatabase(subject: string): Promise<void> {
-  const count = await db.questions.where('subject').equals(subject).count();
-  if (count === 0) {
-    try {
-      const res = await fetch(`/packs/${subject}.json`);
-      if (res.ok) {
-        const data = await res.json();
-        const questionList = Array.isArray(data)
-          ? data
-          : (Array.isArray(data?.questions) ? data.questions : []);
+function toLocalizedString(value: unknown): LocalizedString {
+  if (typeof value === 'string') {
+    return { en: value, af: value, xh: value };
+  }
 
-        if (questionList.length > 0) {
-          await db.questions.bulkPut(questionList);
-        }
-      }
-    } catch (err) {
-      console.warn(`Could not load /packs/${subject}.json offline`, err);
-    }
+  if (value && typeof value === 'object') {
+    const record = value as Partial<LocalizedString>;
+    const fallback = record.en ?? record.af ?? record.xh ?? '';
+    return {
+      en: record.en ?? fallback,
+      af: record.af ?? fallback,
+      xh: record.xh ?? fallback
+    };
+  }
+
+  return { en: '', af: '', xh: '' };
+}
+
+/**
+ * Refresh the selected subject pack whenever it is available.
+ * Pack filenames use short subject IDs such as "maths", while older JSON
+ * records may contain display names such as "Mathematics". We normalise the
+ * stored subject to the short ID so IndexedDB queries always match the UI.
+ * If the pack cannot be fetched, the existing IndexedDB copy remains usable.
+ */
+export async function initDatabase(subject: string): Promise<void> {
+  try {
+    const res = await fetch(`/packs/${subject}.json`);
+    if (!res.ok) return;
+
+    const data = await res.json();
+    const rawList = Array.isArray(data)
+      ? data
+      : (Array.isArray(data?.questions) ? data.questions : []);
+
+    if (rawList.length === 0) return;
+
+    const questionList: QuestionRecord[] = rawList
+      .map((q: any) => ({
+        ...q,
+        subject,
+        questionText: toLocalizedString(q.questionText),
+        scaffoldHint: toLocalizedString(q.scaffoldHint),
+        memoText: toLocalizedString(q.memoText)
+      }) as QuestionRecord)
+      .map(applyVerifiedContentCorrections);
+
+    await db.transaction('rw', db.questions, async () => {
+      const existing = await db.questions.where('subject').equals(subject).toArray();
+      const incomingIds = new Set(questionList.map((q) => q.id));
+      const staleIds = existing.filter((q) => !incomingIds.has(q.id)).map((q) => q.id);
+      if (staleIds.length > 0) await db.questions.bulkDelete(staleIds);
+      await db.questions.bulkPut(questionList);
+    });
+  } catch (err) {
+    console.warn(`Using cached IndexedDB pack for ${subject}`, err);
   }
 }
 
