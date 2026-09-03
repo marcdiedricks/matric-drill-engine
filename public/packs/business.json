@@ -1,0 +1,290 @@
+[
+  {
+    "id": "bs_p1_env_01",
+    "subject": "business",
+    "paper": 1,
+    "topic": "Business Environments",
+    "subtopic": "Macro Environment",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "A small clothing manufacturer experiences frequent electricity interruptions and rising fuel prices. Explain TWO ways these macro-environment factors may affect the business.",
+      "af": "'n Klein klerevervaardiger ervaar gereelde elektrisiteitsonderbrekings en stygende brandstofpryse. Verduidelik TWEE maniere waarop hierdie makro-omgewingsfaktore die onderneming kan beïnvloed.",
+      "xh": "Umvelisi omncinci wempahla ujongene nokucinywa kombane rhoqo kunye nokunyuka kwamaxabiso epetroli. Chaza iindlela EZIMBINI ezi zinto zokusingqongileyo ezinkulu ezinokulichaphazela ngazo ishishini."
+    },
+    "scaffoldHint": {
+      "en": "Think about production delays, costs, transport and selling prices.",
+      "af": "Dink aan produksievertragings, koste, vervoer en verkooppryse.",
+      "xh": "Cinga ngokulibaziseka kwemveliso, iindleko, uthutho kunye namaxabiso okuthengisa."
+    },
+    "memoText": {
+      "en": "Possible answers: production may stop or slow during outages; alternative power increases operating costs; higher fuel prices raise transport/distribution costs; the business may increase selling prices, reducing competitiveness. Award any TWO well-explained effects.",
+      "af": "Moontlike antwoorde: produksie kan tydens onderbrekings stop of vertraag; alternatiewe krag verhoog bedryfskoste; hoër brandstofpryse verhoog vervoer-/verspreidingskoste; die onderneming kan verkooppryse verhoog, wat mededingendheid kan verminder. Ken enige TWEE goed verduidelikte gevolge toe.",
+      "xh": "Iimpendulo ezinokwenzeka: imveliso ingema okanye icothe xa umbane ucinyiwe; amandla angamanye anyusa iindleko zokusebenza; amaxabiso aphezulu epetroli anyusa iindleko zothutho/nokusasaza; ishishini linokunyusa amaxabiso okuthengisa nto leyo enokwehlisa ukhuphiswano. Nika amanqaku ngeziphumo EZIMBINI ezichazwe kakuhle."
+    }
+  },
+  {
+    "id": "bs_p1_env_02",
+    "subject": "business",
+    "paper": 1,
+    "topic": "Business Environments",
+    "subtopic": "Legislation and Compliance",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "State TWO reasons why businesses should comply with labour and consumer-protection legislation.",
+      "af": "Noem TWEE redes waarom ondernemings arbeids- en verbruikersbeskermingswetgewing moet nakom.",
+      "xh": "Chaza izizathu EZIMBINI zokuba kutheni amashishini kufuneka athobele imithetho yezabasebenzi kunye nokhuselo lwabathengi."
+    },
+    "scaffoldHint": {
+      "en": "Consider legal risk, fairness, trust and reputation.",
+      "af": "Oorweeg regsrisiko, billikheid, vertroue en reputasie.",
+      "xh": "Cinga ngomngcipheko wezomthetho, ubulungisa, ukuthembana kunye nodumo."
+    },
+    "memoText": {
+      "en": "Any TWO: avoid penalties/legal action; protect employee and consumer rights; build trust and reputation; reduce disputes; promote fair business practice.",
+      "af": "Enige TWEE: vermy boetes/regstappe; beskerm werknemer- en verbruikersregte; bou vertroue en reputasie; verminder geskille; bevorder billike sakepraktyke.",
+      "xh": "Naziphi na EZIMBINI: ukuphepha izohlwayo/amanyathelo omthetho; ukukhusela amalungelo abasebenzi nabathengi; ukwakha ukuthembana nodumo; ukunciphisa iingxabano; ukukhuthaza urhwebo olunobulungisa."
+    }
+  },
+  {
+    "id": "bs_p1_ops_01",
+    "subject": "business",
+    "paper": 1,
+    "topic": "Business Operations",
+    "subtopic": "Human Resources",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "A business needs to appoint a new sales supervisor. Outline the correct sequence of THREE key steps from identifying the vacancy to appointing a suitable candidate.",
+      "af": "'n Onderneming moet 'n nuwe verkoopstoesighouer aanstel. Skets die korrekte volgorde van DRIE belangrike stappe vanaf die identifisering van die vakature tot die aanstelling van 'n geskikte kandidaat.",
+      "xh": "Ishishini kufuneka liqeshe umphathi omtsha wentengiso. Chaza ulandelelwano oluchanekileyo lwamanyathelo AMATHATHU aphambili ukusuka ekuchongeni isithuba somsebenzi ukuya ekuqeshweni komgqatswa ofanelekileyo."
+    },
+    "scaffoldHint": {
+      "en": "Think recruitment first, then selection, then appointment/placement.",
+      "af": "Dink eers aan werwing, dan keuring, dan aanstelling/plasing.",
+      "xh": "Cinga kuqala ngokuqesha abagqatswa, emva koko ukhetho, emva koko ukuqeshwa/ukubekwa."
+    },
+    "memoText": {
+      "en": "Typical sequence: identify vacancy and prepare job description/specification; recruit/advertise; shortlist and select through screening/interviews; appoint/place the successful candidate. Award THREE valid sequential steps.",
+      "af": "Tipiese volgorde: identifiseer vakature en stel posbeskrywing/-spesifikasie op; werf/adverteer; maak kortlys en keur deur siftings-/onderhoudsproses; stel/plaas die suksesvolle kandidaat aan. Ken DRIE geldige opeenvolgende stappe toe.",
+      "xh": "Ulandelelwano oluqhelekileyo: chonga isithuba uze ulungise inkcazelo neemfuno zomsebenzi; bhengeza/tsala abagqatswa; yenza uluhlu olufutshane uze ukhethe ngohluzo/nodliwano-ndlebe; qesha/beka umgqatswa ophumeleleyo. Nika amanqaku ngamanyathelo AMATHATHU afanelekileyo alandelelanayo."
+    }
+  },
+  {
+    "id": "bs_p1_ops_02",
+    "subject": "business",
+    "paper": 1,
+    "topic": "Business Operations",
+    "subtopic": "Quality Management",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "A bakery receives repeated complaints about inconsistent product quality. Recommend TWO practical quality-management actions and explain how each could help.",
+      "af": "'n Bakkery ontvang herhaalde klagtes oor onbestendige produkkwaliteit. Beveel TWEE praktiese gehaltebestuursaksies aan en verduidelik hoe elkeen kan help.",
+      "xh": "Ibhakari ifumana izikhalazo eziphindaphindiweyo malunga nomgangatho ongafaniyo wemveliso. Cebisa amanyathelo AMABINI asebenzayo olawulo lomgangatho uze uchaze indlela ngalinye elinokunceda ngayo."
+    },
+    "scaffoldHint": {
+      "en": "Consider standard procedures, inspections, staff training and customer feedback.",
+      "af": "Oorweeg standaardprosedures, inspeksies, personeelopleiding en kliënteterugvoer.",
+      "xh": "Cinga ngeenkqubo ezisemgangathweni, uhlolo, uqeqesho lwabasebenzi kunye nengxelo yabathengi."
+    },
+    "memoText": {
+      "en": "Examples: standardise recipes/processes to reduce variation; inspect products before sale to catch defects; train staff to follow procedures; analyse complaints to identify recurring causes. Award any TWO actions with explanations.",
+      "af": "Voorbeelde: standaardiseer resepte/prosesse om variasie te verminder; inspekteer produkte voor verkoop om foute op te spoor; lei personeel op om prosedures te volg; ontleed klagtes om herhalende oorsake te identifiseer. Ken enige TWEE aksies met verduidelikings toe.",
+      "xh": "Imizekelo: misela iiresiphi/iinkqubo ezifanayo ukunciphisa umahluko; hlola iimveliso phambi kokuthengisa ukuze kufunyanwe iziphene; qeqesha abasebenzi ukuba balandele iinkqubo; hlalutya izikhalazo ukuze kufunyanwe oonobangela abaphindaphindayo. Nika amanqaku ngawo nawaphi na amanyathelo AMABINI aneenkcazelo."
+    }
+  },
+  {
+    "id": "bs_p1_ops_03",
+    "subject": "business",
+    "paper": 1,
+    "topic": "Business Operations",
+    "subtopic": "Training and Development",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "Differentiate between induction and skills training for a newly appointed employee.",
+      "af": "Onderskei tussen induksie en vaardigheidsopleiding vir 'n nuut aangestelde werknemer.",
+      "xh": "Yahlula phakathi kokwaziswa emsebenzini kunye noqeqesho lwezakhono kumqeshwa osandul' ukuqeshwa."
+    },
+    "scaffoldHint": {
+      "en": "One introduces the employee to the workplace; the other develops job-related competence.",
+      "af": "Die een stel die werknemer aan die werkplek bekend; die ander ontwikkel werkverwante bevoegdheid.",
+      "xh": "Enye yazisa umqeshwa kwindawo yokusebenza; enye iphuhlisa ubuchule obunxulumene nomsebenzi."
+    },
+    "memoText": {
+      "en": "Induction familiarises a new employee with the business, policies, people and workplace. Skills training develops specific knowledge or abilities needed to perform the job effectively.",
+      "af": "Induksie maak 'n nuwe werknemer vertroud met die onderneming, beleide, mense en werkplek. Vaardigheidsopleiding ontwikkel spesifieke kennis of vermoëns wat nodig is om die werk doeltreffend te verrig.",
+      "xh": "Ukwaziswa emsebenzini kuqhelanisa umqeshwa omtsha neshishini, imigaqo, abantu kunye nendawo yokusebenza. Uqeqesho lwezakhono luphuhlisa ulwazi okanye izakhono ezithile ezifunekayo ukuze umsebenzi wenziwe kakuhle."
+    }
+  },
+  {
+    "id": "bs_p1_env_03",
+    "subject": "business",
+    "paper": 1,
+    "topic": "Business Environments",
+    "subtopic": "Business Strategies",
+    "difficulty": "hard",
+    "marks": 6,
+    "questionText": {
+      "en": "A local retailer is losing customers because a large competitor has opened nearby. Use SWOT thinking to identify ONE internal weakness, ONE external threat and ONE possible strategy the retailer could use.",
+      "af": "'n Plaaslike kleinhandelaar verloor klante omdat 'n groot mededinger naby geopen het. Gebruik SWOT-denke om EEN interne swakpunt, EEN eksterne bedreiging en EEN moontlike strategie te identifiseer wat die kleinhandelaar kan gebruik.",
+      "xh": "Umthengisi wasekuhlaleni ulahlekelwa ngabathengi kuba kuvulwe umkhuphisani omkhulu kufutshane. Sebenzisa ukucinga kwe-SWOT ukuchonga ubuthathaka BUNYE bangaphakathi, isoyikiso ESINYE sangaphandle kunye nesicwangciso ESINYE esinokusetyenziswa ngumthengisi."
+    },
+    "scaffoldHint": {
+      "en": "Weakness = inside the business; threat = outside; strategy = practical response.",
+      "af": "Swakpunt = binne die onderneming; bedreiging = buite; strategie = praktiese reaksie.",
+      "xh": "Ubuthathaka = ngaphakathi kwishishini; isoyikiso = ngaphandle; isicwangciso = impendulo esebenzayo."
+    },
+    "memoText": {
+      "en": "Example: weakness — limited advertising or product range; threat — strong new competitor; strategy — differentiate through service, niche products, loyalty offers, local delivery or targeted promotion. Accept other logical answers.",
+      "af": "Voorbeeld: swakpunt — beperkte advertensies of produkreeks; bedreiging — sterk nuwe mededinger; strategie — onderskei deur diens, nisprodukte, lojaliteitsaanbiedinge, plaaslike aflewering of geteikende promosie. Aanvaar ander logiese antwoorde.",
+      "xh": "Umzekelo: ubuthathaka — intengiso encinci okanye uluhlu oluncinci lweemveliso; isoyikiso — umkhuphisani omtsha onamandla; isicwangciso — ukwahluka ngenkonzo, iimveliso ezikhethekileyo, izibonelelo zokunyaniseka, ukuhanjiswa kwasekuhlaleni okanye intengiso ejoliswe kubathengi. Yamkela nezinye iimpendulo ezinengqiqo."
+    }
+  },
+  {
+    "id": "bs_p2_ventures_01",
+    "subject": "business",
+    "paper": 2,
+    "topic": "Business Ventures",
+    "subtopic": "Management and Leadership",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "Explain ONE difference between management and leadership, and give ONE example of how effective leadership can improve employee performance.",
+      "af": "Verduidelik EEN verskil tussen bestuur en leierskap, en gee EEN voorbeeld van hoe doeltreffende leierskap werknemerprestasie kan verbeter.",
+      "xh": "Chaza umahluko OMNYE phakathi kolawulo nobunkokeli, uze unike umzekelo OMNYE wendlela ubunkokeli obusebenzayo obunokuphucula ngayo ukusebenza kwabasebenzi."
+    },
+    "scaffoldHint": {
+      "en": "Management focuses on planning/control; leadership focuses on influence and direction.",
+      "af": "Bestuur fokus op beplanning/beheer; leierskap fokus op invloed en rigting.",
+      "xh": "Ulawulo lugxile kucwangciso/kulawulo; ubunkokeli bugxile kwimpembelelo nakwisikhokelo."
+    },
+    "memoText": {
+      "en": "Management coordinates resources, plans and controls work; leadership influences and motivates people toward goals. Effective leadership can improve performance by motivating staff, communicating clearly, building trust or encouraging participation.",
+      "af": "Bestuur koördineer hulpbronne, beplan en beheer werk; leierskap beïnvloed en motiveer mense om doelwitte te bereik. Doeltreffende leierskap kan prestasie verbeter deur personeel te motiveer, duidelik te kommunikeer, vertroue te bou of deelname aan te moedig.",
+      "xh": "Ulawulo lulungelelanisa izixhobo, lucwangcise kwaye lulawule umsebenzi; ubunkokeli buphembelela kwaye bukhuthaze abantu ekufikeleleni kwiinjongo. Ubunkokeli obusebenzayo bunokuphucula ukusebenza ngokukhuthaza abasebenzi, ukunxibelelana ngokucacileyo, ukwakha ukuthembana okanye ukukhuthaza intsebenziswano."
+    }
+  },
+  {
+    "id": "bs_p2_ventures_02",
+    "subject": "business",
+    "paper": 2,
+    "topic": "Business Ventures",
+    "subtopic": "Investment",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "An investor must choose between a fixed deposit and ordinary shares. Give ONE advantage and ONE risk of ordinary shares compared with a fixed deposit.",
+      "af": "'n Belegger moet kies tussen 'n vaste deposito en gewone aandele. Gee EEN voordeel en EEN risiko van gewone aandele in vergelyking met 'n vaste deposito.",
+      "xh": "Umtyali-mali kufuneka akhethe phakathi kwedipozithi yexesha kunye nezabelo eziqhelekileyo. Nika inzuzo ENYE kunye nomngcipheko OMNYE wezabelo eziqhelekileyo xa zithelekiswa nedipozithi yexesha."
+    },
+    "scaffoldHint": {
+      "en": "Think potential return versus certainty and market risk.",
+      "af": "Dink aan moontlike opbrengs teenoor sekerheid en markrisiko.",
+      "xh": "Cinga ngembuyekezo enokwenzeka xa ithelekiswa nokuqiniseka kunye nomngcipheko wemarike."
+    },
+    "memoText": {
+      "en": "Advantage: shares may provide higher capital growth/dividends. Risk: share prices and dividends are not guaranteed and may fall. A fixed deposit normally offers more predictable returns but less growth potential.",
+      "af": "Voordeel: aandele kan hoër kapitaalgroei/dividende bied. Risiko: aandeelpryse en dividende is nie gewaarborg nie en kan daal. 'n Vaste deposito bied gewoonlik meer voorspelbare opbrengste maar minder groeipotensiaal.",
+      "xh": "Inzuzo: izabelo zinokunika ukukhula okuphezulu kwenkunzi/iidividendi. Umngcipheko: amaxabiso ezabelo kunye needividendi aziqinisekiswanga kwaye zinokwehla. Idipozithi yexesha idla ngokunika imbuyekezo eqikeleleka ngakumbi kodwa amathuba okukhula angaphantsi."
+    }
+  },
+  {
+    "id": "bs_p2_ventures_03",
+    "subject": "business",
+    "paper": 2,
+    "topic": "Business Ventures",
+    "subtopic": "Insurance",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "Differentiate between compulsory insurance and non-compulsory insurance, and give ONE example of each.",
+      "af": "Onderskei tussen verpligte versekering en nie-verpligte versekering, en gee EEN voorbeeld van elk.",
+      "xh": "Yahlula phakathi kwe-inshorensi enyanzelekileyo kunye ne-inshorensi enganyanzelekanga, uze unike umzekelo OMNYE ngamnye."
+    },
+    "scaffoldHint": {
+      "en": "One is required by law or regulation; the other is chosen voluntarily to manage risk.",
+      "af": "Die een word deur wet of regulasie vereis; die ander word vrywillig gekies om risiko te bestuur.",
+      "xh": "Enye ifunwa ngumthetho okanye ngummiselo; enye ikhethwa ngokuzithandela ukulawula umngcipheko."
+    },
+    "memoText": {
+      "en": "Compulsory insurance is required by law/regulation, e.g. UIF contributions or Compensation Fund-related cover. Non-compulsory insurance is voluntarily purchased, e.g. fire, theft, vehicle or property insurance.",
+      "af": "Verpligte versekering word deur wet/regulasie vereis, bv. WVF-bydraes of dekking wat met die Vergoedingsfonds verband hou. Nie-verpligte versekering word vrywillig gekoop, bv. brand-, diefstal-, voertuig- of eiendomsversekering.",
+      "xh": "I-inshorensi enyanzelekileyo ifunwa ngumthetho/ummiselo, umzekelo iminikelo ye-UIF okanye ukhuseleko olunxulumene neNgxowa-mali yeMbuyekezo. I-inshorensi enganyanzelekanga ithengwa ngokuzithandela, umzekelo i-inshorensi yomlilo, ubusela, isithuthi okanye ipropati."
+    }
+  },
+  {
+    "id": "bs_p2_roles_01",
+    "subject": "business",
+    "paper": 2,
+    "topic": "Business Roles",
+    "subtopic": "Conflict Management",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "Two employees disagree strongly about how a project should be completed. Recommend TWO constructive ways a manager can manage the conflict.",
+      "af": "Twee werknemers verskil sterk oor hoe 'n projek voltooi moet word. Beveel TWEE konstruktiewe maniere aan waarop 'n bestuurder die konflik kan hanteer.",
+      "xh": "Abasebenzi ababini abavumelani kakhulu ngendlela iprojekthi ekufuneka igqitywe ngayo. Cebisa iindlela EZIMBINI ezakhayo umphathi anokulawula ngazo ungquzulwano."
+    },
+    "scaffoldHint": {
+      "en": "Focus on listening, facts, common goals, negotiation and mediation.",
+      "af": "Fokus op luister, feite, gemeenskaplike doelwitte, onderhandeling en bemiddeling.",
+      "xh": "Gxila ekumameleni, kwiinyani, kwiinjongo ezifanayo, kuthethathethwano nakulamlo."
+    },
+    "memoText": {
+      "en": "Any TWO: allow each person to explain their view; identify facts and the root cause; focus on shared project goals; negotiate a workable compromise; use mediation where necessary; agree on actions and follow up.",
+      "af": "Enige TWEE: laat elke persoon sy/haar standpunt verduidelik; identifiseer feite en die kernoorzaak; fokus op gedeelde projekdoelwitte; onderhandel 'n werkbare kompromie; gebruik bemiddeling waar nodig; stem oor aksies saam en volg op.",
+      "xh": "Naziphi na EZIMBINI: vumela umntu ngamnye achaze uluvo lwakhe; chonga iinyani kunye nonobangela oyintloko; gxila kwiinjongo zeprojekthi ezifanayo; thethana ngesivumelwano esisebenzayo; sebenzisa ulamlo xa kufuneka; vumelanani ngamanyathelo nize nilandelele."
+    }
+  },
+  {
+    "id": "bs_p2_roles_02",
+    "subject": "business",
+    "paper": 2,
+    "topic": "Business Roles",
+    "subtopic": "Team Performance",
+    "difficulty": "medium",
+    "marks": 5,
+    "questionText": {
+      "en": "Identify THREE characteristics of a high-performing business team.",
+      "af": "Identifiseer DRIE kenmerke van 'n hoëpresterende besigheidspan.",
+      "xh": "Chonga iimpawu EZINTATHU zeqela leshishini elisebenza kakuhle kakhulu."
+    },
+    "scaffoldHint": {
+      "en": "Think clear goals, roles, communication, trust and accountability.",
+      "af": "Dink aan duidelike doelwitte, rolle, kommunikasie, vertroue en aanspreeklikheid.",
+      "xh": "Cinga ngeenjongo ezicacileyo, iindima, unxibelelwano, ukuthembana kunye noxanduva."
+    },
+    "memoText": {
+      "en": "Any THREE: clear shared goals; defined roles; open communication; mutual trust/respect; accountability; constructive problem solving; cooperation; effective leadership.",
+      "af": "Enige DRIE: duidelike gedeelde doelwitte; omskrewe rolle; oop kommunikasie; wedersydse vertroue/respek; aanspreeklikheid; konstruktiewe probleemoplossing; samewerking; doeltreffende leierskap.",
+      "xh": "Naziphi na EZINTATHU: iinjongo ezicacileyo ezabelwana ngazo; iindima ezichaziweyo; unxibelelwano oluvulekileyo; ukuthembana/intlonipho; uxanduva; ukusombulula iingxaki ngendlela eyakhayo; intsebenziswano; ubunkokeli obusebenzayo."
+    }
+  },
+  {
+    "id": "bs_p2_roles_03",
+    "subject": "business",
+    "paper": 2,
+    "topic": "Business Roles",
+    "subtopic": "Ethics and Professionalism",
+    "difficulty": "hard",
+    "marks": 6,
+    "questionText": {
+      "en": "A purchasing manager accepts an expensive personal gift from a supplier shortly before awarding a contract. Explain why this creates an ethical risk and recommend TWO actions the business should take.",
+      "af": "'n Aankoopbestuurder aanvaar 'n duur persoonlike geskenk van 'n verskaffer kort voordat 'n kontrak toegeken word. Verduidelik waarom dit 'n etiese risiko skep en beveel TWEE aksies aan wat die onderneming moet neem.",
+      "xh": "Umphathi wokuthenga wamkela isipho somntu esibiza kakhulu kumthengisi kungekudala phambi kokunikezelwa kwekhontrakthi. Chaza ukuba kutheni oku kudala umngcipheko wokuziphatha kakubi uze ucebise amanyathelo AMABINI ishishini ekufuneka liwathathe."
+    },
+    "scaffoldHint": {
+      "en": "Think conflict of interest, fairness, disclosure and procurement controls.",
+      "af": "Dink aan botsing van belange, billikheid, openbaarmaking en verkrygingsbeheer.",
+      "xh": "Cinga ngongquzulwano lomdla, ubulungisa, ukuxela ngokuphandle kunye nolawulo lokuthenga."
+    },
+    "memoText": {
+      "en": "The gift may create or appear to create a conflict of interest and may undermine fair procurement. Actions may include requiring disclosure/return of the gift, removing the manager from the decision, applying the gifts/conflict policy, independently reviewing the tender and strengthening procurement controls. Award TWO appropriate actions.",
+      "af": "Die geskenk kan 'n botsing van belange skep of die indruk daarvan wek en billike verkryging ondermyn. Aksies kan insluit dat die geskenk verklaar/terugbesorg word, die bestuurder van die besluit verwyder word, die geskenke-/belangebotsingsbeleid toegepas word, die tender onafhanklik hersien word en verkrygingsbeheer versterk word. Ken TWEE toepaslike aksies toe.",
+      "xh": "Isipho sinokudala okanye sibonakale ngathi sidala ungquzulwano lomdla kwaye singonakalisa ukuthenga ngobulungisa. Amanyathelo anokuquka ukunyanzelisa ukuxelwa/ukubuyiswa kwesipho, ukususa umphathi kwisigqibo, ukusebenzisa umgaqo wezipho/ungquzulwano lomdla, ukuphonononga ithenda ngokuzimeleyo kunye nokomeleza ulawulo lokuthenga. Nika amanqaku ngamanyathelo AMABINI afanelekileyo."
+    }
+  }
+]
