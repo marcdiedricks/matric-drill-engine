@@ -1,0 +1,290 @@
+[
+  {
+    "id": "geo_p1_climate_01",
+    "subject": "geography",
+    "paper": 1,
+    "topic": "Climate and Weather",
+    "subtopic": "Mid-latitude cyclones",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "A cold front approaches Cape Town from the south-west. Explain TWO weather changes that are likely as the front passes over the city.",
+      "af": "’n Koue front nader Kaapstad uit die suidweste. Verduidelik TWEE weersveranderinge wat waarskynlik sal voorkom wanneer die front oor die stad beweeg.",
+      "xh": "Umphambili obandayo usondela eKapa uvela emazantsi-ntshona. Chaza IINGUQU ezimbini zemozulu ezinokubakho xa lo mphambili udlula phezu kwesixeko."
+    },
+    "scaffoldHint": {
+      "en": "Think about cloud, rainfall, wind and temperature around a cold front.",
+      "af": "Dink aan wolke, reënval, wind en temperatuur rondom ’n koue front.",
+      "xh": "Cinga ngamafu, imvula, umoya nobushushu obunxulumene nomphambili obandayo."
+    },
+    "memoText": {
+      "en": "Any TWO explained changes: cloud cover increases; rain/showers occur; winds strengthen/change direction; temperature drops after frontal passage. Award 2 marks per valid explained change.",
+      "af": "Enige TWEE verduidelikte veranderinge: bewolking neem toe; reën/buie kom voor; winde versterk/verander rigting; temperatuur daal ná die frontale deurgang. Ken 2 punte per geldige verduidelikte verandering toe.",
+      "xh": "Naziphi na IINGUQU ezimbini ezichaziweyo: amafu ayanda; kubakho imvula/izandyondyo; umoya uyomelela/utshintsha icala; ubushushu buyahla emva kokudlula komphambili. Nika amanqaku ama-2 kwinguqu nganye echazwe kakuhle."
+    }
+  },
+  {
+    "id": "geo_p1_climate_02",
+    "subject": "geography",
+    "paper": 1,
+    "topic": "Climate and Weather",
+    "subtopic": "Berg winds and fire risk",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "During a hot, dry berg-wind event in the Western Cape, veld-fire danger rises sharply. Explain why these winds increase fire risk.",
+      "af": "Tydens ’n warm, droë bergwindgebeurtenis in die Wes-Kaap neem veldbrandgevaar skerp toe. Verduidelik waarom hierdie winde die brandrisiko verhoog.",
+      "xh": "Ngexesha lomoya oshushu nowomileyo we-berg eNtshona Koloni, umngcipheko womlilo wasendle unyuka kakhulu. Chaza ukuba kutheni le mimoya inyusa umngcipheko womlilo."
+    },
+    "scaffoldHint": {
+      "en": "Link descending air, warming, low humidity and wind speed to vegetation dryness and fire spread.",
+      "af": "Koppel dalende lug, verhitting, lae humiditeit en windsnelheid aan droë plantegroei en brandverspreiding.",
+      "xh": "Dibanisa umoya owehlayo, ukufudumala, ukufuma okuphantsi nesantya somoya nokoma kotyani nokusasazeka komlilo."
+    },
+    "memoText": {
+      "en": "Descending air warms adiabatically and becomes drier, lowering humidity and drying vegetation. Strong winds then help flames spread rapidly. Any two well-linked points earn full credit.",
+      "af": "Dalende lug verhit adiabaties en word droër, wat humiditeit verlaag en plantegroei uitdroog. Sterk winde help daarna dat vlamme vinnig versprei. Enige twee goed gekoppelde punte verdien volle krediet.",
+      "xh": "Umoya owehlayo uyafudumala uze wome ngakumbi, nto leyo ehlisa ukufuma ize yomise utyani. Imimoya enamandla emva koko inceda amadangatye asasazeke ngokukhawuleza. Naziphi na iingongoma ezimbini ezinxulunyaniswe kakuhle zifumana amanqaku apheleleyo."
+    }
+  },
+  {
+    "id": "geo_p1_geomorph_01",
+    "subject": "geography",
+    "paper": 1,
+    "topic": "Geomorphology",
+    "subtopic": "Drainage basins",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "Define a drainage basin and state ONE factor that can increase surface run-off after heavy winter rain in the Western Cape.",
+      "af": "Definieer ’n dreineerbekken en noem EEN faktor wat oppervlakafloop ná swaar winterreën in die Wes-Kaap kan verhoog.",
+      "xh": "Chaza ukuba yintoni isitya sokukhupha amanzi uze uchaze INTO ENYE enokunyusa amanzi abaleka phezu komhlaba emva kwemvula enkulu yasebusika eNtshona Koloni."
+    },
+    "scaffoldHint": {
+      "en": "A drainage basin is the area drained by a river and its tributaries. Think about slope, saturated soil, vegetation or impermeable surfaces.",
+      "af": "’n Dreineerbekken is die gebied wat deur ’n rivier en sy sytakke gedreineer word. Dink aan helling, versadigde grond, plantegroei of ondeurdringbare oppervlaktes.",
+      "xh": "Isitya sokukhupha amanzi yindawo ekhupha amanzi ngomlambo namasebe awo. Cinga ngomthambeka, umhlaba ogcwele amanzi, utyani okanye imiphezulu engangenisi manzi."
+    },
+    "memoText": {
+      "en": "Drainage basin: the land area drained by a main river and its tributaries (2). One valid factor with effect: steep slopes, saturated soil, sparse vegetation or impermeable urban surfaces increase run-off (2).",
+      "af": "Dreineerbekken: die landgebied wat deur ’n hoofrivier en sy sytakke gedreineer word (2). Een geldige faktor met effek: steil hellings, versadigde grond, min plantegroei of ondeurdringbare stedelike oppervlaktes verhoog afloop (2).",
+      "xh": "Isitya sokukhupha amanzi: ummandla womhlaba okhupha amanzi ngomlambo omkhulu namasebe awo (2). Into enye esebenzayo nefuthe layo: amathambeka, umhlaba ogcwele amanzi, utyani obuncinci okanye imiphezulu yedolophu engangenisi manzi yonyusa ukuhamba kwamanzi phezu komhlaba (2)."
+    }
+  },
+  {
+    "id": "geo_p1_geomorph_02",
+    "subject": "geography",
+    "paper": 1,
+    "topic": "Geomorphology",
+    "subtopic": "River profiles and erosion",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "A river in a steep mountain catchment in the Cape Fold Belt has a narrow valley and fast flow. Identify the dominant type of erosion and explain why it occurs there.",
+      "af": "’n Rivier in ’n steil bergopvanggebied in die Kaapse Plooigordel het ’n nou vallei en vinnige vloei. Identifiseer die dominante tipe erosie en verduidelik waarom dit daar voorkom.",
+      "xh": "Umlambo okwindawo yemithambeka yeentaba kwiCape Fold Belt unentlambo emxinwa nokuhamba kwamanzi ngokukhawuleza. Chonga uhlobo oluphambili lokhukuliseko uze uchaze ukuba kutheni lusenzeka apho."
+    },
+    "scaffoldHint": {
+      "en": "In the upper course, steep gradient gives the river energy to cut downward.",
+      "af": "In die boloop gee ’n steil gradiënt die rivier energie om afwaarts in te sny.",
+      "xh": "Kwindawo ephezulu yomlambo, umthambeka omkhulu unika umlambo amandla okusika ezantsi."
+    },
+    "memoText": {
+      "en": "Vertical/downward erosion dominates (2). The steep gradient and high flow velocity give the river enough energy to cut into its bed, producing a narrow V-shaped valley (2).",
+      "af": "Vertikale/afwaartse erosie domineer (2). Die steil gradiënt en hoë vloeispoed gee die rivier genoeg energie om in sy bedding in te sny en ’n nou V-vormige vallei te vorm (2).",
+      "xh": "Ukhukuliseko oluthe nkqo/olusika ezantsi luyongamela (2). Umthambeka omkhulu nesantya esiphezulu samanzi zinika umlambo amandla okusika kwibhedi yawo, kuveliswe intlambo emxinwa emilise ngo-V (2)."
+    }
+  },
+  {
+    "id": "geo_p1_skills_01",
+    "subject": "geography",
+    "paper": 1,
+    "topic": "Geographical Skills and Techniques",
+    "subtopic": "Map scale",
+    "difficulty": "easy",
+    "marks": 3,
+    "questionText": {
+      "en": "On a 1:50 000 topographic map, two points are 6 cm apart. Calculate the real ground distance in kilometres.",
+      "af": "Op ’n 1:50 000-topografiese kaart is twee punte 6 cm uitmekaar. Bereken die werklike grondafstand in kilometer.",
+      "xh": "Kwimephu yetopografi engu-1:50 000, iindawo ezimbini zikude nge-6 cm. Bala umgama wokwenene emhlabeni ngeekhilomitha."
+    },
+    "scaffoldHint": {
+      "en": "1 cm on the map represents 50 000 cm = 0.5 km on the ground.",
+      "af": "1 cm op die kaart verteenwoordig 50 000 cm = 0,5 km op die grond.",
+      "xh": "I-1 cm kwimephu imele i-50 000 cm = 0.5 km emhlabeni."
+    },
+    "memoText": {
+      "en": "6 × 0.5 km = 3 km. Answer: 3 km.",
+      "af": "6 × 0,5 km = 3 km. Antwoord: 3 km.",
+      "xh": "6 × 0.5 km = 3 km. Impendulo: 3 km."
+    }
+  },
+  {
+    "id": "geo_p1_skills_02",
+    "subject": "geography",
+    "paper": 1,
+    "topic": "Geographical Skills and Techniques",
+    "subtopic": "GIS",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "A municipality maps informal-settlement areas together with flood-risk zones. Name the GIS operation used to compare these two spatial layers and give ONE planning benefit.",
+      "af": "’n Munisipaliteit karteer informele nedersettings saam met vloedrisikosones. Noem die GIS-bewerking wat gebruik word om hierdie twee ruimtelike lae te vergelyk en gee EEN beplanningsvoordeel.",
+      "xh": "Umasipala wenza imephu yeendawo zamatyotyombe kunye neendawo ezisemngciphekweni wezikhukula. Chaza umsebenzi we-GIS osetyenziselwa ukuthelekisa ezi maleko zimbini zendawo uze unike INZUZO ENYE yocwangciso."
+    },
+    "scaffoldHint": {
+      "en": "Think of placing one data layer over another to find where they coincide.",
+      "af": "Dink daaraan om een datalaag oor ’n ander te plaas om te sien waar hulle oorvleuel.",
+      "xh": "Cinga ngokubeka umaleko wedatha omnye phezu komnye ukuze kufunyanwe apho zihlangana khona."
+    },
+    "memoText": {
+      "en": "Overlay analysis (2). Benefit: identifies households/infrastructure at risk, supports evacuation planning, prioritises drainage or guides safer development (any one valid benefit, 2).",
+      "af": "Oorleg-analise (2). Voordeel: identifiseer huishoudings/infrastruktuur in gevaar, ondersteun ontruimingsbeplanning, prioritiseer dreinering of rig veiliger ontwikkeling (enige een geldige voordeel, 2).",
+      "xh": "Uhlalutyo lokubeka amaleko phezu komnye (overlay) (2). Inzuzo: luchonga amakhaya/iziseko ezisemngciphekweni, lunceda ucwangciso lokufuduka, lubeka phambili umjelo wamanzi okanye lukhokele uphuhliso olukhuselekileyo (nayiphi na inzuzo enye efanelekileyo, 2)."
+    }
+  },
+  {
+    "id": "geo_p2_settlement_01",
+    "subject": "geography",
+    "paper": 2,
+    "topic": "Settlement Geography",
+    "subtopic": "Urbanisation",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "Cape Town continues to experience rapid urban growth. Explain TWO pressures that rapid urbanisation can place on city services.",
+      "af": "Kaapstad ervaar steeds vinnige stedelike groei. Verduidelik TWEE drukfaktore wat vinnige verstedeliking op stadsdienste kan plaas.",
+      "xh": "IKapa iyaqhubeka nokukhula ngokukhawuleza edolophini. Chaza IINGXAKI ezimbini ezibekwa kukwanda kwabantu edolophini kwiinkonzo zesixeko."
+    },
+    "scaffoldHint": {
+      "en": "Think about housing, water, sanitation, transport, waste removal and clinics.",
+      "af": "Dink aan behuising, water, sanitasie, vervoer, vullisverwydering en klinieke.",
+      "xh": "Cinga ngezindlu, amanzi, ucoceko, izithuthi, ukususwa kwenkunkuma neekliniki."
+    },
+    "memoText": {
+      "en": "Any TWO explained pressures: housing shortages/informal growth; greater water demand; sanitation backlogs; traffic congestion; waste-removal pressure; overcrowded health/education services. 2 marks each.",
+      "af": "Enige TWEE verduidelikte drukfaktore: behuisingstekorte/informele groei; groter watervraag; sanitasie-agterstande; verkeersopeenhoping; druk op vullisverwydering; oorvol gesondheids-/onderwysdienste. 2 punte elk.",
+      "xh": "Naziphi na IINGXAKI ezimbini ezichaziweyo: ukunqongophala kwezindlu/ukwanda kwamatyotyombe; imfuno enkulu yamanzi; ukusilela kococeko; ukuxinana kwezithuthi; uxinzelelo ekususweni kwenkunkuma; iinkonzo zempilo/zemfundo ezixineneyo. Amanqaku ama-2 nganye."
+    }
+  },
+  {
+    "id": "geo_p2_settlement_02",
+    "subject": "geography",
+    "paper": 2,
+    "topic": "Settlement Geography",
+    "subtopic": "Rural settlements",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "A farming settlement in the Western Cape lies close to a river and fertile valley floor. Give TWO site factors that would have encouraged the original settlement there.",
+      "af": "’n Landbounedersetting in die Wes-Kaap lê naby ’n rivier en ’n vrugbare valleivloer. Gee TWEE liggingsfaktore wat die oorspronklike vestiging daar sou aangemoedig het.",
+      "xh": "Indawo yokuhlala yezolimo eNtshona Koloni ikufuphi nomlambo nomhlaba ochumileyo wentlambo. Nika IZINTO ezimbini zendawo ezazinokukhuthaza abantu ukuba bazinze apho ekuqaleni."
+    },
+    "scaffoldHint": {
+      "en": "Think about water supply, fertile soil, flat land and shelter.",
+      "af": "Dink aan watervoorsiening, vrugbare grond, gelyk land en beskutting.",
+      "xh": "Cinga ngobonelelo lwamanzi, umhlaba ochumileyo, umhlaba othe tyaba nokhuselo."
+    },
+    "memoText": {
+      "en": "Any TWO: reliable water supply; fertile soils; flatter land for farming/building; sheltered valley position; access to transport routes. 2 marks each if explained.",
+      "af": "Enige TWEE: betroubare watervoorsiening; vrugbare grond; gelyker land vir boerdery/bou; beskutte valleiligging; toegang tot vervoerroetes. 2 punte elk indien verduidelik.",
+      "xh": "Naziphi na EZIMBINI: amanzi athembekileyo; umhlaba ochumileyo; umhlaba othe tyaba wokulima/wokwakha; indawo ekhuselekileyo entlambo; ukufikelela kwiindlela zothutho. Amanqaku ama-2 nganye xa ichaziwe."
+    }
+  },
+  {
+    "id": "geo_p2_econ_01",
+    "subject": "geography",
+    "paper": 2,
+    "topic": "Economic Geography of South Africa",
+    "subtopic": "Agriculture and exports",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "Fruit and wine producers in the Western Cape export to overseas markets. Explain ONE benefit and ONE risk of relying on export markets.",
+      "af": "Vrugte- en wynprodusente in die Wes-Kaap voer na oorsese markte uit. Verduidelik EEN voordeel en EEN risiko van afhanklikheid van uitvoermarkte.",
+      "xh": "Abavelisi beziqhamo newayini eNtshona Koloni bathumela iimveliso kwiimarike zangaphandle. Chaza INZUZO ENYE NOMNGCIPHEKO OMNYE wokuxhomekeka kwiimarike zokuthumela ngaphandle."
+    },
+    "scaffoldHint": {
+      "en": "For the benefit think foreign income/jobs; for the risk think exchange rates, global demand or trade barriers.",
+      "af": "Vir die voordeel dink aan buitelandse inkomste/werk; vir die risiko dink aan wisselkoerse, wêreldvraag of handelsbelemmerings.",
+      "xh": "Kwinzuzo cinga ngengeniso evela phesheya/imisebenzi; kumngcipheko cinga ngamaxabiso otshintshiselwano, imfuno yehlabathi okanye imiqobo yorhwebo."
+    },
+    "memoText": {
+      "en": "Benefit: earns foreign exchange, expands markets and supports jobs/income (2). Risk: exposure to exchange-rate changes, weaker global demand, trade restrictions or transport disruptions (2).",
+      "af": "Voordeel: verdien buitelandse valuta, vergroot markte en ondersteun werk/inkomste (2). Risiko: blootstelling aan wisselkoersveranderinge, swakker wêreldvraag, handelsbeperkings of vervoerversteurings (2).",
+      "xh": "Inzuzo: ingenisa imali yangaphandle, yandisa iimarike kwaye ixhasa imisebenzi/ingeniso (2). Umngcipheko: utshintsho lwamaxabiso otshintshiselwano, ukwehla kwemfuno yehlabathi, izithintelo zorhwebo okanye ukuphazamiseka kwezothutho (2)."
+    }
+  },
+  {
+    "id": "geo_p2_econ_02",
+    "subject": "geography",
+    "paper": 2,
+    "topic": "Economic Geography of South Africa",
+    "subtopic": "Transport and industry",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "Explain TWO reasons why efficient road, rail and port links are important for industries in the Cape Town metropolitan area.",
+      "af": "Verduidelik TWEE redes waarom doeltreffende pad-, spoor- en haweverbindings belangrik is vir nywerhede in die Kaapstadse metropolitaanse gebied.",
+      "xh": "Chaza IZIZATHU ezimbini zokuba kutheni iindlela ezisebenzayo, uloliwe nezibuko zibalulekile kumashishini akummandla ombaxa waseKapa."
+    },
+    "scaffoldHint": {
+      "en": "Think about moving raw materials, workers and finished goods, and reducing time/cost.",
+      "af": "Dink aan die vervoer van grondstowwe, werkers en finale produkte, en die vermindering van tyd/koste.",
+      "xh": "Cinga ngokuthutha izinto ezingekalungiswa, abasebenzi neemveliso ezigqityiweyo nokunciphisa ixesha/iindleko."
+    },
+    "memoText": {
+      "en": "Any TWO explained reasons: brings raw materials in; moves finished goods to domestic/export markets; improves worker access; reduces transport time/cost; increases reliability and competitiveness. 2 marks each.",
+      "af": "Enige TWEE verduidelikte redes: bring grondstowwe in; vervoer finale produkte na binnelandse/uitvoermarkte; verbeter werkertoegang; verminder vervoertyd/-koste; verhoog betroubaarheid en mededingendheid. 2 punte elk.",
+      "xh": "Naziphi na IZIZATHU ezimbini ezichaziweyo: kuziswa izinto ezingekalungiswa; kuthuthwa iimveliso ezigqityiweyo kwiimarike zasekhaya/zangaphandle; kuphuculwa ukufikelela kwabasebenzi; kuncitshiswa ixesha/iindleko zothutho; kunyuswa ukuthembeka nokhuphiswano. Amanqaku ama-2 nganye."
+    }
+  },
+  {
+    "id": "geo_p2_skills_01",
+    "subject": "geography",
+    "paper": 2,
+    "topic": "Geographical Skills and Techniques",
+    "subtopic": "Gradient",
+    "difficulty": "medium",
+    "marks": 3,
+    "questionText": {
+      "en": "Two points on a map have a vertical difference of 120 m and a horizontal ground distance of 3 km. Calculate the gradient as a ratio in the form 1:x.",
+      "af": "Twee punte op ’n kaart het ’n vertikale hoogteverskil van 120 m en ’n horisontale grondafstand van 3 km. Bereken die gradiënt as ’n verhouding in die vorm 1:x.",
+      "xh": "Iindawo ezimbini kwimephu zinomahluko wobude oyi-120 m nomgama othe tye emhlabeni oyi-3 km. Bala igradiyenti njengomlinganiselo kwifomu 1:x."
+    },
+    "scaffoldHint": {
+      "en": "Convert 3 km to 3 000 m. Gradient = vertical interval : horizontal equivalent.",
+      "af": "Skakel 3 km om na 3 000 m. Gradiënt = vertikale interval : horisontale ekwivalent.",
+      "xh": "Guqula i-3 km ibe yi-3 000 m. Igradiyenti = umahluko wobude : umgama othe tye."
+    },
+    "memoText": {
+      "en": "120 : 3 000. Divide both by 120 = 1 : 25. Answer: 1:25.",
+      "af": "120 : 3 000. Deel albei deur 120 = 1 : 25. Antwoord: 1:25.",
+      "xh": "120 : 3 000. Yahlula zombini ngo-120 = 1 : 25. Impendulo: 1:25."
+    }
+  },
+  {
+    "id": "geo_p2_skills_02",
+    "subject": "geography",
+    "paper": 2,
+    "topic": "Geographical Skills and Techniques",
+    "subtopic": "Aerial photographs and land use",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "On an aerial photograph, a large built-up area has a regular street pattern, high building density and major transport routes. Identify the settlement type and give ONE photographic clue that supports your answer.",
+      "af": "Op ’n lugfoto het ’n groot beboude gebied ’n gereelde straatpatroon, hoë geboudigtheid en groot vervoerroetes. Identifiseer die nedersettingstipe en gee EEN fotografiese leidraad wat jou antwoord ondersteun.",
+      "xh": "Kwifoto yomoya, indawo enkulu eyakhiweyo inendlela ezicwangciswe kakuhle, izakhiwo ezininzi kunye neendlela ezinkulu zothutho. Chonga uhlobo lwendawo yokuhlala uze unike UBUNGQINA OBUNYE obubonwa kwifoto obuxhasa impendulo yakho."
+    },
+    "scaffoldHint": {
+      "en": "Compare urban characteristics with rural settlement characteristics.",
+      "af": "Vergelyk stedelike kenmerke met landelike nedersettingskenmerke.",
+      "xh": "Thelekisa iimpawu zedolophu neempawu zeendawo zasemaphandleni."
+    },
+    "memoText": {
+      "en": "Urban settlement/city (2). Supporting clue: dense buildings, regular street network, major transport routes or extensive built-up land (any one, 2).",
+      "af": "Stedelike nedersetting/stad (2). Ondersteunende leidraad: digte bebouwing, gereelde straatnetwerk, groot vervoerroetes of uitgebreide beboude grond (enige een, 2).",
+      "xh": "Indawo yokuhlala edolophini/isixeko (2). Ubungqina obuxhasayo: izakhiwo ezininzi, uthungelwano lweendlela olucwangcisekileyo, iindlela ezinkulu zothutho okanye indawo enkulu eyakhiweyo (nayiphi na enye, 2)."
+    }
+  }
+]
