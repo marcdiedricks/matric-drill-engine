@@ -38,110 +38,61 @@ Every build decision must pass all of these gates:
 | Tier 1: Commerce | Accounting | Paper 1 Financial Reporting & Evaluation; Paper 2 Managerial Accounting, Internal Auditing & Control; EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
 | Tier 1: Commerce | Business Studies | Paper 1 Business Environments & Operations; Paper 2 Business Ventures & Roles; EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
 | Tier 2: Humanities | Geography | Climate & Weather, Geomorphology, Rural/Urban Settlements, Economic Geography, Mapwork/GIS | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
-| Tier 2: Humanities | Economics | Paper 1 Macroeconomics & Economic Pursuits; Paper 2 Microeconomics & Contemporary Economic Issues; EN/AF/XH | **ACTIVE — 12-question launch pack ready for build verification** |
-| Tier 2: Humanities | History | Curriculum and exam-bank ingestion | **Pending — next priority after Economics freeze** |
+| Tier 2: Humanities | Economics | Paper 1 Macroeconomics & Economic Pursuits; Paper 2 Microeconomics & Contemporary Economic Issues; EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
+| Tier 2: Humanities | History | Grade 12 Paper 1 & 2 topic-family launch pack, EN/AF/XH | **ACTIVE — next subject gate** |
 | Tier 2: Humanities | Tourism | Curriculum and exam-bank ingestion | **Pending — Western Cape launch-priority subject** |
 | Tier 3: Technical | Civil / Mechanical / Electrical / EGD | Technical banks + schematic/diagram caching | **Pending — post-launch priority wave** |
 | Tier 4A: Core Language Exam Support | English / Afrikaans / isiXhosa | Comprehension, summary, visual literacy, language structures, editing and exam technique | **Pending — launch-priority mini-layer** |
 | Tier 4B: Arts & Specialist Subjects | Arts / Music / specialist content | Visual/audio/media/archive support | **Pending — post-launch specialist expansion** |
 
-## MATHEMATICS FREEZE RECORD — 3 SEPTEMBER 2026
+## FROZEN SUBJECT RECORDS — 3 SEPTEMBER 2026
 
+### Mathematics
 Verified: 1/16 loading; EN/AF/XH switching; KaTeX; hints/memos/navigation/scoring; production build; service worker; offline reload.
 
-**Limitation:** functionally launchable baseline only. Not full syllabus depth, provenance audit or institutional certification.
-
-## LIFE SCIENCES FREEZE RECORD — 3 SEPTEMBER 2026
-
+### Life Sciences
 Verified: 1/12 loading; EN/AF/XH switching; Paper 1 = 1/8; Paper 2 = 1/4; topic filters; hints/memos/navigation/scoring; production build; offline reload.
 
-**Limitation:** functionally launchable topic-family baseline only. Not full syllabus depth, human language certification, verified past-paper provenance or institutional certification.
+### Physical Sciences
+Verified: 1/14 loading; EN/AF/XH switching; Paper 1 = 1/9; Paper 2 = 1/5; memo/navigation; KaTeX/scientific notation; production build; offline reload.
 
-## PHYSICAL SCIENCES FREEZE RECORD — 3 SEPTEMBER 2026
-
-Verified: 1/14 loading; EN/AF/XH switching; Paper 1 = 1/9; Paper 2 = 1/5; memo and navigation; KaTeX/scientific notation; production build; offline reload.
-
-**Limitation:** functionally launchable topic-family baseline only. Not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
-
-## MATHEMATICAL LITERACY FREEZE RECORD — 3 SEPTEMBER 2026
-
+### Mathematical Literacy
 Verified: 1/12 loading; EN/AF/XH switching; Paper 1 = 1/6; Paper 2 = 1/6; memo; navigation; topic filters; production build; offline reload.
 
-**Limitation:** functionally launchable topic-family baseline only. Not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
-
-## ACCOUNTING FREEZE RECORD — 3 SEPTEMBER 2026
-
+### Accounting
 Verified: 1/12 loading; EN/AF/XH learner views; paper/topic filters; hints; memoranda; navigation; production build; offline reload.
 
-**Limitation:** functionally launchable topic-family baseline only. Not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
-
-## BUSINESS STUDIES FREEZE RECORD — 3 SEPTEMBER 2026
-
+### Business Studies
 Verified: 1/12 loading; EN/AF/XH switching; Paper 1 = 1/6; Paper 2 = 1/6; memorandum; navigation; topic filters; production build; offline reload.
 
-**Limitation:** functionally launchable 12-question topic-family baseline only. Not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
+### Geography
+Verified: 1/12 loading; EN/AF/XH learner views; Paper 1 = 1/6; Paper 2 = 1/6; memorandum; Next navigation; topic filters; local production build; production preview; offline reload.
 
-## GEOGRAPHY FREEZE RECORD — 3 SEPTEMBER 2026
-
+### Economics
 Verified:
-- Geography loads as **1 / 12**.
-- English / Afrikaans / isiXhosa learner views operate correctly in the tested flow.
+- Economics loads as **1 / 12**.
+- Learner-side functionality was user-verified as working.
 - Paper 1 filter shows **1 / 6**.
 - Paper 2 filter shows **1 / 6**.
-- Memorandum rendering works.
-- Next navigation and topic filtering work.
 - Local production build passed.
-- Production preview showed **1 / 12**.
-- Offline reload was user-verified with connectivity disabled.
+- Production preview was user-verified as working.
+- Offline preview reload was user-verified with connectivity disabled.
 
-**Limitation:** functionally launchable 12-question topic-family baseline only. Not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
+**Standing limitation for frozen launch baselines:** these are functionally launchable coverage packs, not claims of full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
 
-## CURRENT SUBJECT GATE — ECONOMICS
+## CURRENT SUBJECT GATE — HISTORY
 
-**Only active subject:** Economics
+**Only active subject:** History
 
-Mathematics, Life Sciences, Physical Sciences, Mathematical Literacy, Accounting, Business Studies and Geography are frozen. Any change to those subjects now requires a controlled correction branch, explicit test, verification and re-freeze.
+Mathematics, Life Sciences, Physical Sciences, Mathematical Literacy, Accounting, Business Studies, Geography and Economics are frozen. Any change to a frozen subject requires a controlled correction branch, explicit test, verification and re-freeze.
 
-Repository audit result:
-- No `public/packs/economics.json` existed in `main`.
-- Repository search found no alternative Economics learner pack.
-- Economics was not registered in the app subject selector.
-- The existing dynamic pack loader already supports `/packs/<subject>.json`, so no engine redesign is required.
-
-The controlled `economics-launch-01` branch now contains:
-- Economics registered in the learner selector as English `Economics`, Afrikaans `Ekonomie`, isiXhosa `EzoQoqosho`.
-- A **12-question original curriculum-aligned EN/AF/XH launch pack**.
-
-Paper 1 — 6 questions:
-- Macroeconomics: circular flow
-- Macroeconomics: business cycles
-- Macroeconomics: public sector
-- Macroeconomics: foreign exchange markets
-- Economic Pursuits: economic growth and development
-- Economic Pursuits: economic indicators
-
-Paper 2 — 6 questions:
-- Microeconomics: perfect markets
-- Microeconomics: imperfect markets / monopoly
-- Microeconomics: market failure / negative externalities
-- Contemporary Economic Issues: inflation
-- Contemporary Economic Issues: tourism
-- Contemporary Economic Issues: environmental sustainability
-
-Western Cape contexts are used where pedagogically appropriate, including Cape Town firms, Western Cape tourism, municipal water infrastructure, exporters, household cost pressures and renewable-energy investment.
-
-### Economics next gate
-1. Run GitHub build check.
-2. Merge only if build passes.
-3. Learner-side test: confirm **1 / 12**.
-4. Verify EN / AF / XH switching and Economics subject names.
-5. Verify Paper 1 shows **1 / 6** and Paper 2 shows **1 / 6**.
-6. Verify topic filters, hints, memoranda and navigation.
-7. Run local production build and preview.
-8. Verify offline reload.
-9. Freeze only after those tests pass, then open History.
-
-**Important limitation:** this is a launch coverage pack, not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
+### History next action
+1. Inspect the repository for any existing History learner pack before creating anything new.
+2. Audit any existing pack for question count, schema, language coverage and Paper 1 / Paper 2 distribution.
+3. Preserve usable existing work and avoid duplication.
+4. Build only the smallest controlled EN/AF/XH launch baseline required.
+5. Run GitHub build check.
+6. Learner test → production/offline test → freeze before opening the language exam-skills layer.
 
 ## LOCKED WESTERN CAPE PRIORITY SEQUENCE
 
@@ -151,38 +102,19 @@ After that launch-priority wave, reassess before expansion into EGD and the tech
 
 ## LAUNCH REPAIR / FREEZE STATUS
 
-- **MDE-LAUNCH-01:** Mathematics subject-key loading + resilient pack refresh — **PASS**.
-- **MDE-LAUNCH-02:** Known Mathematics memo/calculation defects — **PASS for identified defects**.
-- **MDE-LAUNCH-03:** Multilingual EN/AF/XH schema and learner shell — **PASS**.
-- **MDE-LAUNCH-04:** PWA assets and offline caching baseline — **PASS**.
-- **MDE-LAUNCH-05:** Mobile/production/offline acceptance test — **PASS**.
-- **MDE-LAUNCH-06:** Mathematics launch baseline freeze — **COMPLETE**.
-- **MDE-LS-01:** Life Sciences topic-family launch pack — **PASS**.
-- **MDE-LS-02:** Life Sciences learner / production / offline acceptance — **PASS**.
-- **MDE-LS-03:** Life Sciences launch baseline freeze — **COMPLETE**.
-- **MDE-PS-01:** Physical Sciences existing-pack audit — **PASS**.
-- **MDE-PS-02:** 14-question EN/AF/XH Physical Sciences launch pack — **PASS**.
-- **MDE-PS-03:** Physical Sciences learner / production / offline acceptance — **PASS**.
-- **MDE-PS-04:** Physical Sciences launch baseline freeze — **COMPLETE**.
-- **MDE-ML-01:** Mathematical Literacy existing-pack audit — **PASS — no existing pack found**.
-- **MDE-ML-02:** 12-question EN/AF/XH Mathematical Literacy launch pack — **PASS**.
-- **MDE-ML-03:** Mathematical Literacy learner / production / offline acceptance — **PASS**.
-- **MDE-ML-04:** Mathematical Literacy launch baseline freeze — **COMPLETE**.
-- **MDE-ACC-01:** Accounting existing-pack audit — **PASS — no existing pack found**.
-- **MDE-ACC-02:** 12-question EN/AF/XH Accounting launch pack — **PASS**.
-- **MDE-ACC-03:** Accounting learner / production / offline acceptance — **PASS**.
-- **MDE-ACC-04:** Accounting launch baseline freeze — **COMPLETE**.
-- **MDE-BS-01:** Business Studies existing-pack audit — **PASS — no existing pack found**.
-- **MDE-BS-02:** 12-question EN/AF/XH Business Studies launch pack — **PASS**.
-- **MDE-BS-03:** Business Studies learner / production / offline acceptance — **PASS**.
-- **MDE-BS-04:** Business Studies launch baseline freeze — **COMPLETE**.
-- **MDE-GEO-01:** Geography existing-pack and engine-readiness audit — **PASS — no existing pack; selector registration required**.
-- **MDE-GEO-02:** Geography selector registration + 12-question EN/AF/XH launch pack — **PASS**.
-- **MDE-GEO-03:** Geography learner / production / offline acceptance — **PASS**.
-- **MDE-GEO-04:** Geography launch baseline freeze — **COMPLETE**.
+- **MDE-LAUNCH-01 → 06:** Mathematics repair, multilingual/PWA baseline and freeze — **COMPLETE**.
+- **MDE-LS-01 → 03:** Life Sciences launch baseline and freeze — **COMPLETE**.
+- **MDE-PS-01 → 04:** Physical Sciences audit, pack, acceptance and freeze — **COMPLETE**.
+- **MDE-ML-01 → 04:** Mathematical Literacy audit, pack, acceptance and freeze — **COMPLETE**.
+- **MDE-ACC-01 → 04:** Accounting audit, pack, acceptance and freeze — **COMPLETE**.
+- **MDE-BS-01 → 04:** Business Studies audit, pack, acceptance and freeze — **COMPLETE**.
+- **MDE-GEO-01 → 04:** Geography audit, pack, acceptance and freeze — **COMPLETE**.
 - **MDE-ECO-01:** Economics existing-pack and engine-readiness audit — **PASS — no existing pack; selector registration required**.
-- **MDE-ECO-02:** Economics selector registration + 12-question EN/AF/XH launch pack — **READY FOR BUILD VERIFICATION**.
+- **MDE-ECO-02:** Economics selector registration + 12-question EN/AF/XH launch pack — **PASS**.
+- **MDE-ECO-03:** Economics learner / production / offline acceptance — **PASS**.
+- **MDE-ECO-04:** Economics launch baseline freeze — **COMPLETE**.
+- **MDE-HIS-01:** History existing-pack audit — **NEXT**.
 
 ## CURRENT RISK
 
-The Sunday launch deadline remains close. Scope discipline is mandatory. Only Economics is open now. Do not open History, language exam skills, Tourism or another subject until Economics reaches its controlled freeze gate.
+The Sunday launch deadline remains close. Scope discipline is mandatory. Only History is open now. Do not open the language exam-skills layer, Tourism or another subject until History reaches its controlled freeze gate.
