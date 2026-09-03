@@ -32,7 +32,7 @@ Every build decision must pass all of these gates:
 | Engine Foundation | Storage & Seed Pipeline | Dexie.js persistence, offline cache, pack refresh/reseeding | **VERIFIED PASS** |
 | Engine Foundation | Mobile UI & Accessibility | Mobile-first, high-contrast, thumb-friendly layout | **VERIFIED PASS — current launch baseline** |
 | Tier 1: Core STEM | Mathematics | Paper 1 & 2 framework, KaTeX, EN/AF/XH, current 16-question launch pack | **FROZEN LAUNCH BASELINE — not full syllabus complete** |
-| Tier 1: Core STEM | Life Sciences | Full curriculum-aligned bank, EN/AF/XH | **ACTIVE — next subject gate** |
+| Tier 1: Core STEM | Life Sciences | Grade 12 Paper 1 & 2 topic-family launch pack, EN/AF/XH | **ACTIVE — 12-question coverage pack ready for verification** |
 | Tier 1: Core STEM | Physical Sciences | Full curriculum-aligned bank, KaTeX, EN/AF/XH | **Pending** |
 | Tier 1: High-Enrollment | Mathematical Literacy | Full curriculum-aligned bank | **Pending** |
 | Tier 1: Commerce | Accounting | Full curriculum-aligned bank | **Pending** |
@@ -50,24 +50,45 @@ Verified in the production preview:
 - English / Afrikaans / isiXhosa language switching works in the learner shell and question content.
 - KaTeX renders Mathematics notation correctly.
 - Question navigation, hints, memoranda and learner self-rating controls work.
-- The first questions and memoranda tested correctly across all three language views.
-- The production build completed successfully and generated the PWA service worker / precache.
-- Offline reload was user-verified with connectivity disabled while the production preview remained running.
+- Production build and PWA service worker generation passed.
+- Offline reload was user-verified with connectivity disabled.
 
 **Important limitation:** this freeze means the current 16-question Mathematics baseline is functionally launchable. It does **not** mean full Grade 12 Mathematics syllabus coverage, full provenance audit, or institutional certification is complete.
 
-## CURRENT SUBJECT GATE
+## CURRENT SUBJECT GATE — LIFE SCIENCES
 
 **Only active subject:** Life Sciences
 
-Mathematics is frozen and must not be casually modified. Any Mathematics change now requires a new controlled correction branch, explicit test, verification and re-freeze.
+The original Life Sciences file contained only two Paper 2 questions. It has now been expanded on the controlled `lifesciences-launch-01` branch to a **12-question launch pack** covering every official Grade 12 topic family across Paper 1 and Paper 2.
 
-Life Sciences next action:
-1. Inspect the existing `public/packs/lifesciences.json` before creating anything new.
-2. Audit the current placeholder/question count and schema.
-3. Map the full Grade 12 Life Sciences Paper 1 and Paper 2 curriculum coverage.
-4. Expand one controlled pack using EN/AF/XH in the same records.
-5. Test → verify → freeze before Physical Sciences is opened.
+Paper 1 topic-family coverage:
+- Meiosis
+- Reproduction in Vertebrates
+- Human Reproduction
+- Responding to the Environment (Humans)
+- Human Endocrine System
+- Homeostasis in Humans
+- Responding to the Environment (Plants)
+- Human Impact on the Environment
+
+Paper 2 topic-family coverage:
+- DNA: Code of Life
+- Meiosis
+- Genetics and Inheritance
+- Evolution
+
+All launch-pack questions are original curriculum-aligned drills with English, Afrikaans and isiXhosa question, hint and memorandum fields. They are **not** labelled as verbatim DBE past-paper questions unless individual provenance is later verified.
+
+### Life Sciences next gate
+1. GitHub build check.
+2. Pull request review/merge if build passes.
+3. Learner-side test: confirm **1 / 12**.
+4. Verify EN / AF / XH switching.
+5. Verify Paper 1 / Paper 2 filters and topic filters.
+6. Verify hints/memoranda and offline reload.
+7. Freeze only after those tests pass.
+
+Topic-family coverage is not the same as full syllabus depth or institutional certification. Further depth, language-quality and provenance QA remains required.
 
 ## LAUNCH REPAIR / FREEZE STATUS
 
@@ -77,6 +98,7 @@ Life Sciences next action:
 - **MDE-LAUNCH-04:** PWA assets and offline caching baseline — **PASS**.
 - **MDE-LAUNCH-05:** Mobile/production/offline acceptance test — **PASS**.
 - **MDE-LAUNCH-06:** Mathematics launch baseline freeze — **COMPLETE**.
+- **MDE-LS-01:** Life Sciences topic-family launch pack — **READY FOR BUILD/LEARNER VERIFICATION**.
 
 ## CURRENT RISK
 
