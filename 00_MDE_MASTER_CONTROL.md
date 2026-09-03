@@ -37,8 +37,8 @@ Every build decision must pass all of these gates:
 | Tier 1: High-Enrollment | Mathematical Literacy | Finance, Data, Probability, Measurement, Maps/Plans, EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
 | Tier 1: Commerce | Accounting | Paper 1 Financial Reporting & Evaluation; Paper 2 Managerial Accounting, Internal Auditing & Control; EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
 | Tier 1: Commerce | Business Studies | Paper 1 Business Environments & Operations; Paper 2 Business Ventures & Roles; EN/AF/XH | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
-| Tier 2: Humanities | Geography | Climate & Weather, Geomorphology, Rural/Urban Settlements, Economic Geography, Mapwork/GIS | **ACTIVE — 12-question launch pack ready for build verification** |
-| Tier 2: Humanities | Economics | Curriculum and exam-bank ingestion | **Pending — next priority after Geography freeze** |
+| Tier 2: Humanities | Geography | Climate & Weather, Geomorphology, Rural/Urban Settlements, Economic Geography, Mapwork/GIS | **FROZEN LAUNCH BASELINE — 12-question coverage pack** |
+| Tier 2: Humanities | Economics | Curriculum and exam-bank ingestion | **ACTIVE — next subject gate** |
 | Tier 2: Humanities | History | Curriculum and exam-bank ingestion | **Pending** |
 | Tier 2: Humanities | Tourism | Curriculum and exam-bank ingestion | **Pending — Western Cape launch-priority subject** |
 | Tier 3: Technical | Civil / Mechanical / Electrical / EGD | Technical banks + schematic/diagram caching | **Pending — post-launch priority wave** |
@@ -77,62 +77,39 @@ Verified: 1/12 loading; EN/AF/XH learner views; paper/topic filters; hints; memo
 
 ## BUSINESS STUDIES FREEZE RECORD — 3 SEPTEMBER 2026
 
+Verified: 1/12 loading; EN/AF/XH switching; Paper 1 = 1/6; Paper 2 = 1/6; memorandum; navigation; topic filters; production build; offline reload.
+
+**Limitation:** functionally launchable 12-question topic-family baseline only. Not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
+
+## GEOGRAPHY FREEZE RECORD — 3 SEPTEMBER 2026
+
 Verified:
-- Business Studies loads as **1 / 12**.
-- English / Afrikaans / isiXhosa switching works.
+- Geography loads as **1 / 12**.
+- English / Afrikaans / isiXhosa learner views operate correctly in the tested flow.
 - Paper 1 filter shows **1 / 6**.
 - Paper 2 filter shows **1 / 6**.
 - Memorandum rendering works.
 - Next navigation and topic filtering work.
-- Production build passed.
+- Local production build passed.
+- Production preview showed **1 / 12**.
 - Offline reload was user-verified with connectivity disabled.
 
 **Limitation:** functionally launchable 12-question topic-family baseline only. Not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
 
-## CURRENT SUBJECT GATE — GEOGRAPHY
+## CURRENT SUBJECT GATE — ECONOMICS
 
-**Only active subject:** Geography
+**Only active subject:** Economics
 
-Mathematics, Life Sciences, Physical Sciences, Mathematical Literacy, Accounting and Business Studies are frozen. Any change to those subjects now requires a controlled correction branch, explicit test, verification and re-freeze.
+Mathematics, Life Sciences, Physical Sciences, Mathematical Literacy, Accounting, Business Studies and Geography are frozen. Any change to those subjects now requires a controlled correction branch, explicit test, verification and re-freeze.
 
-Repository audit result:
-- No `public/packs/geography.json` existed in `main`.
-- Geography was not yet registered in the app subject selector.
-- The existing dynamic pack loader already supports `/packs/<subject>.json`, so no engine redesign was required.
-
-The controlled `geography-launch-01` branch now contains:
-- Geography registered in the learner subject selector as English `Geography`, Afrikaans `Geografie`, isiXhosa `IJografi`.
-- A **12-question original curriculum-aligned EN/AF/XH launch pack**.
-
-Paper 1 — 6 questions:
-- Climate and Weather: mid-latitude cyclones / cold fronts
-- Climate and Weather: berg winds and fire risk
-- Geomorphology: drainage basins and run-off
-- Geomorphology: river profiles and erosion
-- Geographical Skills and Techniques: map scale
-- Geographical Skills and Techniques: GIS overlay analysis
-
-Paper 2 — 6 questions:
-- Settlement Geography: urbanisation
-- Settlement Geography: rural settlement site factors
-- Economic Geography of South Africa: agriculture and exports
-- Economic Geography of South Africa: transport and industry
-- Geographical Skills and Techniques: gradient
-- Geographical Skills and Techniques: aerial photographs and land use
-
-Western Cape contexts are used where pedagogically appropriate, including Cape Town cold fronts, berg-wind fire risk, Cape Fold Belt catchments, urbanisation, Western Cape farming/export activity and Cape Town transport links.
-
-### Geography next gate
-1. GitHub build check.
-2. Merge only if build passes.
-3. Learner-side test: confirm **1 / 12**.
-4. Verify EN / AF / XH switching and Geography subject names.
-5. Verify Paper 1 shows **1 / 6** and Paper 2 shows **1 / 6**.
-6. Verify topic filters, hints, memoranda and navigation.
-7. Run production build and offline reload.
-8. Freeze only after those tests pass.
-
-**Important limitation:** this is a launch coverage pack, not full syllabus depth, human language-quality certification, verified past-paper provenance or institutional certification.
+Economics next action:
+1. Inspect the repository for any existing Economics learner pack before creating anything new.
+2. Audit question count, schema, language coverage and Paper 1 / Paper 2 distribution if a pack exists.
+3. Map Grade 12 Economics topic-family coverage using Western Cape contexts where pedagogically appropriate.
+4. Preserve usable existing material and replace only placeholder, monolingual or structurally incompatible records.
+5. Build one controlled EN/AF/XH launch pack.
+6. Run GitHub build check.
+7. Learner test → production/offline test → freeze before opening History.
 
 ## LOCKED WESTERN CAPE PRIORITY SEQUENCE
 
@@ -168,8 +145,11 @@ After that launch-priority wave, reassess before expansion into EGD and the tech
 - **MDE-BS-03:** Business Studies learner / production / offline acceptance — **PASS**.
 - **MDE-BS-04:** Business Studies launch baseline freeze — **COMPLETE**.
 - **MDE-GEO-01:** Geography existing-pack and engine-readiness audit — **PASS — no existing pack; selector registration required**.
-- **MDE-GEO-02:** Geography selector registration + 12-question EN/AF/XH launch pack — **READY FOR BUILD VERIFICATION**.
+- **MDE-GEO-02:** Geography selector registration + 12-question EN/AF/XH launch pack — **PASS**.
+- **MDE-GEO-03:** Geography learner / production / offline acceptance — **PASS**.
+- **MDE-GEO-04:** Geography launch baseline freeze — **COMPLETE**.
+- **MDE-ECO-01:** Economics existing-pack audit — **NEXT**.
 
 ## CURRENT RISK
 
-The Sunday launch deadline remains close. Scope discipline is mandatory. Only Geography is open now. Do not open Economics, History, Tourism or another subject until Geography reaches its controlled freeze gate.
+The Sunday launch deadline remains close. Scope discipline is mandatory. Only Economics is open now. Do not open History, language exam skills, Tourism or another subject until Economics reaches its controlled freeze gate.
