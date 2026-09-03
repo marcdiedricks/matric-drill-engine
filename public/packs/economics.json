@@ -1,0 +1,290 @@
+[
+  {
+    "id": "econ_p1_macro_01",
+    "subject": "economics",
+    "paper": 1,
+    "topic": "Macroeconomics",
+    "subtopic": "Circular flow",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "A household earns wages from a Cape Town business and uses part of that income to buy goods and services. Identify the TWO flows shown in this example and explain each briefly.",
+      "af": "’n Huishouding verdien lone by ’n Kaapstadse onderneming en gebruik ’n deel van daardie inkomste om goedere en dienste te koop. Identifiseer die TWEE strome in hierdie voorbeeld en verduidelik elkeen kortliks.",
+      "xh": "Ikhaya lifumana umvuzo kwishishini laseKapa lize lisebenzise inxalenye yalo mvuzo ukuthenga iimpahla neenkonzo. Chonga IMISINGA EMIBINI eboniswe kulo mzekelo uze uchaze ngamnye ngokufutshane."
+    },
+    "scaffoldHint": {
+      "en": "Think about income flowing to households and spending flowing to firms.",
+      "af": "Dink aan inkomste wat na huishoudings vloei en besteding wat na ondernemings vloei.",
+      "xh": "Cinga ngengeniso eya emakhayeni kunye nenkcitho eya kumashishini."
+    },
+    "memoText": {
+      "en": "Income flow: firms pay wages to households for factors of production (2). Expenditure flow: households spend income on goods and services produced by firms (2).",
+      "af": "Inkomstestroom: ondernemings betaal lone aan huishoudings vir produksiefaktore (2). Bestedingsstroom: huishoudings bestee inkomste aan goedere en dienste wat ondernemings produseer (2).",
+      "xh": "Umjikelo wengeniso: amashishini ahlawula imivuzo kumakhaya ngenxa yezinto zemveliso (2). Umjikelo wenkcitho: amakhaya achitha ingeniso kwiimpahla neenkonzo eziveliswa ngamashishini (2)."
+    }
+  },
+  {
+    "id": "econ_p1_macro_02",
+    "subject": "economics",
+    "paper": 1,
+    "topic": "Macroeconomics",
+    "subtopic": "Business cycles",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "During an economic downswing, tourism businesses in the Western Cape experience lower bookings and reduce temporary staff. Explain how this illustrates TWO features of a recessionary phase.",
+      "af": "Tydens ’n ekonomiese afswaai ervaar toerisme-ondernemings in die Wes-Kaap minder besprekings en verminder hulle tydelike personeel. Verduidelik hoe dit TWEE kenmerke van ’n resessionêre fase illustreer.",
+      "xh": "Ngexesha lokwehla koqoqosho, amashishini okhenketho eNtshona Koloni afumana ukubhukishwa okumbalwa aze anciphise abasebenzi bethutyana. Chaza ukuba oku kubonisa njani IIMPAWU EZIMBINI zenqanaba lokudodobala koqoqosho."
+    },
+    "scaffoldHint": {
+      "en": "Link weaker demand to lower output/employment.",
+      "af": "Koppel swakker vraag aan laer produksie/indiensneming.",
+      "xh": "Dibanisa imfuno ebuthathaka nokwehla kwemveliso/kwengqesho."
+    },
+    "memoText": {
+      "en": "Lower bookings show falling aggregate demand/output (2). Reduced temporary staff shows rising unemployment/falling employment (2).",
+      "af": "Minder besprekings toon dalende totale vraag/produksie (2). Minder tydelike personeel toon stygende werkloosheid/dalende indiensneming (2).",
+      "xh": "Ukwehla kokubhukishwa kubonisa ukwehla kwemfuno iyonke/imveliso (2). Ukuncitshiswa kwabasebenzi bethutyana kubonisa ukwanda kwentswela-ngqesho/ukwehla kwengqesho (2)."
+    }
+  },
+  {
+    "id": "econ_p1_macro_03",
+    "subject": "economics",
+    "paper": 1,
+    "topic": "Macroeconomics",
+    "subtopic": "Public sector",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "A municipality increases spending on water infrastructure during a period of weak private investment. Explain ONE macroeconomic reason for this intervention and ONE possible limitation.",
+      "af": "’n Munisipaliteit verhoog besteding aan waterinfrastruktuur gedurende ’n tydperk van swak private investering. Verduidelik EEN makro-ekonomiese rede vir hierdie ingryping en EEN moontlike beperking.",
+      "xh": "Umasipala wongeza inkcitho kwiziseko zamanzi ngexesha lotyalo-mali lwabucala olubuthathaka. Chaza ISIZATHU ESINYE soqoqosho ngokubanzi solu ngenelelo NOMDA OMNYE onokubakho."
+    },
+    "scaffoldHint": {
+      "en": "Government spending can support demand and jobs, but budgets are limited.",
+      "af": "Staatsbesteding kan vraag en werk ondersteun, maar begrotings is beperk.",
+      "xh": "Inkcitho karhulumente inokuxhasa imfuno nemisebenzi, kodwa uhlahlo-lwabiwo mali lunemida."
+    },
+    "memoText": {
+      "en": "Reason: government spending can stimulate aggregate demand, employment and infrastructure investment (2). Limitation: higher debt/taxes, budget constraints, inefficiency or crowding out (any one, 2).",
+      "af": "Rede: staatsbesteding kan totale vraag, indiensneming en infrastruktuurbelegging stimuleer (2). Beperking: hoër skuld/belasting, begrotingsbeperkings, ondoeltreffendheid of verdringing (enige een, 2).",
+      "xh": "Isizathu: inkcitho karhulumente inokukhuthaza imfuno iyonke, ingqesho notyalo-mali kwiziseko (2). Umda: ityala eliphezulu/irhafu, imida yohlahlo-lwabiwo mali, ukungasebenzi kakuhle okanye ukuxinana kotyalo-mali lwabucala (nayiphi na enye, 2)."
+    }
+  },
+  {
+    "id": "econ_p1_macro_04",
+    "subject": "economics",
+    "paper": 1,
+    "topic": "Macroeconomics",
+    "subtopic": "Foreign exchange markets",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "The rand depreciates against the euro. Explain ONE likely effect on Western Cape exporters and ONE likely effect on South African consumers buying imported goods.",
+      "af": "Die rand depresieer teenoor die euro. Verduidelik EEN waarskynlike uitwerking op Wes-Kaapse uitvoerders en EEN waarskynlike uitwerking op Suid-Afrikaanse verbruikers wat ingevoerde goedere koop.",
+      "xh": "Irandi iyancipha ngokuthelekiswa ne-euro. Chaza IFUTHE ELINYE elinokubakho kubathumeli bempahla baseNtshona Koloni kunye NELINYE kubathengi baseMzantsi Afrika abathenga iimpahla ezivela phesheya."
+    },
+    "scaffoldHint": {
+      "en": "A weaker rand makes exports cheaper to foreigners and imports more expensive locally.",
+      "af": "’n Swakker rand maak uitvoere goedkoper vir buitelanders en invoere duurder plaaslik.",
+      "xh": "Irandi ebuthathaka yenza ukuthunyelwa kwempahla kube nexabiso eliphantsi kubathengi bangaphandle, kodwa iimpahla ezingeniswa elizweni zibe nexabiso eliphezulu."
+    },
+    "memoText": {
+      "en": "Exporters may become more price-competitive or earn more rand per unit of foreign currency (2). Imported goods become more expensive for local consumers (2).",
+      "af": "Uitvoerders kan meer prysmededingend raak of meer rand per eenheid buitelandse valuta verdien (2). Ingevoerde goedere word duurder vir plaaslike verbruikers (2).",
+      "xh": "Abathumeli bangakhuphisana ngakumbi ngexabiso okanye bafumane iirandi ezininzi ngemali yangaphandle (2). Iimpahla ezingeniswa elizweni zibiza kakhulu kubathengi basekhaya (2)."
+    }
+  },
+  {
+    "id": "econ_p1_pursuits_01",
+    "subject": "economics",
+    "paper": 1,
+    "topic": "Economic Pursuits",
+    "subtopic": "Growth and development",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "Distinguish between economic growth and economic development.",
+      "af": "Onderskei tussen ekonomiese groei en ekonomiese ontwikkeling.",
+      "xh": "Yahlula phakathi kokukhula koqoqosho nophuhliso loqoqosho."
+    },
+    "scaffoldHint": {
+      "en": "Growth is mainly about increased real output; development includes improved quality of life.",
+      "af": "Groei gaan hoofsaaklik oor verhoogde reële produksie; ontwikkeling sluit verbeterde lewensgehalte in.",
+      "xh": "Ukukhula kugxile ikakhulu ekunyukeni kwemveliso yokwenene; uphuhliso lubandakanya ukuphucuka komgangatho wobomi."
+    },
+    "memoText": {
+      "en": "Economic growth: sustained increase in real GDP/output (2). Economic development: broader improvement in living standards, welfare and structural conditions (2).",
+      "af": "Ekonomiese groei: volgehoue toename in reële BBP/produksie (2). Ekonomiese ontwikkeling: breër verbetering in lewenstandaard, welvaart en strukturele toestande (2).",
+      "xh": "Ukukhula koqoqosho: ukunyuka okuqhubekayo kwe-GDP yokwenene/imveliso (2). Uphuhliso loqoqosho: ukuphucuka okubanzi komgangatho wobomi, intlalontle neemeko zoqoqosho (2)."
+    }
+  },
+  {
+    "id": "econ_p1_pursuits_02",
+    "subject": "economics",
+    "paper": 1,
+    "topic": "Economic Pursuits",
+    "subtopic": "Economic indicators",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "A province reports rising real GDP per capita but also high unemployment. Explain why GDP per capita alone is not enough to judge economic well-being.",
+      "af": "’n Provinsie rapporteer stygende reële BBP per capita maar ook hoë werkloosheid. Verduidelik waarom BBP per capita alleen nie genoeg is om ekonomiese welstand te beoordeel nie.",
+      "xh": "Iphondo libika ukunyuka kwe-GDP yokwenene ngomntu kodwa nentswela-ngqesho ephezulu. Chaza ukuba kutheni i-GDP ngomntu iyodwa inganelanga ukugweba intlalontle yezoqoqosho."
+    },
+    "scaffoldHint": {
+      "en": "Average income can hide inequality, unemployment and unequal access to services.",
+      "af": "Gemiddelde inkomste kan ongelykheid, werkloosheid en ongelyke toegang tot dienste verberg.",
+      "xh": "Ingeniso ephakathi inokufihla ukungalingani, intswela-ngqesho kunye nokungalingani ekufikeleleni kwiinkonzo."
+    },
+    "memoText": {
+      "en": "GDP per capita is an average and does not show distribution of income (2). It also does not capture unemployment, poverty, health, education or quality-of-life differences (2).",
+      "af": "BBP per capita is ’n gemiddelde en toon nie die verspreiding van inkomste nie (2). Dit weerspieël ook nie werkloosheid, armoede, gesondheid, onderwys of lewensgehalteverskille nie (2).",
+      "xh": "I-GDP ngomntu ngumndilili kwaye ayibonisi indlela ingeniso esasazwa ngayo (2). Ayibonisi ngokupheleleyo intswela-ngqesho, intlupheko, impilo, imfundo okanye umahluko kumgangatho wobomi (2)."
+    }
+  },
+  {
+    "id": "econ_p2_micro_01",
+    "subject": "economics",
+    "paper": 2,
+    "topic": "Microeconomics",
+    "subtopic": "Perfect markets",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "State TWO characteristics of a perfectly competitive market and explain why an individual firm is a price taker.",
+      "af": "Noem TWEE kenmerke van ’n volkome mededingende mark en verduidelik waarom ’n individuele onderneming ’n prysnemer is.",
+      "xh": "Chaza IIMPAWU EZIMBINI zemarike ekhuphisana ngokupheleleyo uze uchaze ukuba kutheni ishishini elinye lingumamkeli wexabiso."
+    },
+    "scaffoldHint": {
+      "en": "Think many buyers/sellers, identical products, free entry and full information.",
+      "af": "Dink aan baie kopers/verkopers, identiese produkte, vrye toetrede en volledige inligting.",
+      "xh": "Cinga ngabathengi/abathengisi abaninzi, iimveliso ezifanayo, ukungena simahla nolwazi olupheleleyo."
+    },
+    "memoText": {
+      "en": "Any two valid characteristics, 1 mark each. A single firm is too small to influence the market price and therefore accepts the price determined by market demand and supply (2).",
+      "af": "Enige twee geldige kenmerke, 1 punt elk. ’n Enkele onderneming is te klein om die markprys te beïnvloed en aanvaar daarom die prys wat deur markvraag en -aanbod bepaal word (2).",
+      "xh": "Naziphi na iimpawu ezimbini ezifanelekileyo, inqaku eli-1 nganye. Ishishini elinye lincinci kakhulu ukuba litshintshe ixabiso lemarike, ngoko lamkela ixabiso elimiselwa yimfuno nonikezelo lwemarike (2)."
+    }
+  },
+  {
+    "id": "econ_p2_micro_02",
+    "subject": "economics",
+    "paper": 2,
+    "topic": "Microeconomics",
+    "subtopic": "Imperfect markets",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "A single supplier dominates a local market and faces very limited competition. Identify the market structure and explain ONE possible disadvantage for consumers.",
+      "af": "’n Enkele verskaffer oorheers ’n plaaslike mark en ervaar baie beperkte mededinging. Identifiseer die markstruktuur en verduidelik EEN moontlike nadeel vir verbruikers.",
+      "xh": "Umboneleli omnye ulawula imarike yasekuhlaleni kwaye ukhuphiswano luncinci kakhulu. Chonga uhlobo lwemarike uze uchaze INTSILELO ENYE enokubakho kubathengi."
+    },
+    "scaffoldHint": {
+      "en": "One dominant seller points to monopoly power.",
+      "af": "Een dominante verkoper dui op monopoliemag.",
+      "xh": "Umthengisi omnye olawulayo ubonisa amandla emonopoli."
+    },
+    "memoText": {
+      "en": "Monopoly (2). Possible disadvantage: higher prices, less choice, lower output or weaker incentive to improve quality (any one explained, 2).",
+      "af": "Monopolie (2). Moontlike nadeel: hoër pryse, minder keuse, laer produksie of swakker aansporing om gehalte te verbeter (enige een verduidelik, 2).",
+      "xh": "Imonopoli (2). Intsilelo enokubakho: amaxabiso aphezulu, ukhetho oluncinci, imveliso ephantsi okanye inkuthazo encinci yokuphucula umgangatho (nayiphi na enye echaziweyo, 2)."
+    }
+  },
+  {
+    "id": "econ_p2_micro_03",
+    "subject": "economics",
+    "paper": 2,
+    "topic": "Microeconomics",
+    "subtopic": "Market failure",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "A factory pollutes a river while the cost of the pollution is carried by nearby communities. Identify this market failure and explain why the market outcome is inefficient.",
+      "af": "’n Fabriek besoedel ’n rivier terwyl die koste van die besoedeling deur nabygeleë gemeenskappe gedra word. Identifiseer hierdie markmislukking en verduidelik waarom die markuitkoms ondoeltreffend is.",
+      "xh": "Umzi-mveliso ungcolisa umlambo ngoxa iindleko zongcoliseko zithwalwa luluntu olukufutshane. Chonga olu kusilela kwemarike uze uchaze ukuba kutheni iziphumo zemarike zingasebenzi kakuhle."
+    },
+    "scaffoldHint": {
+      "en": "The producer does not pay the full social cost of its activity.",
+      "af": "Die produsent betaal nie die volle maatskaplike koste van sy aktiwiteit nie.",
+      "xh": "Umvelisi akahlawuli zonke iindleko zentlalo zomsebenzi wakhe."
+    },
+    "memoText": {
+      "en": "Negative externality (2). Private costs are lower than social costs, so too much of the polluting activity may be produced relative to the socially efficient level (2).",
+      "af": "Negatiewe eksternaliteit (2). Private koste is laer as maatskaplike koste, daarom kan te veel van die besoedelende aktiwiteit geproduseer word in vergelyking met die maatskaplik doeltreffende vlak (2).",
+      "xh": "Impembelelo embi yangaphandle (2). Iindleko zabucala ziphantsi kuneendleko zoluntu, ngoko umsebenzi ongcolisayo unokwenziwa kakhulu kunenqanaba elilungele uluntu (2)."
+    }
+  },
+  {
+    "id": "econ_p2_contemp_01",
+    "subject": "economics",
+    "paper": 2,
+    "topic": "Contemporary Economic Issues",
+    "subtopic": "Inflation",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "Food and transport prices rise faster than household income. Explain TWO effects that inflation can have on lower-income households.",
+      "af": "Voedsel- en vervoerpryse styg vinniger as huishoudelike inkomste. Verduidelik TWEE uitwerkings wat inflasie op laerinkomstehuishoudings kan hê.",
+      "xh": "Amaxabiso okutya nezithuthi anyuka ngokukhawuleza kunengeniso yamakhaya. Chaza IZIPHUMO EZIMBINI ezinokubangelwa kukunyuka kwamaxabiso kumakhaya anengeniso ephantsi."
+    },
+    "scaffoldHint": {
+      "en": "Think purchasing power and the large share of income spent on necessities.",
+      "af": "Dink aan koopkrag en die groot deel van inkomste wat aan noodsaaklikhede bestee word.",
+      "xh": "Cinga ngamandla okuthenga kunye nenxalenye enkulu yengeniso echithwa kwizinto eziyimfuneko."
+    },
+    "memoText": {
+      "en": "Purchasing power falls as prices rise faster than income (2). Lower-income households spend a larger share on essentials, so they may cut other consumption or experience greater hardship (2).",
+      "af": "Koopkrag daal wanneer pryse vinniger as inkomste styg (2). Laerinkomstehuishoudings bestee ’n groter deel aan noodsaaklikhede en moet dus ander verbruik sny of ervaar groter swaarkry (2).",
+      "xh": "Amandla okuthenga ayehla xa amaxabiso enyuka ngokukhawuleza kunengeniso (2). Amakhaya anengeniso ephantsi achitha isabelo esikhulu kwizinto eziyimfuneko, ngoko anokunciphisa ezinye izinto okanye afumane ubunzima obukhulu (2)."
+    }
+  },
+  {
+    "id": "econ_p2_contemp_02",
+    "subject": "economics",
+    "paper": 2,
+    "topic": "Contemporary Economic Issues",
+    "subtopic": "Tourism",
+    "difficulty": "easy",
+    "marks": 4,
+    "questionText": {
+      "en": "Explain TWO ways in which international tourism can contribute to the Western Cape economy.",
+      "af": "Verduidelik TWEE maniere waarop internasionale toerisme tot die Wes-Kaapse ekonomie kan bydra.",
+      "xh": "Chaza IINDLELA EZIMBINI apho ukhenketho lwamazwe ngamazwe lunokufaka isandla kuqoqosho lwaseNtshona Koloni."
+    },
+    "scaffoldHint": {
+      "en": "Think jobs, foreign exchange, spending at local businesses and multiplier effects.",
+      "af": "Dink aan werk, buitelandse valuta, besteding by plaaslike ondernemings en vermenigvuldiger-effekte.",
+      "xh": "Cinga ngemisebenzi, imali yangaphandle, inkcitho kumashishini asekuhlaleni kunye nefuthe lokuphindaphinda."
+    },
+    "memoText": {
+      "en": "Any TWO explained benefits: creates direct/indirect jobs; earns foreign exchange; increases spending at accommodation, food, transport and attractions; stimulates related industries; raises tax revenue. 2 marks each.",
+      "af": "Enige TWEE verduidelikte voordele: skep direkte/indirekte werk; verdien buitelandse valuta; verhoog besteding aan verblyf, kos, vervoer en besienswaardighede; stimuleer verwante bedrywe; verhoog belastinginkomste. 2 punte elk.",
+      "xh": "Naziphi na IINZUZO ezimbini ezichaziweyo: kudalwa imisebenzi ngqo/ngokungathanga ngqo; kungeniswa imali yangaphandle; kunyuka inkcitho kwiindawo zokuhlala, ukutya, izithuthi nezinto ezitsala abakhenkethi; kukhuthazwa amashishini anxulumeneyo; kunyuka ingeniso yerhafu. Amanqaku ama-2 nganye."
+    }
+  },
+  {
+    "id": "econ_p2_contemp_03",
+    "subject": "economics",
+    "paper": 2,
+    "topic": "Contemporary Economic Issues",
+    "subtopic": "Environmental sustainability",
+    "difficulty": "medium",
+    "marks": 4,
+    "questionText": {
+      "en": "A renewable-energy project reduces dependence on fossil fuels but requires significant upfront investment. Explain ONE economic benefit and ONE possible economic cost of the project.",
+      "af": "’n Hernubare-energieprojek verminder afhanklikheid van fossielbrandstowwe maar vereis aansienlike aanvanklike investering. Verduidelik EEN ekonomiese voordeel en EEN moontlike ekonomiese koste van die projek.",
+      "xh": "Iprojekthi yamandla ahlaziyekayo inciphisa ukuxhomekeka kumafutha ezimbiwa kodwa ifuna utyalo-mali olukhulu ekuqaleni. Chaza INZUZO ENYE yezoqoqosho kunye NENDLEKO ENYE enokubakho."
+    },
+    "scaffoldHint": {
+      "en": "Benefits can include jobs, lower pollution or energy security; costs include capital and opportunity cost.",
+      "af": "Voordele kan werk, minder besoedeling of energiesekerheid insluit; koste sluit kapitaal- en geleentheidskoste in.",
+      "xh": "Iinzuzo zingabandakanya imisebenzi, ungcoliseko oluncinci okanye ukhuseleko lwamandla; iindleko ziquka imali yokuqala kunye neendleko zamathuba."
+    },
+    "memoText": {
+      "en": "Benefit: cleaner energy, improved energy security, new jobs/investment or lower environmental costs (2). Cost: high capital cost, possible higher short-run prices or opportunity cost of public/private funds (2).",
+      "af": "Voordeel: skoner energie, beter energiesekerheid, nuwe werk/belegging of laer omgewingskoste (2). Koste: hoë kapitaalkoste, moontlik hoër korttermynpryse of geleentheidskoste van openbare/private fondse (2).",
+      "xh": "Inzuzo: amandla acocekileyo, ukhuseleko olungcono lwamandla, imisebenzi/utyalo-mali olutsha okanye iindleko ezisezantsi zokusingqongileyo (2). Iindleko: imali enkulu yokuqala, amaxabiso anokunyuka okwethutyana okanye iindleko zamathuba zemali karhulumente/yabucala (2)."
+    }
+  }
+]
